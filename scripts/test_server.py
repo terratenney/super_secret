@@ -20,7 +20,7 @@ class HelloWorld(object):
         return json.dumps(com_profile)
     van_map_profiles.exposed = True
     def van_map_shapes(self):
-        return json.dumps(com_profile)
+        return json.dumps(shapes)
     van_map_shapes.exposed = True
     def edmon_map(self):
         pass
