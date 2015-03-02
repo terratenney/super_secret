@@ -10,7 +10,7 @@ import cherrypy
 import census_parsing
 com_profile,shapes = census_parsing.run()
 
-html = '../atry/home.html'
+html = '../atry/esri_test.html'
 class HelloWorld(object):
     def home(self):
         return open(html)

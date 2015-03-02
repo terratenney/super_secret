@@ -135,14 +135,17 @@ def ct_to_da(in_shape,keys):
     l_table = {}
     shapes = []
     C = 0
+    orec={"type":"FeatureCollection","features":[]}
     print "Making lookup Table"
     for rec in in_shape:
-            if rec['properties']['DAUID'] in keys:
-                l_table[rec['properties']['CTUID']] = rec['properties']['DAUID']
-                shapes.append(rec)
-                C +=1
+        if rec['properties']['DAUID'] in keys:
+            l_table[rec['properties']['CTUID']] = rec['properties']['DAUID']
+            rec['properties']= dict(rec['properties'])
+            orec['features'].append(rec)
+            print orec
+            C +=1
     print "Finished Lookup Table",C - len(keys),"Unmatched"
-    return l_table,shapes
+    return l_table,orec
 
 
 def initalize(re):
@@ -383,5 +386,4 @@ cp,shps = run()
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
-pp.pprint(cp)
-
+pp.pprint(shps)
