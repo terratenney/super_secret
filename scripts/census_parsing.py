@@ -50,18 +50,25 @@ community = {
              "Some_College_%":{'Total':0,"Male":0,"Female":0},
              "University_Above_%":{'Total':0,"Male":0,"Female":0}},\
 
-"Health":{},\
+"Health":{"Access_Health":{'Avg_Dist':0}},\
 
-"ParksnRec":{},\
+"ParksnRec":{"Num_Parks":0,"Green_Space_%":0},\
 
-"Transport":{},\
+"Transport":{"Walkscore":0,"Parking":0,"Mode_Trans":{'Car_%pop':0,'Public_Trans_%pop':0,'Walk_%pop':0,'Cycle_%pop':0,'Other_%pop':0}},\
 
 "Services":{},\
 
-"EmergencySevices":{},\
+"EmergencySevices":{"Crime_Stats":{"Total":0}},\
 
 "Utilities":{}}
-
+transit_mode = [
+'  Car, truck or van - as a driver',
+'  Car, truck or van - as a passenger',
+'  Public transit',
+'  Walked',
+'  Bicycle',
+'  Other methods'
+]
 Education = [
 'Total population aged 25 to 64 years by highest certificate, diploma or degree',
 '  No certificate, diploma or degree',
@@ -133,7 +140,6 @@ def percent(tot,por):
 
 def ct_to_da(in_shape,keys):
     l_table = {}
-    shapes = []
     C = 0
     orec={"type":"FeatureCollection","features":[]}
     print "Making lookup Table"
@@ -142,7 +148,6 @@ def ct_to_da(in_shape,keys):
             l_table[rec['properties']['CTUID']] = rec['properties']['DAUID']
             rec['properties']= dict(rec['properties'])
             orec['features'].append(rec)
-            print orec
             C +=1
     print "Finished Lookup Table",C - len(keys),"Unmatched"
     return l_table,orec
@@ -244,35 +249,67 @@ def get_age_cohorts(re,ref_dict,use_l_table=False,l_table=None):
                         ref_dict[k]["Demographics"]["Age_Pop"]["oadult"]['Male']=ref_dict[k]["Demographics"]["Age_Pop"]["oadult"]['Male']+ int(row['Male'])
                     if row['Female']:   
                         ref_dict[k]["Demographics"]["Age_Pop"]["oadult"]['Female']=ref_dict[k]["Demographics"]["Age_Pop"]["oadult"]['Female']+ int(row['Female'])
-                elif row['Characteristic'] in Housing:
-                    if row['Characteristic'] == "Total private dwellings":
-                        if row['Total']:
-                            ref_dict[k]["Housing"]['Total_private_dwellings'] =ref_dict[k]["Housing"]['Total_private_dwellings']+ int(row['Total'])
-                    if row['Characteristic']=='   Single-detached house':
-                        if row['Total']:
-                           ref_dict[k]["Housing"]['Housing_Types']['Single_detached_house'] += int(row['Total'])
-                    if row['Characteristic']=='   Apartment, building that has five or more storeys':         
-                        if row['Total']:
-                           ref_dict[k]["Housing"]['Housing_Types']['Apartment_Buildings'] += int(row['Total'])
-                    if row['Characteristic'] in Apartments:
-                        if row['Total']:
-                            ref_dict[k]["Housing"]['Housing_Types']['Apartments'] = ref_dict[k]["Housing"]['Housing_Types']['Apartments'] +    int(row['Total'])
-                    if row['Characteristic'] in Other_Housing:
-                        if row['Total']:
-                            ref_dict[k]["Housing"]['Housing_Types']['Other'] = ref_dict[k]["Housing"]['Housing_Types']['Other']+    int(row['Total'])
-                elif row['Characteristic'] == '  Median value of dwellings ($)':
-                        if row['Total']:
-                            ref_dict[k]["Housing"]['Housing_Value']['Median'] = int(row['Total'])
-                elif row['Characteristic'] == '  Average value of dwellings ($)':
-                        if row['Total']:
-                            ref_dict[k]["Housing"]['Housing_Value']['Average'] = int(row['Total'])
-                elif row['Characteristic'] == '  Median monthly shelter costs for rented dwellings ($)':
-                        if row['Total']:
-                            ref_dict[k]["Housing"]['Rent']['Median'] = int(row['Total'])
-                elif row['Characteristic'] == '  Average monthly shelter costs for rented dwellings ($)':
-                        if row['Total']:
-                            ref_dict[k]["Housing"]['Rent']['Average'] = int(row['Total'])
-                elif row['Characteristic'] == 'Total population aged 15 years and over by highest certificate, diploma or degree':
+                
+
+                if row['Characteristic'] == "Total private dwellings":
+                    if row['Total']:
+                        ref_dict[k]["Housing"]['Total_private_dwellings'] =ref_dict[k]["Housing"]['Total_private_dwellings']+ int(row['Total'])
+                if row['Characteristic']=='   Single-detached house':
+                    if row['Total']:
+                       ref_dict[k]["Housing"]['Housing_Types']['Single_detached_house'] += int(row['Total'])
+                if row['Characteristic']=='   Apartment, building that has five or more storeys':         
+                    if row['Total']:
+                       ref_dict[k]["Housing"]['Housing_Types']['Apartment_Buildings'] += int(row['Total'])
+                if row['Characteristic'] in Apartments:
+                    if row['Total']:
+                        ref_dict[k]["Housing"]['Housing_Types']['Apartments'] = ref_dict[k]["Housing"]['Housing_Types']['Apartments'] +    int(row['Total'])
+                if row['Characteristic'] in Other_Housing:
+                    if row['Total']:
+                        ref_dict[k]["Housing"]['Housing_Types']['Other'] = ref_dict[k]["Housing"]['Housing_Types']['Other']+    int(row['Total'])
+                if row['Characteristic'] == '  Median value of dwellings ($)':
+                    if row['Total']:
+                        ref_dict[k]["Housing"]['Housing_Value']['Median'] = int(row['Total'])
+                if row['Characteristic'] == '  Average value of dwellings ($)':
+                    if row['Total']:
+                        ref_dict[k]["Housing"]['Housing_Value']['Average'] = int(row['Total'])
+                if row['Characteristic'] == '  Median monthly shelter costs for rented dwellings ($)':
+                    if row['Total']:
+                        print int(row['Total'])
+                        ref_dict[k]["Housing"]['Rent']['Median'] = int(row['Total'])
+                if row['Characteristic'] == '  Average monthly shelter costs for rented dwellings ($)':
+                    if row['Total']:
+                        ref_dict[k]["Housing"]['Rent']['Average'] = int(row['Total'])        
+                if row['Characteristic']=='Total number of private households by tenure':
+                    if row['Total']:
+                        tot_hous = int(row['Total'])
+                if row['Characteristic']=='  Owner':
+                    if row['Total']:
+                        ref_dict[k]["Housing"]['Owned_%'] = percent(tot_hous,int(row['Total']))
+                if row['Characteristic']=='  Renter':
+                    if row['Total']:
+                        ref_dict[k]["Housing"]['Rented_%'] = percent(tot_hous,int(row['Total']))
+                if row['Characteristic']=='  Car, truck or van - as a driver':
+                    if row['Total']:
+                        cc = int(row['Total'])
+                if row['Characteristic']=='  Car, truck or van - as a passenger':
+                    if row['Total']:
+                        cc += int(row['Total'])
+                    ref_dict[k]["Transport"]['Mode_Trans']['Car_%pop'] = percent(tot_pop,cc)
+                        
+                if row['Characteristic']=='  Public transit':
+                    if row['Total']:
+                        ref_dict[k]["Transport"]['Mode_Trans']['Public_Trans_%pop'] = percent(tot_pop,int(row['Total']))
+                if row['Characteristic']=='  Walked':
+                    if row['Total']:
+                        ref_dict[k]["Transport"]['Mode_Trans']['Walk_%pop'] = percent(tot_pop,int(row['Total']))
+                if row['Characteristic']=='  Bicycle':
+                    if row['Total']:
+                        ref_dict[k]["Transport"]['Mode_Trans']['Cycle_%pop'] = percent(tot_pop,int(row['Total']))
+                if row['Characteristic']=='  Other methods':
+                    if row['Total']:
+                        ref_dict[k]["Transport"]['Mode_Trans']['Other_%pop'] = percent(tot_pop,int(row['Total']))
+                        
+                if row['Characteristic'] == 'Total population aged 15 years and over by highest certificate, diploma or degree':
                     #This is a quick fix to skip 10 lines on the csv file so we don't double add values
                     [re.next() for i in range(9)]
                     row = re.next()
@@ -294,8 +331,8 @@ def get_age_cohorts(re,ref_dict,use_l_table=False,l_table=None):
                         if row['Total']:
                             fe_no_deg += int(row['Female'])
                         ref_dict[k]['Education']['HighSchool_Less_%']['Total'] = percent(tot_pop,tot_no_deg)
-                        ref_dict[k]['Education']['HighSchool_Less_%']['Male'] = percent(tot_pop,ma_no_deg)
-                        ref_dict[k]['Education']['HighSchool_Less_%']['Female'] = percent(tot_pop,fe_no_deg)
+                        ref_dict[k]['Education']['HighSchool_Less_%']['Male'] = percent(m_pop,ma_no_deg)
+                        ref_dict[k]['Education']['HighSchool_Less_%']['Female'] = percent(f_pop,fe_no_deg)
                         row = re.next()
                     if row['Characteristic']==    '  Postsecondary certificate, diploma or degree':
                         if row['Total']:    
@@ -330,33 +367,18 @@ def get_age_cohorts(re,ref_dict,use_l_table=False,l_table=None):
                             fe_no_deg += int(row['Female'])
                             
                         ref_dict[k]['Education']['Some_College_%']['Total'] = percent(tot_pop,tot_no_deg)
-                        ref_dict[k]['Education']['Some_College_%']['Male'] = percent(tot_pop,ma_no_deg)
-                        ref_dict[k]['Education']['Some_College_%']['Female'] = percent(tot_pop,fe_no_deg)
+                        ref_dict[k]['Education']['Some_College_%']['Male'] = percent(m_pop,ma_no_deg)
+                        ref_dict[k]['Education']['Some_College_%']['Female'] = percent(f_pop,fe_no_deg)
                         row = re.next()
                         
                     if row['Characteristic']=='    University certificate, diploma or degree at bachelor level or above':
                         if row['Total']:    
                             ref_dict[k]['Education']['University_Above_%']['Total'] = percent(tot_pop,int(row['Total']))
                         if row['Total']:                        
-                            ref_dict[k]['Education']['University_Above_%']['Male'] = percent(tot_pop,int(row['Male']))
+                            ref_dict[k]['Education']['University_Above_%']['Male'] = percent(m_pop,int(row['Male']))
                         if row['Total']:
-                            ref_dict[k]['Education']['University_Above_%']['Female'] = percent(tot_pop,int(row['Female']))
-                        row = re.next()
-                        
-                elif row['Characteristic']=='Total number of private households by tenure':
-                    if row['Total']:
-                        tot_hous = int(row['Total'])
-                        print tot_hous
-                        row = re.next()
+                            ref_dict[k]['Education']['University_Above_%']['Female'] = percent(m_pop,int(row['Female']))
                 
-                elif row['Characteristic']=='  Owner':
-                    if row['Total']:
-                        ref_dict[k]["Housing"]['Owned_%'] = percent(tot_hous,int(row['Total']))
-                        row = re.next()
-                elif row['Characteristic']=='  Renter':
-                    if row['Total']:
-                        ref_dict[k]["Housing"]['Rented_%'] = percent(tot_hous,int(row['Total']))
-                        
         except StopIteration:
           break
     return ref_dict
@@ -381,9 +403,9 @@ def run():
     for k,v in ref_dict.items():
             rec = {'id':k,'community':v}
             out_array.append(rec)
-    return [out_array,shapes]
+    return [{'com_profiles':out_array},shapes]
 cp,shps = run()
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
-pp.pprint(shps)
+pp.pprint(cp['com_profiles'][0]['community'])
