@@ -374,6 +374,14 @@ def run():
     re1 = csv.DictReader(open('../data/99-004-XWE2011001-401-BC-sample.csv','rb'),fieldnames=['Geo_Code', 'Prov_Name', 'CMA_CA_Name', 'CT_Name', 'GNR', 'Topic', 'Characteristic', 'Note', 'Total', 'Flag_Total', 'Male', 'Flag_Male', 'Female', 'Flag_Female'])
     
     ref_dict= get_age_cohorts(re1,ref_dict,True,l_table)
-    return [ref_dict,shapes]
+    out_array = []
+    for k,v in ref_dict.items():
+            rec = {'id':k,'community':v}
+            out_array.append(rec)
+    return [out_array,shapes]
+cp,shps = run()
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
 
+pp.pprint(cp)
 

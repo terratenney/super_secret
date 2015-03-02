@@ -12,10 +12,10 @@ com_profile,shapes = census_parsing.run()
 
 html = '../atry/home.html'
 class HelloWorld(object):
-    def index(self):
+    def home(self):
         return open(html)
         #json.dumps(community)
-    index.exposed = True
+    home.exposed = True
     def van_map_profiles(self):
         return json.dumps(com_profile)
     van_map_profiles.exposed = True
