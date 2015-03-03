@@ -31,21 +31,21 @@ class HelloWorld(object):
         return open(page)
     edmon_map.exposed = True
 
-#    def van_map_profiles(self):
-#        return open(com_profile)
-#    van_map_profiles.exposed = True
-#    
-#    def van_map_shapes(self):
-#        return open(shapes)
-#    van_map_shapes.exposed = True
-#    
-#    def edmon_map_profiles(self):
-#        return open(com_profile)
-#    edmon_map_profiles.exposed = True
-#    
-#    def edmon_map_shapes(self):
-#        return open(shapes)
-#    edmon_map_shapes.exposed = True
+    def van_map_profiles(self):
+        return open(com_profile)
+    van_map_profiles.exposed = True
+    
+    def van_map_shapes(self):
+        return open(shapes)
+    van_map_shapes.exposed = True
+    
+    def edmon_map_profiles(self):
+        return open(com_profile)
+    edmon_map_profiles.exposed = True
+    
+    def edmon_map_shapes(self):
+        return open(shapes)
+    edmon_map_shapes.exposed = True
 #    
     def about_team(self):
         page = '../front_end/about_team.html'

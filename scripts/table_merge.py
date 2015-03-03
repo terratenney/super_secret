@@ -9,7 +9,7 @@ import csv
 import fiona
 
 
-in_shape= fiona.open('../data/census_2011/sample_shape.shp','r')
+in_shape= fiona.open('../data/census_2011/final_shape_prj.shp','r')
 keys = []
 for rec in in_shape:
     keys.append(rec['properties']['DAUID'])
@@ -28,23 +28,25 @@ out401 = csv.DictWriter(f401,fieldnames=['Geo_Code', 'Prov_Name', 'CMA_CA_Name',
 
 
 def mergetables(t1,t2,out):
+    rows = []
+    c = 0
     firstline = True #skip first line of the csv file as it is just the heading      
     for row in t1:
         if row['Geo_Code'] in keys:
-            try:
-               out.writerow(row)
-            except StopIteration:
-              break
+            rows.append(row)
+            print "Added ",c,' rows'
     for row in t2:
         if row['Geo_Code'] in keys:
-            try:
-                if firstline:
-                    firstline = False
-                    continue
-                else:
-                    out.writerow(row)
-            except StopIteration:
-              break
+            if firstline:
+                firstline = False
+                continue
+            else:
+                rows.append(row)
+                print "Added ",c,' rows'
+    print "Writing Rows"
+    out.writerows(rows)
+
+
 
 
 mergetables(bc501,ab501,out501)
