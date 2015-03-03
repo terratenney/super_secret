@@ -94,6 +94,7 @@ function zoomToFeature(e) {
 
 
 function onEachFeature(feature, layer) {
+    layer.bindPopup("I am a test "+feature.properties.DAUID);
     layer.on({
         mouseover: highlightFeature,
         mouseout: resetHighlight,
@@ -105,6 +106,8 @@ geojson = L.geoJson(features, {
     style: style,
     onEachFeature: onEachFeature
 }).addTo(map);
+
+
 
 
 
