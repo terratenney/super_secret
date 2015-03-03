@@ -35,6 +35,7 @@ def mergetables(t1,t2,out):
         if row['Geo_Code'] in keys:
             rows.append(row)
             print "Added ",c,' rows'
+    
     for row in t2:
         if row['Geo_Code'] in keys:
             if firstline:

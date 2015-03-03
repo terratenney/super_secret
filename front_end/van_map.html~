@@ -6,6 +6,8 @@
 
 <!-- Load Leaflet from CDN-->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css" />
+
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.js"></script>
 
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -15,10 +17,13 @@
 <!-- Load Esri Leaflet from CDN -->
 
 
-<script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.5/esri-leaflet.js"></script>
+<script src="./js/esri-leaflet.js"></script>
 
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="./js/jquery-sidebar.js"></script>
+<script src="./js/esri-leaflet-geocoder/1.0.0-rc.4/esri-leaflet-geocoder.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/esri-leaflet-geocoder.css">
+
 <link rel="stylesheet" href="./css/ol3-sidebar.css" />
   <style>
     body {margin:0;padding:0;overflow: hidden;}
@@ -85,14 +90,15 @@
     var features = response;
     console.log(features);
 
+
 function getColor(d) {
-    return d == 59350368 ? '#800026' :
+    return d > 59350368 ? '#800026' :
            d == 59350358  ? '#BD0026' :
            d == 59350364  ? '#E31A1C' :
-           d == 59350310  ? '#FC4E2A' :
+           d < 59350310  ? '#FC4E2A' :
            d == 59350321   ? '#FD8D3C' :
-           d == 59350317   ? '#FEB24C' :
-           d == 59350366   ? '#FED976' :
+           d > 59350317   ? '#FEB24C' :
+           d < 59350366   ? '#FED976' :
                       '#FFEDA0';
 }
 
@@ -151,7 +157,17 @@ geojson = L.geoJson(features, {
 }).addTo(map);
 
 
+var searchControl = new L.esri.Geocoding.Controls.Geosearch().addTo(map);
 
+  var results = new L.LayerGroup().addTo(map);
+
+  searchControl.on('results', function(data){
+    results.clearLayers();
+    for (var i = data.results.length - 1; i >= 0; i--) {
+      /*results.addLayer(L.marker(data.results[i].latlng));
+      results.clearLayers();*/
+    }
+  });
 
 
 
@@ -176,7 +192,12 @@ info.update = function (props) {
 };
 
 info.addTo(map);
+
+
 var sidebar = $('#sidebar').sidebar();
+
+
+
 map.fitBounds(geojson.getBounds());
   });
 
