@@ -385,8 +385,8 @@ def get_age_cohorts(re,ref_dict,use_l_table=False,l_table=None):
 
 
 def run():
-    re = csv.DictReader(open('../data/98-316-XWE2011001-1501-BC-sample.csv','rb'),fieldnames=['Geo_Code', 'Prov_name', 'Geo_nom', 'Topic', 'Characteristic', 'Note', 'Total', 'Flag_total', 'Male', 'Flag_Male', 'Female', 'Flag_Female'])
-    re1 = csv.DictReader(open('../data/98-316-XWE2011001-1501-BC-sample.csv','rb'),fieldnames=['Geo_Code', 'Prov_name', 'Geo_nom', 'Topic', 'Characteristic', 'Note', 'Total', 'Flag_total', 'Male', 'Flag_Male', 'Female', 'Flag_Female'])
+    re = csv.DictReader(open('../data/501.csv','rb'),fieldnames=['Geo_Code', 'Prov_name', 'Geo_nom', 'Topic', 'Characteristic', 'Note', 'Total', 'Flag_total', 'Male', 'Flag_Male', 'Female', 'Flag_Female'])
+    re1 = csv.DictReader(open('../data/501.csv','rb'),fieldnames=['Geo_Code', 'Prov_name', 'Geo_nom', 'Topic', 'Characteristic', 'Note', 'Total', 'Flag_total', 'Male', 'Flag_Male', 'Female', 'Flag_Female'])
     ref_dict = initalize(re)
     
     ref_dict= get_age_cohorts(re1,ref_dict)
@@ -395,8 +395,8 @@ def run():
     
     l_table,shapes = ct_to_da(in_shape,ref_dict.keys())
     
-    re = csv.DictReader(open('../data/99-004-XWE2011001-401-BC-sample.csv','rb'),fieldnames=['Geo_Code', 'Prov_Name', 'CMA_CA_Name', 'CT_Name', 'GNR', 'Topic', 'Characteristic', 'Note', 'Total', 'Flag_Total', 'Male', 'Flag_Male', 'Female', 'Flag_Female'])
-    re1 = csv.DictReader(open('../data/99-004-XWE2011001-401-BC-sample.csv','rb'),fieldnames=['Geo_Code', 'Prov_Name', 'CMA_CA_Name', 'CT_Name', 'GNR', 'Topic', 'Characteristic', 'Note', 'Total', 'Flag_Total', 'Male', 'Flag_Male', 'Female', 'Flag_Female'])
+    re = csv.DictReader(open('../data/401.csv','rb'),fieldnames=['Geo_Code', 'Prov_Name', 'CMA_CA_Name', 'CT_Name', 'GNR', 'Topic', 'Characteristic', 'Note', 'Total', 'Flag_Total', 'Male', 'Flag_Male', 'Female', 'Flag_Female'])
+    re1 = csv.DictReader(open('../data/401.csv','rb'),fieldnames=['Geo_Code', 'Prov_Name', 'CMA_CA_Name', 'CT_Name', 'GNR', 'Topic', 'Characteristic', 'Note', 'Total', 'Flag_Total', 'Male', 'Flag_Male', 'Female', 'Flag_Female'])
     
     ref_dict= get_age_cohorts(re1,ref_dict,True,l_table)
     out_array = []
@@ -405,6 +405,16 @@ def run():
             out_array.append(rec)
     return [{'com_profiles':out_array},shapes]
 cp,shps = run()
+
+print "Writing Json"
+import json
+shapes = open('../data/shapes.json','wb')
+com_profiles = open('../data/com_profiles.json','wb')
+shapes.write(json.dumps(shapes))
+com_profiles.write(json.dumps(com_profiles))
+shapes.close()
+com_profiles.close()
+print "Done! \n\n\n"
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
