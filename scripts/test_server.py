@@ -7,14 +7,14 @@ Created on Sun Mar  1 12:36:56 2015
 
 import json
 import cherrypy
-import census_parsing
+
 import os
 import logging
 
 #com_profile,shapes = census_parsing.run()
 cur_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir('../front_end')
-com_profile,shapes = None
+com_profile,shapes = 'Nothing','Nothing'
 class HelloWorld(object):
     def home(self):
         page = '../front_end/home.html'
