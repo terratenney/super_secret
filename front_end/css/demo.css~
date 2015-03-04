@@ -43,7 +43,7 @@ section {
 	padding: 1em;
 	text-align: center;
 }
-
+img {border-radius: 15px;}
 /* Header */
 .codrops-header {
 	margin: 0 auto;
@@ -124,7 +124,7 @@ section {
 /* Demo Buttons Style */
 .codrops-demos {
 	padding: 1em 0 1em;
-	font-size: 1.8em;
+	font-size: 1.2em;
 	text-align: center;
 }
 
@@ -145,6 +145,7 @@ section {
 
 /* Related demos */
 .related {
+	
 	padding: 4em 0 3em;
 }
 
@@ -154,7 +155,7 @@ section {
 }
 
 .related > a {
-	border: 2px solid #000;
+	border: 0px solid #000;
 	border-color: initial;
 	display: inline-block;
 	text-align: center;

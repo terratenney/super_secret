@@ -33,7 +33,8 @@ community = {
     "Age_Pop":{
         "youth":{'Total':0,"Male":0,"Female":0},"yadult":{'Total':0,"Male":0,"Female":0},\
         "adult":{'Total':0,"Male":0,"Female":0},"oadult":{'Total':0,"Male":0,"Female":0}},\
-    "Tot_Pop":{'Total':0,"Male":0,"Female":0},\
+    "Tot_Pop":{'Total':0,"Male":0,"Female":0},
+    "CT_Pop":{'Total':0,"Male":0,"Female":0},\
     "Marital_Status":{
         "Married_CML":{'Total':0,"Male":0,"Female":0},"Single":{'Total':0,"Male":0,"Female":0}}
     },\
@@ -135,8 +136,10 @@ oadultc =['   55 to 59 years',
 '   85 years and over']
 
 def percent(tot,por):
-    return (float(por)/float(tot))*100
-
+    if tot > 0:
+        return (float(por)/float(tot))*100
+    else:
+        return None
 
 def ct_to_da(in_shape,keys):
     l_table = {}
@@ -190,11 +193,11 @@ def get_age_cohorts(re,ref_dict,use_l_table=False,l_table=None):
                 if row['Characteristic']== 'Total population in private households by citizenship':
                     #this grabs the total CT population so we can calculate % ratios in Education/Others to the DA level
                     if row['Total']:
-                        tot_pop = int(row['Total'])
+                        ref_dict[k]["Demographics"]['CT_Pop']['Total'] = int(row['Total'])
                     if row['Male']: 
-                        m_pop = int(row['Male'])
+                        ref_dict[k]["Demographics"]['CT_Pop']['Male']  = int(row['Male'])
                     if row['Female']:
-                        f_pop = int(row['Female'])
+                        ref_dict[k]["Demographics"]['CT_Pop']['Female']  = int(row['Female'])
                 
                 if row['Characteristic']== '   Married or living with a common-law partner':
                     if row['Total']:
@@ -274,7 +277,6 @@ def get_age_cohorts(re,ref_dict,use_l_table=False,l_table=None):
                         ref_dict[k]["Housing"]['Housing_Value']['Average'] = int(row['Total'])
                 if row['Characteristic'] == '  Median monthly shelter costs for rented dwellings ($)':
                     if row['Total']:
-                        print int(row['Total'])
                         ref_dict[k]["Housing"]['Rent']['Median'] = int(row['Total'])
                 if row['Characteristic'] == '  Average monthly shelter costs for rented dwellings ($)':
                     if row['Total']:
@@ -294,20 +296,20 @@ def get_age_cohorts(re,ref_dict,use_l_table=False,l_table=None):
                 if row['Characteristic']=='  Car, truck or van - as a passenger':
                     if row['Total']:
                         cc += int(row['Total'])
-                    ref_dict[k]["Transport"]['Mode_Trans']['Car_%pop'] = percent(tot_pop,cc)
+                    ref_dict[k]["Transport"]['Mode_Trans']['Car_%pop'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Total'],cc)
                         
                 if row['Characteristic']=='  Public transit':
                     if row['Total']:
-                        ref_dict[k]["Transport"]['Mode_Trans']['Public_Trans_%pop'] = percent(tot_pop,int(row['Total']))
+                        ref_dict[k]["Transport"]['Mode_Trans']['Public_Trans_%pop'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Total'],int(row['Total']))
                 if row['Characteristic']=='  Walked':
                     if row['Total']:
-                        ref_dict[k]["Transport"]['Mode_Trans']['Walk_%pop'] = percent(tot_pop,int(row['Total']))
+                        ref_dict[k]["Transport"]['Mode_Trans']['Walk_%pop'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Total'],int(row['Total']))
                 if row['Characteristic']=='  Bicycle':
                     if row['Total']:
-                        ref_dict[k]["Transport"]['Mode_Trans']['Cycle_%pop'] = percent(tot_pop,int(row['Total']))
+                        ref_dict[k]["Transport"]['Mode_Trans']['Cycle_%pop'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Total'],int(row['Total']))
                 if row['Characteristic']=='  Other methods':
                     if row['Total']:
-                        ref_dict[k]["Transport"]['Mode_Trans']['Other_%pop'] = percent(tot_pop,int(row['Total']))
+                        ref_dict[k]["Transport"]['Mode_Trans']['Other_%pop'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Total'],int(row['Total']))
                         
                 if row['Characteristic'] == 'Total population aged 15 years and over by highest certificate, diploma or degree':
                     #This is a quick fix to skip 10 lines on the csv file so we don't double add values
@@ -330,9 +332,9 @@ def get_age_cohorts(re,ref_dict,use_l_table=False,l_table=None):
                             ma_no_deg += int(row['Male'])
                         if row['Total']:
                             fe_no_deg += int(row['Female'])
-                        ref_dict[k]['Education']['HighSchool_Less_%']['Total'] = percent(tot_pop,tot_no_deg)
-                        ref_dict[k]['Education']['HighSchool_Less_%']['Male'] = percent(m_pop,ma_no_deg)
-                        ref_dict[k]['Education']['HighSchool_Less_%']['Female'] = percent(f_pop,fe_no_deg)
+                        ref_dict[k]['Education']['HighSchool_Less_%']['Total'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Total'],tot_no_deg)
+                        ref_dict[k]['Education']['HighSchool_Less_%']['Male'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Male'],ma_no_deg)
+                        ref_dict[k]['Education']['HighSchool_Less_%']['Female'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Female'],fe_no_deg)
                         row = re.next()
                     if row['Characteristic']==    '  Postsecondary certificate, diploma or degree':
                         if row['Total']:    
@@ -366,18 +368,18 @@ def get_age_cohorts(re,ref_dict,use_l_table=False,l_table=None):
                         if row['Total']:
                             fe_no_deg += int(row['Female'])
                             
-                        ref_dict[k]['Education']['Some_College_%']['Total'] = percent(tot_pop,tot_no_deg)
-                        ref_dict[k]['Education']['Some_College_%']['Male'] = percent(m_pop,ma_no_deg)
-                        ref_dict[k]['Education']['Some_College_%']['Female'] = percent(f_pop,fe_no_deg)
+                        ref_dict[k]['Education']['Some_College_%']['Total'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Total'],tot_no_deg)
+                        ref_dict[k]['Education']['Some_College_%']['Male'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Male'],ma_no_deg)
+                        ref_dict[k]['Education']['Some_College_%']['Female'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Female'],fe_no_deg)
                         row = re.next()
                         
                     if row['Characteristic']=='    University certificate, diploma or degree at bachelor level or above':
                         if row['Total']:    
-                            ref_dict[k]['Education']['University_Above_%']['Total'] = percent(tot_pop,int(row['Total']))
+                            ref_dict[k]['Education']['University_Above_%']['Total'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Total'],int(row['Total']))
                         if row['Total']:                        
-                            ref_dict[k]['Education']['University_Above_%']['Male'] = percent(m_pop,int(row['Male']))
+                            ref_dict[k]['Education']['University_Above_%']['Male'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Male'],int(row['Male']))
                         if row['Total']:
-                            ref_dict[k]['Education']['University_Above_%']['Female'] = percent(m_pop,int(row['Female']))
+                            ref_dict[k]['Education']['University_Above_%']['Female'] = percent(ref_dict[k]["Demographics"]['CT_Pop']['Female'],int(row['Female']))
                 
         except StopIteration:
           break
@@ -404,7 +406,11 @@ def run():
             rec = {'id':k,'community':v}
             out_array.append(rec)
     return [{'com_profiles':out_array},shapes]
+
+
 cp,shps = run()
+
+schema = {}
 
 print "Writing Json"
 import json
@@ -415,7 +421,14 @@ com_profiles.write(json.dumps(com_profiles))
 shapes.close()
 com_profiles.close()
 print "Done! \n\n\n"
+
+
+
+
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
+
+
+
 
 pp.pprint(cp['com_profiles'][0]['community'])
