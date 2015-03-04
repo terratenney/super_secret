@@ -43,7 +43,7 @@ section {
 	padding: 1em;
 	text-align: center;
 }
-img {border-radius: 15px;}
+img {border-radius: 15px;opacity: 0.8;}
 /* Header */
 .codrops-header {
 	margin: 0 auto;

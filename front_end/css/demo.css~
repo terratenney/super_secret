@@ -43,7 +43,7 @@ section {
 	padding: 1em;
 	text-align: center;
 }
-
+img {border-radius: 15px;}
 /* Header */
 .codrops-header {
 	margin: 0 auto;
@@ -145,6 +145,7 @@ section {
 
 /* Related demos */
 .related {
+	
 	padding: 4em 0 3em;
 }
 
