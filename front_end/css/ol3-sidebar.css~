@@ -5,14 +5,14 @@
   bottom: 0;
   width: 100%;
   overflow: hidden;
-  z-index: 2000; }
+  z-index: -1; }
   .sidebar.collapsed {
     width: 40px; }
   @media (min-width: 768px) {
     .sidebar {
       left: 6px;
-      top: 100px;
-      bottom: 6px;
+      top: 120px;
+      bottom: 50px;
       transition: width 500ms; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar {
