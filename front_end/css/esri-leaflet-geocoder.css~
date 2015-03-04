@@ -1,16 +1,16 @@
-.geocoder-control-input{position:absolute;left:0;top:0;background-color:#fff;background-repeat:no-repeat;background-image:url(../img/search.png);background-size:26px;border:0;padding:0;text-indent:6px;font-size:13px;line-height:normal;height:auto;padding-top:5px;padding-bottom:5px;width:100%;background-position:right center;cursor:pointer;box-sizing:border-box}
+.geocoder-control-input{position:absolute;z-index: 4000;left:0;top:0;background-color:#fff;background-repeat:no-repeat;background-image:url(../img/search.png);background-size:26px;border:0;padding:0;text-indent:6px;font-size:13px;line-height:normal;height:auto;padding-top:5px;padding-bottom:5px;width:100%;background-position:right center;cursor:pointer;box-sizing:border-box}
 
 .geocoder-control{width:26px;height:26px;-webkit-transition:width .175s ease-in;-moz-transition:width .175s ease-in;-ms-transition:width .175s ease-in;-o-transition:width .175s ease-in;transition:width .175s ease-in}
 
 .geocoder-control-expanded,.leaflet-touch .geocoder-control-expanded{width:275px}
 
-.geocoder-control-input.geocoder-control-loading{background-image:url('../img/loading.gif'); background-size:26px}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.geocoder-control-input{background-image:'../img/search@2x.png'}.geocoder-control-input.geocoder-control-loading{background-image:url(./img/loading@2x.gif)}}
+.geocoder-control-input.geocoder-control-loading{background-image:url(../img/loading.gif); background-size:26px}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.geocoder-control-input{background-image:../img/search@2x.png}.geocoder-control-input.geocoder-control-loading{background-image:url(../img/loading@2x.gif)}}
 
 .geocoder-control-input:focus{outline:0;cursor:text}
 
 .geocoder-control-input::-ms-clear{display:none}
 
-.geocoder-control-suggestions{width:100%;position:absolute;top:26px;left:0;margin-top:10px;overflow:auto;display:none;z-index: -1;}
+.geocoder-control-suggestions{width:100%;position:absolute;top:26px;left:0;margin-top:10px;overflow:auto;display:none;z-index: 4000;}
 
 .geocoder-control-list+.geocoder-control-header{border-top:1px solid #d5d5d5}
 
