@@ -124,7 +124,7 @@ section {
 /* Demo Buttons Style */
 .codrops-demos {
 	padding: 1em 0 1em;
-	font-size: 1.8em;
+	font-size: 1.2em;
 	text-align: center;
 }
 
@@ -154,7 +154,7 @@ section {
 }
 
 .related > a {
-	border: 2px solid #000;
+	border: 0px solid #000;
 	border-color: initial;
 	display: inline-block;
 	text-align: center;
