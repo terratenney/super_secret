@@ -1,4 +1,3 @@
-# super_secret
 # This file describes Version 1.0 of Community Open-Data Engage (CODE)
 
 ----
