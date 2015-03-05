@@ -228,7 +228,7 @@ L.esri.get('data.json', {}, function(error, response) {
 	var features = response;
 
 	geojson = L.geoJson(features, {
-			style: style,
+			style: style1,
 			onEachFeature: onEachFeature
 		})
 		.addTo(map);
@@ -322,15 +322,15 @@ gray.addTo(map);
 		d < 59350366 ? '#FED976' : '#FFEDA0';
 	}
 	function set_housing_cost(d) {
-		return d > 59350368 ? '#800026' : 
+		return d > 59350368 ? '#e5f5f9' : 
 		d == 59350358 ? '#BD0026' : 
 		d == 59350364 ? '#E31A1C' : 
 		d < 59350310 ? '#FC4E2A' : 
-		d == 59350321 ? '#FD8D3C' : 
+		d == 59350321 ? '#2ca25f' : 
 		d > 59350317 ? '#FEB24C' : 
-		d < 59350366 ? '#FED976' : '#FFEDA0';
+		d < 59350366 ? '#99d8c9':;
 	}
-	function style(feature) {
+	/*function style(feature) {
 		return {
 			fillColor: getColor(feature.properties.DAUID),
 			weight: 2,
@@ -339,8 +339,17 @@ gray.addTo(map);
 			dashArray: '3',
 			fillOpacity: 0.7
 		};
+	}*/
+	function style1(feature) {
+		return {
+			fillColor: set_housing_cost(feature.properties.DAUID),
+			weight: 2,
+			opacity: 1,
+			color: 'white',
+			dashArray: '3',
+			fillOpacity: 0.7
+		};
 	}
-
 	function highlightFeature(e) {
 		var layer = e.target;
 		layer.setStyle({
