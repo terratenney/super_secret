@@ -67,7 +67,13 @@
             </div>
             <div class="sidebar-pane" id="profile"><h1>Profile</h1></div>
             <div class="sidebar-pane" id="messages"><h1>Messages</h1></div>
-            <div class="sidebar-pane" id="settings"><h1>Settings</h1></div>
+            <div class="sidebar-pane" id="settings"><h1>Settings</h1>
+              
+            
+              
+            
+              
+            </div>
         </div>
     </div>
 <div id="map" class="sidebar-map"></div>
@@ -86,6 +92,11 @@
 		maxZoom: 16
 	});
 
+var FileName="data.json";
+//here we switch the geojson file
+
+
+
 
 //initialize basemap to esri gray
 var map = L.map('map');
@@ -103,13 +114,21 @@ L.esri.get('data.json', {}, function(error, response) {
 
 /*https://groups.google.com/forum/#!topic/leaflet-js/rKMZX3PKFuI*/
 var cities = L.layerGroup([geojson]);
+var health = L.layerGroup([geojson]);
+var ParksRecreation = L.layerGroup([geojson]);
+var education = L.layerGroup([geojson]);
+var transportation = L.layerGroup([geojson]);
 var baseMaps = {
 	"Grayscale": gray,
 	"Streets": topo,
 	"Colorful": Stamen_Watercolor
 };
 var overlayMaps = {
-    "Cities": cities
+    "Cities": cities,
+    "Health": health,
+    "Parks & Recreation": ParksRecreation,
+    "Education":education,
+    "Transportation":transportation,
 };
 
 
