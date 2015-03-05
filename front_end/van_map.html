@@ -204,16 +204,16 @@
 
 
 <script>
- var gray = L.esri.basemapLayer('Gray'),
-	topo = L.esri.basemapLayer('Topographic'),
-	Stamen_Watercolor = L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png', {
-		attribution: '',
-		subdomains: 'abcd',
-		minZoom: 1,
-		maxZoom: 16
-	});
+var gray = L.esri.basemapLayer('Gray'),
+    topo = L.esri.basemapLayer('Topographic'),
+    Stamen_Watercolor = L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png', {
+        attribution: '',
+        subdomains: 'abcd',
+        minZoom: 1,
+        maxZoom: 16
+    });
 
-var FileName="data.json";
+var FileName = "data.json";
 //here we switch the geojson file
 
 
@@ -223,248 +223,163 @@ var FileName="data.json";
 var map = L.map('map');
 
 
+
+
 //adding layers and features
 L.esri.get('data.json', {}, function(error, response) {
-	var features = response;
+    var features = response;
 
-	geojson = L.geoJson(features, {
-			style: style1,
-			onEachFeature: onEachFeature
-		})
-		.addTo(map);
-
-
+    geojson = L.geoJson(features, {
+            style: style,
+            onEachFeature: onEachFeature
+        })
+        .addTo(map);
 
 
+    /*https://groups.google.com/forum/#!topic/leaflet-js/rKMZX3PKFuI*/
+    var cities = L.layerGroup([geojson]);
+    var health = L.layerGroup([geojson]);
+    var ParksRecreation = L.layerGroup([geojson]);
+    var education = L.layerGroup([geojson]);
+    var transportation = L.layerGroup([geojson]);
+    var baseMaps = {
+        "Grayscale": gray,
+        "Streets": topo,
+        "Colorful": Stamen_Watercolor
+    };
+    var overlayMaps = {
+        "Cities": cities,
+        "Health": health,
+        "Parks & Recreation": ParksRecreation,
+        "Education": education,
+        "Transportation": transportation,
+    };
 
 
+    var layerControl = L.control.layers(baseMaps, overlayMaps, {
+        collapsed: false
+    });
 
+    layerControl.addTo(map);
+    layerControl._container.remove();
+    document.getElementById('settings')
+        .appendChild(layerControl.onAdd(map, {
+            collapsed: false
+        }));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*https://groups.google.com/forum/#!topic/leaflet-js/rKMZX3PKFuI*/
-var cities = L.layerGroup([geojson]);
-var health = L.layerGroup([geojson]);
-var ParksRecreation = L.layerGroup([geojson]);
-var education = L.layerGroup([geojson]);
-var transportation = L.layerGroup([geojson]);
-var baseMaps = {
-	"Grayscale": gray,
-	"Streets": topo,
-	"Colorful": Stamen_Watercolor
-};
-var overlayMaps = {
-    "Cities": cities,
-    "Health": health,
-    "Parks & Recreation": ParksRecreation,
-    "Education":education,
-    "Transportation":transportation,
-};
-
-
-var layerControl = L.control.layers(baseMaps,overlayMaps,{collapsed:false});
-
-layerControl.addTo(map);
-layerControl._container.remove();
-document.getElementById('settings')
-	.appendChild(layerControl.onAdd(map,{collapsed:false}));
-
-gray.addTo(map);
+    gray.addTo(map);
 
 
 
 
-
-
-
-
-
-
-
-
-	function getColor(d) {
-		return d > 59350368 ? '#800026' : 
-		d == 59350358 ? '#BD0026' : 
-		d == 59350364 ? '#E31A1C' : 
-		d < 59350310 ? '#FC4E2A' : 
-		d == 59350321 ? '#FD8D3C' : 
-		d > 59350317 ? '#FEB24C' : 
-		d < 59350366 ? '#FED976' : '#FFEDA0';
-	}
-	function set_education(d) {
-		return d > 59350368 ? '#800026' : 
-		d == 59350358 ? '#BD0026' : 
-		d == 59350364 ? '#E31A1C' : 
-		d < 59350310 ? '#FC4E2A' : 
-		d == 59350321 ? '#FD8D3C' : 
-		d > 59350317 ? '#FEB24C' : 
-		d < 59350366 ? '#FED976' : '#FFEDA0';
-	}
-	function set_housing_cost(d) {
-		return d > 59350368 ? '#800026' : 
-		d == 59350358 ? '#BD0026' : 
-		d == 59350364 ? '#E31A1C' : 
-		d < 59350310 ? '#FC4E2A' : 
-		d == 59350321 ? '#FD8D3C' : 
-		d > 59350317 ? '#FEB24C' : 
-		d < 59350366 ? '#FED976' : '#FFEDA0';
-	}
-	function set_housing_cost(d) {
-		return d > 59350368 ? '#e5f5f9' : 
-		d == 59350358 ? '#BD0026' : 
-		d == 59350364 ? '#E31A1C' : 
-		d < 59350310 ? '#FC4E2A' : 
-		d == 59350321 ? '#2ca25f' : 
-		d > 59350317 ? '#FEB24C' : 
-		d < 59350366 ? '#99d8c9':;
-	}
-	/*function style(feature) {
-		return {
-			fillColor: getColor(feature.properties.DAUID),
-			weight: 2,
-			opacity: 1,
-			color: 'white',
-			dashArray: '3',
-			fillOpacity: 0.7
-		};
-	}*/
-	function style1(feature) {
-		return {
-			fillColor: set_housing_cost(feature.properties.DAUID),
-			weight: 2,
-			opacity: 1,
-			color: 'white',
-			dashArray: '3',
-			fillOpacity: 0.7
-		};
-	}
-	function highlightFeature(e) {
-		var layer = e.target;
-		layer.setStyle({
-			weight: 5,
-			color: '#666',
-			dashArray: '',
-			fillOpacity: 0.7
-		});
-		if (!L.Browser.ie && !L.Browser.opera) {
-			layer.bringToFront();
-		}
-		info.update(layer.feature.properties);
-	}
-
-	function resetHighlight(e) {
-		geojson.resetStyle(e.target);
-		info.update();
-	}
-
-	function zoomToFeature(e) {
-		map.fitBounds(e.target.getBounds());
-	}
-
-	function onEachFeature(feature, layer) {
-		layer.bindPopup("I am a test " + feature.properties.DAUID);
-		layer.on({
-			mouseover: highlightFeature,
-			mouseout: resetHighlight,
-			click: zoomToFeature
-		});
-	}
-	var searchControl = new L.esri.Geocoding.Controls.Geosearch()
-		.addTo(map);
-	var results = new L.LayerGroup()
-		.addTo(map);
-	searchControl.on('results', function(data) {
-		results.clearLayers();
-		for (var i = data.results.length - 1; i >= 0; i--) {
-			results.addLayer(L.marker(data.results[i].latlng));
-			results.clearLayers();
-		}
-	});
-	var info = L.control();
-	info.onAdd = function(map) {
-		this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-		this.update();
-		return this._div;
-	};
-	// method that we will use to update the control based on feature properties passed
-	info.update = function(props) {
-		this._div.innerHTML = '<h4>Community Info</h4>' + (props ? '<b>' + props.CMANAME + '</b><br />' + props.CDNAME + ' ' : 'Select Your Community');
-	};
-
-
-
-	info.addTo(map);
-	var sidebar = $('#sidebar')
-		.sidebar();
-
-
-var legend = L.control();
-
-legend.onAdd = function (map) {
-var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, 10, 20, 50, 100, 200, 500, 1000],
-        labels = [];
-
-
-    // loop through our density intervals and generate a label with a colored square for each interval
-    for (var i = 0; i < grades.length; i++) {
-        div.innerHTML +=
-            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
-            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    function getColor(d) {
+        return d > 59350368 ? '#800026' :
+            d == 59350358 ? '#BD0026' :
+            d == 59350364 ? '#E31A1C' :
+            d < 59350310 ? '#FC4E2A' :
+            d == 59350321 ? '#FD8D3C' :
+            d > 59350317 ? '#FEB24C' :
+            d < 59350366 ? '#FED976' : '#FFEDA0';
     }
 
-    return div;
-};
+    function style(feature) {
+        return {
+            fillColor: getColor(feature.properties.DAUID),
+            weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.7
+        };
+    }
+
+    function highlightFeature(e) {
+        var layer = e.target;
+        layer.setStyle({
+            weight: 5,
+            color: '#666',
+            dashArray: '',
+            fillOpacity: 0.7
+        });
+        if (!L.Browser.ie && !L.Browser.opera) {
+            layer.bringToFront();
+        }
+        info.update(layer.feature.properties);
+    }
+
+    function resetHighlight(e) {
+        geojson.resetStyle(e.target);
+        info.update();
+    }
+
+    function zoomToFeature(e) {
+        map.fitBounds(e.target.getBounds());
+    }
+
+    function onEachFeature(feature, layer) {
+        layer.bindPopup("I am a test " + feature.properties.DAUID);
+        layer.on({
+            mouseover: highlightFeature,
+            mouseout: resetHighlight,
+            click: zoomToFeature
+        });
+    }
+    var searchControl = new L.esri.Geocoding.Controls.Geosearch()
+        .addTo(map);
+    var results = new L.LayerGroup()
+        .addTo(map);
+    searchControl.on('results', function(data) {
+        results.clearLayers();
+        for (var i = data.results.length - 1; i >= 0; i--) {
+            results.addLayer(L.marker(data.results[i].latlng));
+            results.clearLayers();
+        }
+    });
+    var info = L.control();
+    info.onAdd = function(map) {
+        this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+        this.update();
+        return this._div;
+    };
+    // method that we will use to update the control based on feature properties passed
+    info.update = function(props) {
+        this._div.innerHTML = '<h4>Community Info</h4>' + (props ? '<b>' + props.CMANAME + '</b><br />' + props.CDNAME + ' ' : 'Select Your Community');
+    };
 
 
 
-legend.addTo(map);
-legend._container.remove();
-document.getElementById('messages')
-	.appendChild(legend.onAdd(map));
+    info.addTo(map);
+    var sidebar = $('#sidebar')
+        .sidebar();
+
+
+    var legend = L.control();
+
+    legend.onAdd = function(map) {
+        var div = L.DomUtil.create('div', 'info legend'),
+            grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+            labels = [];
+
+
+        // loop through our density intervals and generate a label with a colored square for each interval
+        for (var i = 0; i < grades.length; i++) {
+            div.innerHTML +=
+                '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+                grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+        }
+
+        return div;
+    };
 
 
 
+    legend.addTo(map);
+    legend._container.remove();
+    document.getElementById('messages')
+        .appendChild(legend.onAdd(map));
 
-
-
-
-
-
-
-
-
-	map.fitBounds(geojson.getBounds());
+    map.fitBounds(geojson.getBounds());
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>
 
 </body>
