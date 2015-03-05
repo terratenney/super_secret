@@ -11,7 +11,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "0.00000000000e+000"
       }
     }, 
     {
@@ -24,7 +24,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.00000000000e+000"
       }
     }, 
     {
@@ -37,7 +37,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.00000000000e+000"
       }
     }, 
     {
@@ -50,7 +50,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.00000000000e+000"
       }
     }, 
     {
@@ -63,7 +63,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.00000000000e+000"
       }
     }, 
     {
@@ -76,7 +76,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.00000000000e+000"
       }
     }, 
     {
@@ -89,7 +89,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.00000000000e+000"
       }
     }, 
     {
@@ -102,7 +102,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.00000000000e+000"
       }
     }, 
     {
@@ -115,7 +115,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.00000000000e+000"
       }
     }, 
     {
@@ -128,7 +128,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.00000000000e+000"
       }
     }, 
     {
@@ -141,7 +141,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.00000000000e+001"
       }
     }, 
     {
@@ -154,7 +154,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.10000000000e+001"
       }
     }, 
     {
@@ -167,7 +167,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.20000000000e+001"
       }
     }, 
     {
@@ -180,7 +180,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.30000000000e+001"
       }
     }, 
     {
@@ -193,7 +193,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.40000000000e+001"
       }
     }, 
     {
@@ -206,7 +206,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.50000000000e+001"
       }
     }, 
     {
@@ -219,7 +219,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.60000000000e+001"
       }
     }, 
     {
@@ -232,7 +232,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.70000000000e+001"
       }
     }, 
     {
@@ -245,7 +245,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.80000000000e+001"
       }
     }, 
     {
@@ -258,7 +258,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.90000000000e+001"
       }
     }, 
     {
@@ -271,7 +271,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.00000000000e+001"
       }
     }, 
     {
@@ -284,7 +284,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.10000000000e+001"
       }
     }, 
     {
@@ -297,7 +297,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.20000000000e+001"
       }
     }, 
     {
@@ -310,7 +310,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.30000000000e+001"
       }
     }, 
     {
@@ -323,7 +323,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.40000000000e+001"
       }
     }, 
     {
@@ -336,7 +336,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.50000000000e+001"
       }
     }, 
     {
@@ -349,7 +349,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.60000000000e+001"
       }
     }, 
     {
@@ -362,7 +362,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.70000000000e+001"
       }
     }, 
     {
@@ -375,7 +375,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.80000000000e+001"
       }
     }, 
     {
@@ -388,7 +388,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.90000000000e+001"
       }
     }, 
     {
@@ -401,7 +401,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.00000000000e+001"
       }
     }, 
     {
@@ -414,7 +414,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.10000000000e+001"
       }
     }, 
     {
@@ -427,7 +427,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.20000000000e+001"
       }
     }, 
     {
@@ -440,7 +440,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.30000000000e+001"
       }
     }, 
     {
@@ -453,7 +453,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.40000000000e+001"
       }
     }, 
     {
@@ -466,7 +466,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.50000000000e+001"
       }
     }, 
     {
@@ -479,7 +479,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.60000000000e+001"
       }
     }, 
     {
@@ -492,7 +492,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.70000000000e+001"
       }
     }, 
     {
@@ -505,7 +505,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.80000000000e+001"
       }
     }, 
     {
@@ -518,7 +518,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.90000000000e+001"
       }
     }, 
     {
@@ -531,7 +531,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.00000000000e+001"
       }
     }, 
     {
@@ -544,7 +544,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.10000000000e+001"
       }
     }, 
     {
@@ -557,7 +557,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.20000000000e+001"
       }
     }, 
     {
@@ -570,7 +570,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.30000000000e+001"
       }
     }, 
     {
@@ -583,7 +583,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.40000000000e+001"
       }
     }, 
     {
@@ -596,7 +596,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.50000000000e+001"
       }
     }, 
     {
@@ -609,7 +609,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.60000000000e+001"
       }
     }, 
     {
@@ -622,7 +622,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.70000000000e+001"
       }
     }, 
     {
@@ -635,7 +635,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.80000000000e+001"
       }
     }, 
     {
@@ -648,7 +648,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "4.90000000000e+001"
       }
     }, 
     {
@@ -661,7 +661,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.00000000000e+001"
       }
     }, 
     {
@@ -674,7 +674,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.10000000000e+001"
       }
     }, 
     {
@@ -687,7 +687,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.20000000000e+001"
       }
     }, 
     {
@@ -700,7 +700,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.30000000000e+001"
       }
     }, 
     {
@@ -713,7 +713,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.40000000000e+001"
       }
     }, 
     {
@@ -726,7 +726,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.50000000000e+001"
       }
     }, 
     {
@@ -739,7 +739,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.60000000000e+001"
       }
     }, 
     {
@@ -752,7 +752,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.70000000000e+001"
       }
     }, 
     {
@@ -765,7 +765,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.80000000000e+001"
       }
     }, 
     {
@@ -778,7 +778,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "5.90000000000e+001"
       }
     }, 
     {
@@ -791,7 +791,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.00000000000e+001"
       }
     }, 
     {
@@ -804,7 +804,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.10000000000e+001"
       }
     }, 
     {
@@ -817,7 +817,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.20000000000e+001"
       }
     }, 
     {
@@ -830,7 +830,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.30000000000e+001"
       }
     }, 
     {
@@ -843,7 +843,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.40000000000e+001"
       }
     }, 
     {
@@ -856,7 +856,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.50000000000e+001"
       }
     }, 
     {
@@ -869,7 +869,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.60000000000e+001"
       }
     }, 
     {
@@ -882,7 +882,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.70000000000e+001"
       }
     }, 
     {
@@ -895,7 +895,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.80000000000e+001"
       }
     }, 
     {
@@ -908,7 +908,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "6.90000000000e+001"
       }
     }, 
     {
@@ -921,7 +921,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.00000000000e+001"
       }
     }, 
     {
@@ -934,7 +934,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.10000000000e+001"
       }
     }, 
     {
@@ -947,7 +947,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.20000000000e+001"
       }
     }, 
     {
@@ -960,7 +960,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.30000000000e+001"
       }
     }, 
     {
@@ -973,7 +973,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.40000000000e+001"
       }
     }, 
     {
@@ -986,7 +986,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.50000000000e+001"
       }
     }, 
     {
@@ -999,7 +999,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.60000000000e+001"
       }
     }, 
     {
@@ -1012,7 +1012,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.70000000000e+001"
       }
     }, 
     {
@@ -1025,7 +1025,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.80000000000e+001"
       }
     }, 
     {
@@ -1038,7 +1038,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "7.90000000000e+001"
       }
     }, 
     {
@@ -1051,7 +1051,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.00000000000e+001"
       }
     }, 
     {
@@ -1064,7 +1064,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.10000000000e+001"
       }
     }, 
     {
@@ -1077,7 +1077,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.20000000000e+001"
       }
     }, 
     {
@@ -1090,7 +1090,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.30000000000e+001"
       }
     }, 
     {
@@ -1103,7 +1103,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.40000000000e+001"
       }
     }, 
     {
@@ -1116,7 +1116,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.50000000000e+001"
       }
     }, 
     {
@@ -1129,7 +1129,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.60000000000e+001"
       }
     }, 
     {
@@ -1142,7 +1142,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.70000000000e+001"
       }
     }, 
     {
@@ -1155,7 +1155,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.80000000000e+001"
       }
     }, 
     {
@@ -1168,7 +1168,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "8.90000000000e+001"
       }
     }, 
     {
@@ -1181,7 +1181,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.00000000000e+001"
       }
     }, 
     {
@@ -1194,7 +1194,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.10000000000e+001"
       }
     }, 
     {
@@ -1207,7 +1207,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.20000000000e+001"
       }
     }, 
     {
@@ -1220,7 +1220,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.30000000000e+001"
       }
     }, 
     {
@@ -1233,7 +1233,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.40000000000e+001"
       }
     }, 
     {
@@ -1246,7 +1246,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.50000000000e+001"
       }
     }, 
     {
@@ -1259,7 +1259,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.60000000000e+001"
       }
     }, 
     {
@@ -1272,7 +1272,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.70000000000e+001"
       }
     }, 
     {
@@ -1285,7 +1285,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.80000000000e+001"
       }
     }, 
     {
@@ -1298,7 +1298,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "9.90000000000e+001"
       }
     }, 
     {
@@ -1311,7 +1311,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.00000000000e+002"
       }
     }, 
     {
@@ -1324,7 +1324,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.01000000000e+002"
       }
     }, 
     {
@@ -1337,7 +1337,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.02000000000e+002"
       }
     }, 
     {
@@ -1350,7 +1350,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.03000000000e+002"
       }
     }, 
     {
@@ -1363,7 +1363,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.04000000000e+002"
       }
     }, 
     {
@@ -1376,7 +1376,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.05000000000e+002"
       }
     }, 
     {
@@ -1389,7 +1389,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.06000000000e+002"
       }
     }, 
     {
@@ -1402,7 +1402,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.07000000000e+002"
       }
     }, 
     {
@@ -1415,7 +1415,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.08000000000e+002"
       }
     }, 
     {
@@ -1428,7 +1428,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.09000000000e+002"
       }
     }, 
     {
@@ -1441,7 +1441,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.10000000000e+002"
       }
     }, 
     {
@@ -1454,7 +1454,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.11000000000e+002"
       }
     }, 
     {
@@ -1467,7 +1467,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.12000000000e+002"
       }
     }, 
     {
@@ -1480,7 +1480,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.13000000000e+002"
       }
     }, 
     {
@@ -1493,7 +1493,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.14000000000e+002"
       }
     }, 
     {
@@ -1506,7 +1506,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.15000000000e+002"
       }
     }, 
     {
@@ -1519,7 +1519,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.16000000000e+002"
       }
     }, 
     {
@@ -1532,7 +1532,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.17000000000e+002"
       }
     }, 
     {
@@ -1545,7 +1545,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.18000000000e+002"
       }
     }, 
     {
@@ -1558,7 +1558,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.19000000000e+002"
       }
     }, 
     {
@@ -1571,7 +1571,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.20000000000e+002"
       }
     }, 
     {
@@ -1584,7 +1584,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.21000000000e+002"
       }
     }, 
     {
@@ -1597,7 +1597,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.22000000000e+002"
       }
     }, 
     {
@@ -1610,7 +1610,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.23000000000e+002"
       }
     }, 
     {
@@ -1623,7 +1623,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.24000000000e+002"
       }
     }, 
     {
@@ -1636,7 +1636,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.25000000000e+002"
       }
     }, 
     {
@@ -1649,7 +1649,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.26000000000e+002"
       }
     }, 
     {
@@ -1662,7 +1662,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.27000000000e+002"
       }
     }, 
     {
@@ -1675,7 +1675,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.28000000000e+002"
       }
     }, 
     {
@@ -1688,7 +1688,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.29000000000e+002"
       }
     }, 
     {
@@ -1701,7 +1701,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.30000000000e+002"
       }
     }, 
     {
@@ -1714,7 +1714,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.31000000000e+002"
       }
     }, 
     {
@@ -1727,7 +1727,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.32000000000e+002"
       }
     }, 
     {
@@ -1740,7 +1740,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.33000000000e+002"
       }
     }, 
     {
@@ -1753,7 +1753,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.34000000000e+002"
       }
     }, 
     {
@@ -1766,7 +1766,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.35000000000e+002"
       }
     }, 
     {
@@ -1779,7 +1779,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.36000000000e+002"
       }
     }, 
     {
@@ -1792,7 +1792,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.37000000000e+002"
       }
     }, 
     {
@@ -1805,7 +1805,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.38000000000e+002"
       }
     }, 
     {
@@ -1818,7 +1818,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.39000000000e+002"
       }
     }, 
     {
@@ -1831,7 +1831,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.40000000000e+002"
       }
     }, 
     {
@@ -1844,7 +1844,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.41000000000e+002"
       }
     }, 
     {
@@ -1857,7 +1857,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.42000000000e+002"
       }
     }, 
     {
@@ -1870,7 +1870,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.43000000000e+002"
       }
     }, 
     {
@@ -1883,7 +1883,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.44000000000e+002"
       }
     }, 
     {
@@ -1896,7 +1896,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.45000000000e+002"
       }
     }, 
     {
@@ -1909,7 +1909,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.46000000000e+002"
       }
     }, 
     {
@@ -1922,7 +1922,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.47000000000e+002"
       }
     }, 
     {
@@ -1935,7 +1935,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.48000000000e+002"
       }
     }, 
     {
@@ -1948,7 +1948,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.49000000000e+002"
       }
     }, 
     {
@@ -1961,7 +1961,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.50000000000e+002"
       }
     }, 
     {
@@ -1974,7 +1974,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.51000000000e+002"
       }
     }, 
     {
@@ -1987,7 +1987,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.52000000000e+002"
       }
     }, 
     {
@@ -2000,7 +2000,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.53000000000e+002"
       }
     }, 
     {
@@ -2013,7 +2013,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.54000000000e+002"
       }
     }, 
     {
@@ -2026,7 +2026,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.55000000000e+002"
       }
     }, 
     {
@@ -2039,7 +2039,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.56000000000e+002"
       }
     }, 
     {
@@ -2052,7 +2052,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.57000000000e+002"
       }
     }, 
     {
@@ -2065,7 +2065,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.58000000000e+002"
       }
     }, 
     {
@@ -2078,7 +2078,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.59000000000e+002"
       }
     }, 
     {
@@ -2091,7 +2091,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.60000000000e+002"
       }
     }, 
     {
@@ -2104,7 +2104,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.61000000000e+002"
       }
     }, 
     {
@@ -2117,7 +2117,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.62000000000e+002"
       }
     }, 
     {
@@ -2130,7 +2130,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.63000000000e+002"
       }
     }, 
     {
@@ -2143,7 +2143,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.64000000000e+002"
       }
     }, 
     {
@@ -2156,7 +2156,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.65000000000e+002"
       }
     }, 
     {
@@ -2169,7 +2169,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.66000000000e+002"
       }
     }, 
     {
@@ -2182,7 +2182,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.67000000000e+002"
       }
     }, 
     {
@@ -2195,7 +2195,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.68000000000e+002"
       }
     }, 
     {
@@ -2208,7 +2208,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.69000000000e+002"
       }
     }, 
     {
@@ -2221,7 +2221,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.70000000000e+002"
       }
     }, 
     {
@@ -2234,7 +2234,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.71000000000e+002"
       }
     }, 
     {
@@ -2247,7 +2247,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.72000000000e+002"
       }
     }, 
     {
@@ -2260,7 +2260,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.73000000000e+002"
       }
     }, 
     {
@@ -2273,7 +2273,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.74000000000e+002"
       }
     }, 
     {
@@ -2286,7 +2286,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.75000000000e+002"
       }
     }, 
     {
@@ -2299,7 +2299,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.76000000000e+002"
       }
     }, 
     {
@@ -2312,7 +2312,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.77000000000e+002"
       }
     }, 
     {
@@ -2325,7 +2325,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.78000000000e+002"
       }
     }, 
     {
@@ -2338,7 +2338,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.79000000000e+002"
       }
     }, 
     {
@@ -2351,7 +2351,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.80000000000e+002"
       }
     }, 
     {
@@ -2364,7 +2364,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.81000000000e+002"
       }
     }, 
     {
@@ -2377,7 +2377,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.82000000000e+002"
       }
     }, 
     {
@@ -2390,7 +2390,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.83000000000e+002"
       }
     }, 
     {
@@ -2403,7 +2403,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.84000000000e+002"
       }
     }, 
     {
@@ -2416,7 +2416,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.85000000000e+002"
       }
     }, 
     {
@@ -2429,7 +2429,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.86000000000e+002"
       }
     }, 
     {
@@ -2442,7 +2442,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.87000000000e+002"
       }
     }, 
     {
@@ -2455,7 +2455,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.88000000000e+002"
       }
     }, 
     {
@@ -2468,7 +2468,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.89000000000e+002"
       }
     }, 
     {
@@ -2481,7 +2481,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.90000000000e+002"
       }
     }, 
     {
@@ -2494,7 +2494,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.91000000000e+002"
       }
     }, 
     {
@@ -2507,7 +2507,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.92000000000e+002"
       }
     }, 
     {
@@ -2520,7 +2520,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.93000000000e+002"
       }
     }, 
     {
@@ -2533,7 +2533,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.94000000000e+002"
       }
     }, 
     {
@@ -2546,7 +2546,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.95000000000e+002"
       }
     }, 
     {
@@ -2559,7 +2559,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.96000000000e+002"
       }
     }, 
     {
@@ -2572,7 +2572,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.97000000000e+002"
       }
     }, 
     {
@@ -2585,7 +2585,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.98000000000e+002"
       }
     }, 
     {
@@ -2598,7 +2598,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "1.99000000000e+002"
       }
     }, 
     {
@@ -2611,7 +2611,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.00000000000e+002"
       }
     }, 
     {
@@ -2624,7 +2624,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.01000000000e+002"
       }
     }, 
     {
@@ -2637,7 +2637,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.02000000000e+002"
       }
     }, 
     {
@@ -2650,7 +2650,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.03000000000e+002"
       }
     }, 
     {
@@ -2663,7 +2663,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.04000000000e+002"
       }
     }, 
     {
@@ -2676,7 +2676,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.05000000000e+002"
       }
     }, 
     {
@@ -2689,7 +2689,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.06000000000e+002"
       }
     }, 
     {
@@ -2702,7 +2702,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.07000000000e+002"
       }
     }, 
     {
@@ -2715,7 +2715,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.08000000000e+002"
       }
     }, 
     {
@@ -2728,7 +2728,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.09000000000e+002"
       }
     }, 
     {
@@ -2741,7 +2741,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.10000000000e+002"
       }
     }, 
     {
@@ -2754,7 +2754,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.11000000000e+002"
       }
     }, 
     {
@@ -2767,7 +2767,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.12000000000e+002"
       }
     }, 
     {
@@ -2780,7 +2780,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.13000000000e+002"
       }
     }, 
     {
@@ -2793,7 +2793,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.14000000000e+002"
       }
     }, 
     {
@@ -2806,7 +2806,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.15000000000e+002"
       }
     }, 
     {
@@ -2819,7 +2819,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.16000000000e+002"
       }
     }, 
     {
@@ -2832,7 +2832,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.17000000000e+002"
       }
     }, 
     {
@@ -2845,7 +2845,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.18000000000e+002"
       }
     }, 
     {
@@ -2858,7 +2858,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.19000000000e+002"
       }
     }, 
     {
@@ -2871,7 +2871,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.20000000000e+002"
       }
     }, 
     {
@@ -2884,7 +2884,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.21000000000e+002"
       }
     }, 
     {
@@ -2897,7 +2897,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.22000000000e+002"
       }
     }, 
     {
@@ -2910,7 +2910,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.23000000000e+002"
       }
     }, 
     {
@@ -2923,7 +2923,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.24000000000e+002"
       }
     }, 
     {
@@ -2936,7 +2936,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.25000000000e+002"
       }
     }, 
     {
@@ -2949,7 +2949,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.26000000000e+002"
       }
     }, 
     {
@@ -2962,7 +2962,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.27000000000e+002"
       }
     }, 
     {
@@ -2975,7 +2975,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.28000000000e+002"
       }
     }, 
     {
@@ -2988,7 +2988,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.29000000000e+002"
       }
     }, 
     {
@@ -3001,7 +3001,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.30000000000e+002"
       }
     }, 
     {
@@ -3014,7 +3014,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.31000000000e+002"
       }
     }, 
     {
@@ -3027,7 +3027,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.32000000000e+002"
       }
     }, 
     {
@@ -3040,7 +3040,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.33000000000e+002"
       }
     }, 
     {
@@ -3053,7 +3053,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.34000000000e+002"
       }
     }, 
     {
@@ -3066,7 +3066,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.35000000000e+002"
       }
     }, 
     {
@@ -3079,7 +3079,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.36000000000e+002"
       }
     }, 
     {
@@ -3092,7 +3092,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.37000000000e+002"
       }
     }, 
     {
@@ -3105,7 +3105,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.38000000000e+002"
       }
     }, 
     {
@@ -3118,7 +3118,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.39000000000e+002"
       }
     }, 
     {
@@ -3131,7 +3131,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.40000000000e+002"
       }
     }, 
     {
@@ -3144,7 +3144,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.41000000000e+002"
       }
     }, 
     {
@@ -3157,7 +3157,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.42000000000e+002"
       }
     }, 
     {
@@ -3170,7 +3170,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.43000000000e+002"
       }
     }, 
     {
@@ -3183,7 +3183,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.44000000000e+002"
       }
     }, 
     {
@@ -3196,7 +3196,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.45000000000e+002"
       }
     }, 
     {
@@ -3209,7 +3209,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.46000000000e+002"
       }
     }, 
     {
@@ -3222,7 +3222,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.47000000000e+002"
       }
     }, 
     {
@@ -3235,7 +3235,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.48000000000e+002"
       }
     }, 
     {
@@ -3248,7 +3248,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.49000000000e+002"
       }
     }, 
     {
@@ -3261,7 +3261,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.50000000000e+002"
       }
     }, 
     {
@@ -3274,7 +3274,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.51000000000e+002"
       }
     }, 
     {
@@ -3287,7 +3287,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.52000000000e+002"
       }
     }, 
     {
@@ -3300,7 +3300,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.53000000000e+002"
       }
     }, 
     {
@@ -3313,7 +3313,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.54000000000e+002"
       }
     }, 
     {
@@ -3326,7 +3326,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.55000000000e+002"
       }
     }, 
     {
@@ -3339,7 +3339,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.56000000000e+002"
       }
     }, 
     {
@@ -3352,7 +3352,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.57000000000e+002"
       }
     }, 
     {
@@ -3365,7 +3365,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.58000000000e+002"
       }
     }, 
     {
@@ -3378,7 +3378,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.59000000000e+002"
       }
     }, 
     {
@@ -3391,7 +3391,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.60000000000e+002"
       }
     }, 
     {
@@ -3404,7 +3404,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.61000000000e+002"
       }
     }, 
     {
@@ -3417,7 +3417,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.62000000000e+002"
       }
     }, 
     {
@@ -3430,7 +3430,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.63000000000e+002"
       }
     }, 
     {
@@ -3443,7 +3443,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.64000000000e+002"
       }
     }, 
     {
@@ -3456,7 +3456,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.65000000000e+002"
       }
     }, 
     {
@@ -3469,7 +3469,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.66000000000e+002"
       }
     }, 
     {
@@ -3482,7 +3482,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.67000000000e+002"
       }
     }, 
     {
@@ -3495,7 +3495,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.68000000000e+002"
       }
     }, 
     {
@@ -3508,7 +3508,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.69000000000e+002"
       }
     }, 
     {
@@ -3521,7 +3521,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.70000000000e+002"
       }
     }, 
     {
@@ -3534,7 +3534,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.71000000000e+002"
       }
     }, 
     {
@@ -3547,7 +3547,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.72000000000e+002"
       }
     }, 
     {
@@ -3560,7 +3560,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.73000000000e+002"
       }
     }, 
     {
@@ -3573,7 +3573,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.74000000000e+002"
       }
     }, 
     {
@@ -3586,7 +3586,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.75000000000e+002"
       }
     }, 
     {
@@ -3599,7 +3599,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.76000000000e+002"
       }
     }, 
     {
@@ -3612,7 +3612,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.77000000000e+002"
       }
     }, 
     {
@@ -3625,7 +3625,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.78000000000e+002"
       }
     }, 
     {
@@ -3638,7 +3638,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.79000000000e+002"
       }
     }, 
     {
@@ -3651,7 +3651,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.80000000000e+002"
       }
     }, 
     {
@@ -3664,7 +3664,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.81000000000e+002"
       }
     }, 
     {
@@ -3677,7 +3677,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.82000000000e+002"
       }
     }, 
     {
@@ -3690,7 +3690,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.83000000000e+002"
       }
     }, 
     {
@@ -3703,7 +3703,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.84000000000e+002"
       }
     }, 
     {
@@ -3716,7 +3716,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.85000000000e+002"
       }
     }, 
     {
@@ -3729,7 +3729,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.86000000000e+002"
       }
     }, 
     {
@@ -3742,7 +3742,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.87000000000e+002"
       }
     }, 
     {
@@ -3755,7 +3755,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.88000000000e+002"
       }
     }, 
     {
@@ -3768,7 +3768,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.89000000000e+002"
       }
     }, 
     {
@@ -3781,7 +3781,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.90000000000e+002"
       }
     }, 
     {
@@ -3794,7 +3794,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.91000000000e+002"
       }
     }, 
     {
@@ -3807,7 +3807,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.92000000000e+002"
       }
     }, 
     {
@@ -3820,7 +3820,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.93000000000e+002"
       }
     }, 
     {
@@ -3833,7 +3833,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.94000000000e+002"
       }
     }, 
     {
@@ -3846,7 +3846,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.95000000000e+002"
       }
     }, 
     {
@@ -3859,7 +3859,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.96000000000e+002"
       }
     }, 
     {
@@ -3872,7 +3872,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.97000000000e+002"
       }
     }, 
     {
@@ -3885,7 +3885,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.98000000000e+002"
       }
     }, 
     {
@@ -3898,7 +3898,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "2.99000000000e+002"
       }
     }, 
     {
@@ -3911,7 +3911,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.00000000000e+002"
       }
     }, 
     {
@@ -3924,7 +3924,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.01000000000e+002"
       }
     }, 
     {
@@ -3937,7 +3937,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.02000000000e+002"
       }
     }, 
     {
@@ -3950,7 +3950,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.03000000000e+002"
       }
     }, 
     {
@@ -3963,7 +3963,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.04000000000e+002"
       }
     }, 
     {
@@ -3976,7 +3976,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.05000000000e+002"
       }
     }, 
     {
@@ -3989,7 +3989,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.06000000000e+002"
       }
     }, 
     {
@@ -4002,7 +4002,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.07000000000e+002"
       }
     }, 
     {
@@ -4015,7 +4015,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.08000000000e+002"
       }
     }, 
     {
@@ -4028,7 +4028,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.09000000000e+002"
       }
     }, 
     {
@@ -4041,7 +4041,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.10000000000e+002"
       }
     }, 
     {
@@ -4054,7 +4054,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.11000000000e+002"
       }
     }, 
     {
@@ -4067,7 +4067,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.12000000000e+002"
       }
     }, 
     {
@@ -4080,7 +4080,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.13000000000e+002"
       }
     }, 
     {
@@ -4093,7 +4093,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.14000000000e+002"
       }
     }, 
     {
@@ -4106,7 +4106,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.15000000000e+002"
       }
     }, 
     {
@@ -4119,7 +4119,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.16000000000e+002"
       }
     }, 
     {
@@ -4132,7 +4132,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.17000000000e+002"
       }
     }, 
     {
@@ -4145,7 +4145,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.18000000000e+002"
       }
     }, 
     {
@@ -4158,7 +4158,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.19000000000e+002"
       }
     }, 
     {
@@ -4171,7 +4171,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.20000000000e+002"
       }
     }, 
     {
@@ -4184,7 +4184,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.21000000000e+002"
       }
     }, 
     {
@@ -4197,7 +4197,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.22000000000e+002"
       }
     }, 
     {
@@ -4210,7 +4210,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.23000000000e+002"
       }
     }, 
     {
@@ -4223,7 +4223,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.24000000000e+002"
       }
     }, 
     {
@@ -4236,7 +4236,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.25000000000e+002"
       }
     }, 
     {
@@ -4249,7 +4249,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.26000000000e+002"
       }
     }, 
     {
@@ -4262,7 +4262,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.27000000000e+002"
       }
     }, 
     {
@@ -4275,7 +4275,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.28000000000e+002"
       }
     }, 
     {
@@ -4288,7 +4288,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.29000000000e+002"
       }
     }, 
     {
@@ -4301,7 +4301,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.30000000000e+002"
       }
     }, 
     {
@@ -4314,7 +4314,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.31000000000e+002"
       }
     }, 
     {
@@ -4327,7 +4327,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.32000000000e+002"
       }
     }, 
     {
@@ -4340,7 +4340,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.33000000000e+002"
       }
     }, 
     {
@@ -4353,7 +4353,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.34000000000e+002"
       }
     }, 
     {
@@ -4366,7 +4366,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.35000000000e+002"
       }
     }, 
     {
@@ -4379,7 +4379,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.36000000000e+002"
       }
     }, 
     {
@@ -4392,7 +4392,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.37000000000e+002"
       }
     }, 
     {
@@ -4405,7 +4405,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.38000000000e+002"
       }
     }, 
     {
@@ -4418,7 +4418,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.39000000000e+002"
       }
     }, 
     {
@@ -4431,7 +4431,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.40000000000e+002"
       }
     }, 
     {
@@ -4444,7 +4444,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.41000000000e+002"
       }
     }, 
     {
@@ -4457,7 +4457,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.42000000000e+002"
       }
     }, 
     {
@@ -4470,7 +4470,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.43000000000e+002"
       }
     }, 
     {
@@ -4483,7 +4483,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.44000000000e+002"
       }
     }, 
     {
@@ -4496,7 +4496,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.45000000000e+002"
       }
     }, 
     {
@@ -4509,7 +4509,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.46000000000e+002"
       }
     }, 
     {
@@ -4522,7 +4522,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.47000000000e+002"
       }
     }, 
     {
@@ -4535,7 +4535,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.48000000000e+002"
       }
     }, 
     {
@@ -4548,7 +4548,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.49000000000e+002"
       }
     }, 
     {
@@ -4561,7 +4561,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.50000000000e+002"
       }
     }, 
     {
@@ -4574,7 +4574,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.51000000000e+002"
       }
     }, 
     {
@@ -4587,7 +4587,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.52000000000e+002"
       }
     }, 
     {
@@ -4600,7 +4600,7 @@
       }, 
       "type": "Feature", 
       "properties": {
-        "TYPE": "1"
+        "LATITIUDE": "3.53000000000e+002"
       }
     }
   ]

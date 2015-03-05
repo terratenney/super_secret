@@ -12,15 +12,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Greens Organic and Natural Market", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Greens Organic and Natural Market"
       }
     }, 
     {
@@ -34,15 +27,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Welk's", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Welk's"
       }
     }, 
     {
@@ -56,15 +42,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Safeway", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Safeway"
       }
     }, 
     {
@@ -78,15 +57,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "PriceSmart foods", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "PriceSmart foods"
       }
     }, 
     {
@@ -100,15 +72,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Donald's Market", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Donald's Market"
       }
     }, 
     {
@@ -122,15 +87,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Urban Fare", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Urban Fare"
       }
     }, 
     {
@@ -144,15 +102,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Kin's Farm Market", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Kin's Farm Market"
       }
     }, 
     {
@@ -166,15 +117,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Marketplace IGA", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Marketplace IGA"
       }
     }, 
     {
@@ -188,15 +132,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Nesters Market", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Nesters Market"
       }
     }, 
     {
@@ -210,15 +147,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "H-Mart", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "H-Mart"
       }
     }, 
     {
@@ -232,15 +162,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Marketplace IGA", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Marketplace IGA"
       }
     }, 
     {
@@ -254,15 +177,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Punjab Food Center Ltd", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Punjab Food Center Ltd"
       }
     }, 
     {
@@ -276,15 +192,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Nesters Market", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Nesters Market"
       }
     }, 
     {
@@ -298,15 +207,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Good Health Nutrition", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Good Health Nutrition"
       }
     }, 
     {
@@ -320,15 +222,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Fashion Fruit Kids Clothing", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Fashion Fruit Kids Clothing"
       }
     }, 
     {
@@ -342,15 +237,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Kitsilano Natural Foods", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Kitsilano Natural Foods"
       }
     }, 
     {
@@ -364,15 +252,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Edible Arrangements", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Edible Arrangements"
       }
     }, 
     {
@@ -386,15 +267,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Edible Arrangements", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Edible Arrangements"
       }
     }, 
     {
@@ -408,15 +282,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Kin's Farm Market", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Kin's Farm Market"
       }
     }, 
     {
@@ -430,15 +297,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "PriceSmart foods", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "PriceSmart foods"
       }
     }, 
     {
@@ -452,15 +312,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "T & T Supermarket", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "T & T Supermarket"
       }
     }, 
     {
@@ -474,15 +327,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Nesters Market", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Nesters Market"
       }
     }, 
     {
@@ -496,15 +342,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Buy Low Foods", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Buy Low Foods"
       }
     }, 
     {
@@ -518,15 +357,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Walmart New Westminster Supercentre", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Walmart New Westminster Supercentre"
       }
     }, 
     {
@@ -540,15 +372,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Cooper's-Foods", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Cooper's-Foods"
       }
     }, 
     {
@@ -562,15 +387,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "T & T Supermarket", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "T & T Supermarket"
       }
     }, 
     {
@@ -584,15 +402,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Real Canadian Superstore", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Real Canadian Superstore"
       }
     }, 
     {
@@ -606,15 +417,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Walmart - Vancouver", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Walmart - Vancouver"
       }
     }, 
     {
@@ -628,15 +432,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Save-On-Foods", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Save-On-Foods"
       }
     }, 
     {
@@ -650,15 +447,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Whole Foods Market", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Whole Foods Market"
       }
     }, 
     {
@@ -672,15 +462,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "T & T", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "T & T"
       }
     }, 
     {
@@ -694,15 +477,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Marketplace IGA", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Marketplace IGA"
       }
     }, 
     {
@@ -716,15 +492,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Costco Wholesale", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Costco Wholesale"
       }
     }, 
     {
@@ -738,15 +507,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Dollar Max", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Dollar Max"
       }
     }, 
     {
@@ -760,15 +522,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Westwood Organic Produce", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Westwood Organic Produce"
       }
     }, 
     {
@@ -782,15 +537,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Magee Grocery", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Magee Grocery"
       }
     }, 
     {
@@ -804,15 +552,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "M&M Meat Shops", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "M&M Meat Shops"
       }
     }, 
     {
@@ -826,15 +567,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Safeway", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Safeway"
       }
     }, 
     {
@@ -848,15 +582,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Greens Organic and Natural Market", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Greens Organic and Natural Market"
       }
     }, 
     {
@@ -870,15 +597,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Marketplace IGA", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Marketplace IGA"
       }
     }, 
     {
@@ -892,15 +612,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Stong's Markets", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Stong's Markets"
       }
     }, 
     {
@@ -914,15 +627,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "M&M Meat Shops", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "M&M Meat Shops"
       }
     }, 
     {
@@ -936,15 +642,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Killarney Centre", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Killarney Centre"
       }
     }, 
     {
@@ -958,15 +657,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Marketplace IGA", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Marketplace IGA"
       }
     }, 
     {
@@ -980,15 +672,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "T & T Supermarket", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "T & T Supermarket"
       }
     }, 
     {
@@ -1002,15 +687,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Buy-Low Foods Ltd", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Buy-Low Foods Ltd"
       }
     }, 
     {
@@ -1024,15 +702,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "Save-On-Foods", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "Save-On-Foods"
       }
     }, 
     {
@@ -1046,15 +717,8 @@
       "type": "Feature", 
       "properties": {
         "OID_": 0, 
-        "Name": "PriceSmart foods", 
-        "LabelID": 0, 
-        "SymbolID": 0, 
-        "Snippet": "                                                                                                                                                                                                                                                              ", 
-        "Base": "0.00000000000e+000", 
-        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
-        "HasLabel": -1, 
-        "AltMode": -1, 
-        "FolderPath": "grocerystores"
+        "FolderPath": "grocerystores", 
+        "Name": "PriceSmart foods"
       }
     }
   ]
