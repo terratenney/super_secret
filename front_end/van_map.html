@@ -89,7 +89,7 @@
 
 //initialize basemap to esri gray
 var map = L.map('map');
-gray.addTo(map);
+
 
 //adding layers and features
 L.esri.get('data.json', {}, function(error, response) {
@@ -120,7 +120,7 @@ layerControl._container.remove();
 document.getElementById('settings')
 	.appendChild(layerControl.onAdd(map,{collapsed:false}));
 
-
+gray.addTo(map);
 	function getColor(d) {
 		return d > 59350368 ? '#800026' : 
 		d == 59350358 ? '#BD0026' : 

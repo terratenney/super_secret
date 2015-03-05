@@ -401,11 +401,14 @@ def run():
     re1 = csv.DictReader(open('../data/401.csv','rb'),fieldnames=['Geo_Code', 'Prov_Name', 'CMA_CA_Name', 'CT_Name', 'GNR', 'Topic', 'Characteristic', 'Note', 'Total', 'Flag_Total', 'Male', 'Flag_Male', 'Female', 'Flag_Female'])
     
     ref_dict= get_age_cohorts(re1,ref_dict,True,l_table)
-    out_array = []
-    for k,v in ref_dict.items():
-            rec = {'id':k,'community':v}
-            out_array.append(rec)
-    return [{'com_profiles':out_array},shapes]
+    for k,v in ref_dict:
+        
+
+#    out_array = []
+#    for k,v in ref_dict.items():
+#            rec = {'id':k,'community':v}
+#            out_array.append(rec)
+#    return [{'com_profiles':out_array},shapes]
 
 
 cp,shps = run()
