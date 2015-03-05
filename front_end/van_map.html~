@@ -40,7 +40,19 @@
 
 	.info h4 {
 	    margin: 0 0 5px;
-	    color: #777;
+	    color: #777;}
+	.legend {
+	    line-height: 18px;
+	    color: #555;
+	}
+	.legend i {
+	    width: 18px;
+	    height: 18px;
+	    float: left;
+	    margin-right: 8px;
+	    opacity: 0.7;
+	}
+
 </style>
 </head>
 <body>
@@ -214,12 +226,33 @@ var map = L.map('map');
 //adding layers and features
 L.esri.get('data.json', {}, function(error, response) {
 	var features = response;
-	console.log(features);
+
 	geojson = L.geoJson(features, {
 			style: style,
 			onEachFeature: onEachFeature
 		})
 		.addTo(map);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*https://groups.google.com/forum/#!topic/leaflet-js/rKMZX3PKFuI*/
 var cities = L.layerGroup([geojson]);
@@ -249,6 +282,41 @@ document.getElementById('settings')
 	.appendChild(layerControl.onAdd(map,{collapsed:false}));
 
 gray.addTo(map);
+
+
+var legend = L.control();
+
+legend.onAdd = function (map) {
+var div = L.DomUtil.create('div', 'info legend'),
+        grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+        labels = [];
+
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+
+
+legend.addTo(map);
+legend._container.remove();
+document.getElementById('messages')
+	.appendChild(legend.onAdd(map));
+
+
+
+
+
+
+
+
+
 	function getColor(d) {
 		return d > 59350368 ? '#800026' : 
 		d == 59350358 ? '#BD0026' : 
@@ -258,7 +326,33 @@ gray.addTo(map);
 		d > 59350317 ? '#FEB24C' : 
 		d < 59350366 ? '#FED976' : '#FFEDA0';
 	}
-
+	function set_education(d) {
+		return d > 59350368 ? '#800026' : 
+		d == 59350358 ? '#BD0026' : 
+		d == 59350364 ? '#E31A1C' : 
+		d < 59350310 ? '#FC4E2A' : 
+		d == 59350321 ? '#FD8D3C' : 
+		d > 59350317 ? '#FEB24C' : 
+		d < 59350366 ? '#FED976' : '#FFEDA0';
+	}
+	function set_housing_cost(d) {
+		return d > 59350368 ? '#800026' : 
+		d == 59350358 ? '#BD0026' : 
+		d == 59350364 ? '#E31A1C' : 
+		d < 59350310 ? '#FC4E2A' : 
+		d == 59350321 ? '#FD8D3C' : 
+		d > 59350317 ? '#FEB24C' : 
+		d < 59350366 ? '#FED976' : '#FFEDA0';
+	}
+	function set_housing_cost(d) {
+		return d > 59350368 ? '#800026' : 
+		d == 59350358 ? '#BD0026' : 
+		d == 59350364 ? '#E31A1C' : 
+		d < 59350310 ? '#FC4E2A' : 
+		d == 59350321 ? '#FD8D3C' : 
+		d > 59350317 ? '#FEB24C' : 
+		d < 59350366 ? '#FED976' : '#FFEDA0';
+	}
 	function style(feature) {
 		return {
 			fillColor: getColor(feature.properties.DAUID),
