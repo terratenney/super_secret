@@ -1,0 +1,464 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25500.625340503604, 
+          5922401.371774819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4240, 
+        "PERCENT": 100, 
+        "LAND_USE": "Police Station", 
+        "ORIG_FID": 1906
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38079.840117916356, 
+          5925384.775114807
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4240, 
+        "PERCENT": 100, 
+        "LAND_USE": "Police Station", 
+        "ORIG_FID": 1907
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34502.93918744874, 
+          5928548.928305829
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4240, 
+        "PERCENT": 100, 
+        "LAND_USE": "Police Station", 
+        "ORIG_FID": 1908
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33416.49674577232, 
+          5931882.871320789
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4240, 
+        "PERCENT": 100, 
+        "LAND_USE": "Police Station", 
+        "ORIG_FID": 1909
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26059.934218971946, 
+          5934043.284651548
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4240, 
+        "PERCENT": 100, 
+        "LAND_USE": "Police Station", 
+        "ORIG_FID": 1910
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34498.47533383889, 
+          5934656.347437155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4240, 
+        "PERCENT": 100, 
+        "LAND_USE": "Police Station", 
+        "ORIG_FID": 1911
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26993.26949191792, 
+          5937461.377376773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4240, 
+        "PERCENT": 100, 
+        "LAND_USE": "Police Station", 
+        "ORIG_FID": 1912
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34135.852045443506, 
+          5935101.771788415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4240, 
+        "PERCENT": 100, 
+        "LAND_USE": "Police Station", 
+        "ORIG_FID": 1913
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38602.74845247554, 
+          5941505.052845694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4240, 
+        "PERCENT": 100, 
+        "LAND_USE": "Police Station", 
+        "ORIG_FID": 1914
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36398.32536992191, 
+          5928355.7492726
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4220, 
+        "PERCENT": 78, 
+        "LAND_USE": "Museum or Archive", 
+        "ORIG_FID": 8629
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30229.96854954615, 
+          5934425.0603393
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4220, 
+        "PERCENT": 100, 
+        "LAND_USE": "Museum or Archive", 
+        "ORIG_FID": 8630
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33866.66431921469, 
+          5935040.218634773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4220, 
+        "PERCENT": 100, 
+        "LAND_USE": "Museum or Archive", 
+        "ORIG_FID": 8631
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34196.4611256631, 
+          5934570.527956826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4220, 
+        "PERCENT": 100, 
+        "LAND_USE": "Museum or Archive", 
+        "ORIG_FID": 8632
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33121.141669016426, 
+          5935815.430234113
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4220, 
+        "PERCENT": 100, 
+        "LAND_USE": "Museum or Archive", 
+        "ORIG_FID": 8633
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33933.70032288838, 
+          5936204.171666006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4220, 
+        "PERCENT": 100, 
+        "LAND_USE": "Museum or Archive", 
+        "ORIG_FID": 8634
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33509.792250006394, 
+          5936560.878366022
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4220, 
+        "PERCENT": 100, 
+        "LAND_USE": "Museum or Archive", 
+        "ORIG_FID": 8635
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33899.22122484652, 
+          5934793.257112292
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4230, 
+        "PERCENT": 100, 
+        "LAND_USE": "Art Gallery", 
+        "ORIG_FID": 41665
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38051.6458357984, 
+          5924979.95620065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4210, 
+        "PERCENT": 100, 
+        "LAND_USE": "Library", 
+        "ORIG_FID": 48741
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27647.183808457077, 
+          5926205.693019341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4210, 
+        "PERCENT": 100, 
+        "LAND_USE": "Library", 
+        "ORIG_FID": 48742
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33287.0401594503, 
+          5931938.519709367
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4210, 
+        "PERCENT": 100, 
+        "LAND_USE": "Library", 
+        "ORIG_FID": 48743
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33357.46010851619, 
+          5931992.156800685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4210, 
+        "PERCENT": 100, 
+        "LAND_USE": "Library", 
+        "ORIG_FID": 48744
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27125.15228727858, 
+          5932375.283448439
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4210, 
+        "PERCENT": 51, 
+        "LAND_USE": "Library", 
+        "ORIG_FID": 48745
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36016.64838929096, 
+          5932463.431349555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4210, 
+        "PERCENT": 100, 
+        "LAND_USE": "Library", 
+        "ORIG_FID": 48746
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33825.787194692784, 
+          5934563.698987255
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4210, 
+        "PERCENT": 100, 
+        "LAND_USE": "Library", 
+        "ORIG_FID": 48747
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29571.831109358718, 
+          5936891.631645709
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4210, 
+        "PERCENT": 100, 
+        "LAND_USE": "Library", 
+        "ORIG_FID": 48748
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36764.55877487659, 
+          5937691.967024498
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4210, 
+        "PERCENT": 100, 
+        "LAND_USE": "Library", 
+        "ORIG_FID": 48749
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34000.73829810706, 
+          5937268.525471613
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "culcount": 0, 
+        "CODE": 4210, 
+        "PERCENT": 100, 
+        "LAND_USE": "Library", 
+        "ORIG_FID": 48750
+      }
+    }
+  ]
+}

@@ -1,0 +1,2708 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38060.83011007642, 
+          5924621.231375585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17840
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32199.65899102652, 
+          5924126.78813783
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17841
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32372.38520843215, 
+          5924718.33480071
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17842
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33592.190555753616, 
+          5925574.481043099
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17843
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34932.646324439236, 
+          5925934.117178439
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17844
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38404.80196913052, 
+          5926580.548947729
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17845
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          41836.83648406036, 
+          5927527.755713973
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17846
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40208.6129819143, 
+          5927697.662509338
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17847
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33617.63296076542, 
+          5928065.52016592
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17848
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33616.00115779281, 
+          5928422.66953824
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17849
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30414.913193235672, 
+          5928503.51160888
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17850
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32867.091642230094, 
+          5928445.305823541
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17851
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34760.09616903148, 
+          5928519.70103286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17852
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32927.0385745746, 
+          5928521.331947074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17853
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33303.18178810803, 
+          5929301.052224474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17854
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34578.75835982168, 
+          5929750.406950665
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17855
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          43404.069838827236, 
+          5930081.968493091
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 83, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17856
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36373.661275618164, 
+          5930191.712449089
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17857
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36921.35419372786, 
+          5930649.18580729
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17858
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32340.73314711583, 
+          5930590.524121149
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17859
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40084.93534545813, 
+          5931153.851383671
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17860
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33353.241442590515, 
+          5931048.623351835
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17861
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          42201.866214990085, 
+          5931543.998743487
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17862
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36998.87599703977, 
+          5931211.847521303
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17863
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28779.28336558356, 
+          5931734.7129101595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17864
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32395.009174512485, 
+          5931762.643332779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17865
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37003.464294877536, 
+          5931790.513257625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17866
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35172.17325156159, 
+          5931773.623687124
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17867
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28759.819691625176, 
+          5932567.911133254
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17868
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34059.98208051427, 
+          5932289.473574564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17869
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37374.28778194367, 
+          5932594.002839936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17870
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37601.339238052766, 
+          5932663.266611093
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17871
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26300.155547405775, 
+          5935416.019177464
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17872
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32298.354683125435, 
+          5935477.091519825
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17873
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32124.50510226299, 
+          5935530.908663235
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17874
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34286.80276726068, 
+          5935519.487514137
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17875
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33512.471219314124, 
+          5935936.962473816
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17876
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32103.637092794084, 
+          5935897.774076186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17877
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27073.698628076265, 
+          5936364.468802434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17878
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33583.778692273554, 
+          5936311.49987667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17879
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29883.147178756928, 
+          5937418.4051094465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17880
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35975.280654522576, 
+          5936564.623916827
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17881
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27837.207157446373, 
+          5938713.511400023
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17882
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37519.873584803485, 
+          5938709.016849519
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17883
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35312.35993654262, 
+          5940106.4499813225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17884
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28699.140718607316, 
+          5939883.631689352
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17885
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31352.75455690536, 
+          5940805.895089195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17886
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35296.55964927356, 
+          5940837.487490415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17887
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38894.22137570117, 
+          5941471.527343
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17888
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34128.556303420824, 
+          5941656.204471591
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17889
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33728.188747966175, 
+          5942809.746615468
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17890
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38579.09901109438, 
+          5928970.704562121
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17891
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32027.537525289816, 
+          5929157.061308669
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17892
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27199.510291094208, 
+          5932685.751976311
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17893
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28014.589013152265, 
+          5933311.642428741
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17894
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27125.93648703783, 
+          5933304.046891142
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17895
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38597.30999019233, 
+          5934054.374840683
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17896
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38622.16435276555, 
+          5934373.630971186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17897
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24502.81444543194, 
+          5934392.081708583
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17898
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30729.525563660914, 
+          5934528.033840293
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17899
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27310.16365415188, 
+          5937557.019447295
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17900
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40127.27293241842, 
+          5937646.800054852
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17901
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27066.11817881381, 
+          5937686.320849
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17902
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          45167.03968697403, 
+          5938301.086798335
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 52, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17903
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36401.70141263242, 
+          5938949.623726602
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17904
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30410.73303611671, 
+          5939272.591612394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17905
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37975.02776939547, 
+          5939606.184528728
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17906
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27944.01216823343, 
+          5933303.650313847
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17907
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36541.510307347016, 
+          5934370.323223111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17908
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32563.031635313742, 
+          5934057.636003422
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17909
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26479.869092864286, 
+          5934376.23225981
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17910
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31528.827623034224, 
+          5939251.194554833
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17911
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36866.70783130368, 
+          5937682.439333187
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17912
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32027.219067908285, 
+          5929052.680765588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17913
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33683.88410719367, 
+          5937668.058176684
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17914
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35322.17646480685, 
+          5937672.737778064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17915
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34818.54231722788, 
+          5937606.183131292
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17916
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25833.337792147147, 
+          5937747.877914809
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17917
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29634.562396200934, 
+          5937624.925867351
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2046, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gasoline Station", 
+        "ORIG_FID": 17918
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32059.171813823854, 
+          5921352.283800153
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39299
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32214.98286235495, 
+          5921363.677210318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39300
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34645.80506737631, 
+          5921653.700429492
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39301
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34915.46417979183, 
+          5921540.464292384
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39302
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31937.355873462562, 
+          5923080.69901732
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39303
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34516.52774246558, 
+          5921655.635794467
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39304
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38650.94850813865, 
+          5923761.983331955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39305
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33776.50282426289, 
+          5923740.826236952
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39306
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28626.30307714134, 
+          5924578.760603511
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39307
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36482.314937128525, 
+          5924121.6728694085
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39308
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38431.27751744936, 
+          5924843.294362525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39309
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28801.631343364385, 
+          5924715.541447625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39310
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40334.53330895838, 
+          5925698.259189344
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39311
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33602.9912346907, 
+          5925753.824490417
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39312
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34199.331383718105, 
+          5926257.231206191
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 50, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39313
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34755.297106720995, 
+          5925991.421536392
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39314
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          41854.53915373698, 
+          5926298.265588185
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39315
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35313.4295516077, 
+          5926267.6575307995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39316
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36921.978419125386, 
+          5927830.166856693
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39317
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33544.37065633158, 
+          5926439.696552643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39318
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33482.03798016714, 
+          5928356.099350572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39319
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33776.90814422487, 
+          5928029.0583818415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39320
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35065.342447410425, 
+          5928617.4279832505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39321
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34060.12959108856, 
+          5928436.136448555
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39322
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36822.33070772643, 
+          5928992.255407015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39323
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          22249.766604769506, 
+          5929089.156454077
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39324
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27197.785344458112, 
+          5932775.8024558
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39325
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27201.925566172653, 
+          5932025.652740647
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39326
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24768.143981521236, 
+          5933912.381452447
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39327
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26490.498009864677, 
+          5934310.943468412
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39328
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38484.614542365605, 
+          5934351.95090562
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39329
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26992.849881154332, 
+          5934378.440243943
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39330
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24634.803194263346, 
+          5934786.730632997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39331
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34477.267922800784, 
+          5934957.543046074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39332
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34262.97311288483, 
+          5935461.553589092
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39333
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34303.69959842655, 
+          5935472.11504544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39334
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32508.06101777067, 
+          5936382.077607744
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39335
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31688.378953719555, 
+          5935527.727496406
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39336
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26577.8140473881, 
+          5936575.815072807
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39337
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27922.00976206603, 
+          5936487.445617461
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39338
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30423.82413708115, 
+          5937560.936028944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39339
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35017.165574287494, 
+          5937611.004583193
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39340
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37610.59672578308, 
+          5937624.324524334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39341
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36317.41120321577, 
+          5937678.840423967
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39342
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36261.7107339948, 
+          5937711.79401343
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39343
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33675.496027165456, 
+          5938665.176402731
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39344
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28421.97017191776, 
+          5938756.197497465
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39345
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29318.53314219909, 
+          5938932.51554774
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39346
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38587.66443310359, 
+          5939647.436280962
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39347
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35313.200910594576, 
+          5939292.355567574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39348
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38480.45172065263, 
+          5939844.731986862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39349
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38456.66459854192, 
+          5939740.504503118
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39350
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28694.766887485515, 
+          5940067.191413692
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39351
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33695.36752549736, 
+          5940071.726861105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39352
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33597.09410895512, 
+          5940382.020737073
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39353
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32629.562431744394, 
+          5940380.965514872
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39354
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30312.28023567558, 
+          5941026.959492078
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39355
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36842.111333873894, 
+          5940826.897843217
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39356
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36111.48926744652, 
+          5942753.651438593
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39357
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35179.94873406942, 
+          5943284.71087155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39358
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39662.177981621375, 
+          5943381.081478108
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39359
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33684.551285602785, 
+          5943745.963922188
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 90, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39360
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38788.08087122727, 
+          5944214.907323271
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39361
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34011.28134588518, 
+          5944076.749212793
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39362
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34143.8887149012, 
+          5929364.7145762155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39363
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34302.6807732939, 
+          5929730.01383461
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39364
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24765.48430135716, 
+          5930081.4087463645
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39365
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34036.17955826558, 
+          5930392.545471163
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39366
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38625.26934029218, 
+          5931085.3767527435
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39367
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37308.350210992685, 
+          5931862.807878378
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39368
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33288.621478403395, 
+          5931130.591352769
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39369
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40556.100812971046, 
+          5940575.197837988
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39370
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27667.53146437254, 
+          5940747.269307882
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39371
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27764.233133766942, 
+          5941610.353173582
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39372
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33700.27262872451, 
+          5942529.1961856065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39373
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30421.63120151367, 
+          5942724.812218394
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39374
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33299.75476065065, 
+          5929712.420416355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39375
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38716.30667686889, 
+          5940762.119407612
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39376
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38269.002449229265, 
+          5940760.482000604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39377
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30413.427267985702, 
+          5942552.445062575
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "gascount": 0, 
+        "CODE": 2048, 
+        "PERCENT": 100, 
+        "LAND_USE": "Gas Station and Car Wash", 
+        "ORIG_FID": 39378
+      }
+    }
+  ]
+}

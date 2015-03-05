@@ -1,0 +1,5360 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          43214.4940165301, 
+          5930189.920280984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7490, 
+        "PERCENT": 100, 
+        "LAND_USE": "Other Parks", 
+        "ORIG_FID": 9552
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          23572.160726415423, 
+          5927629.410161503
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7490, 
+        "PERCENT": 100, 
+        "LAND_USE": "Other Parks", 
+        "ORIG_FID": 9553
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33603.40433266298, 
+          5938065.2614802895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7490, 
+        "PERCENT": 100, 
+        "LAND_USE": "Other Parks", 
+        "ORIG_FID": 9554
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26339.298469134712, 
+          5922249.5561651625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12635
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28595.340917968846, 
+          5922373.020046179
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12636
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26816.647454435315, 
+          5925397.699747997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12637
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32290.878975200925, 
+          5925398.178252989
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12638
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38895.5233977306, 
+          5926059.818877099
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12639
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38427.20781396211, 
+          5926153.147387433
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12640
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33193.160541200064, 
+          5926833.786401297
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12641
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36017.7718003794, 
+          5926804.53521588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12642
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39889.08010767349, 
+          5926911.873822829
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12643
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38092.79184922816, 
+          5926895.7575730095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12644
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          21847.710616475124, 
+          5928499.253955215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12645
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28620.707749347534, 
+          5928754.357891982
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12646
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          21506.560138876666, 
+          5928708.626575423
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12647
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36464.56002282505, 
+          5930923.937869912
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12648
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31892.32895340267, 
+          5931039.869927073
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12649
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          21525.780271154556, 
+          5931706.960349407
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12650
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          23323.885678933468, 
+          5931643.9646449005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12651
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32261.42180994404, 
+          5931960.964966643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12652
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33357.56404632178, 
+          5931970.907766539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12653
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35280.44888303125, 
+          5933754.811374543
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12654
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35175.7805025154, 
+          5933766.382101983
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12655
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33464.47977333333, 
+          5934167.750346666
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12656
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33160.10724335709, 
+          5934192.8889598055
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12657
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36057.386797671636, 
+          5936786.578760891
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12658
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40255.75999565172, 
+          5936764.552358932
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12659
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34749.86893073429, 
+          5938599.994911038
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12660
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37750.50696940909, 
+          5938583.529376017
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12661
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31265.45289300356, 
+          5939377.391274358
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12662
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30611.51657545696, 
+          5939480.466062466
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12663
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34563.12193994359, 
+          5942585.4165312955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12664
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36055.852893512994, 
+          5942554.96250386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12665
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31427.580173001075, 
+          5943570.162628093
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12666
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32955.298664032984, 
+          5943482.956505997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12667
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35006.95701482594, 
+          5943794.287714627
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12668
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34289.58279085278, 
+          5943755.913833572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12669
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33433.799604387816, 
+          5944448.689156743
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12670
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29778.14637074047, 
+          5944319.940122766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12671
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34641.26610577084, 
+          5944677.070606796
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12672
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33981.54482000855, 
+          5944747.459415003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12673
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33143.97773435654, 
+          5945402.620982688
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12674
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36685.00978960438, 
+          5920719.642331048
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12675
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34965.202943988435, 
+          5919460.979311136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12676
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31557.003024393536, 
+          5921078.381300974
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12677
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32770.129043980174, 
+          5921527.656754201
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12678
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36014.47124853128, 
+          5921957.695174688
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12679
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25425.3562506215, 
+          5922050.741394322
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12680
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28026.23971313041, 
+          5922724.181365894
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12681
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39593.36672127967, 
+          5923314.938939866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12682
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27426.85813916125, 
+          5923398.983913294
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12683
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27739.14113136381, 
+          5923721.703662278
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12684
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27562.056605486665, 
+          5924069.521529535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12685
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39895.99098300163, 
+          5924101.003944101
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12686
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26854.825224822096, 
+          5924511.394764533
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12687
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40530.22354505403, 
+          5924487.708278105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12688
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26822.694123850102, 
+          5924706.585707723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12689
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40069.85213792295, 
+          5924906.63589647
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12690
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          41231.49776526037, 
+          5925167.040998036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12691
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33437.4086259775, 
+          5925403.313839955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12692
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30763.77032793208, 
+          5925936.143840454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12693
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26780.815069705004, 
+          5926175.228451309
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12694
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36719.814031757945, 
+          5926646.559350995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12695
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40844.21929637704, 
+          5926507.551881978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12696
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31554.792057901537, 
+          5926875.140885661
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12697
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          22070.373271261695, 
+          5927134.106267428
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12698
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39525.62742582417, 
+          5927388.087902267
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12699
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          21835.2117746625, 
+          5927735.694621031
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12700
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          23428.81864789227, 
+          5928055.213433296
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12701
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39361.043575837335, 
+          5928054.108328824
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12702
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33057.33629825719, 
+          5929244.627022032
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12703
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25052.592508321446, 
+          5929069.975291631
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12704
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39088.49933615381, 
+          5929756.55307492
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 99, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12705
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          21893.477301284267, 
+          5929942.506250655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12706
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          41977.26449506429, 
+          5930125.540123512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12707
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26270.917416112243, 
+          5930413.287583053
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12708
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27276.5333130793, 
+          5930714.18329787
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12709
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32284.13932425376, 
+          5930544.59344651
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12710
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37076.926874680255, 
+          5931345.830271552
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12711
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25205.721983856693, 
+          5931539.858164168
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12712
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33043.93036079433, 
+          5932230.134329687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12713
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37342.513407626684, 
+          5932341.888157748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12714
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33886.28998666666, 
+          5932654.99512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12715
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24010.85323489264, 
+          5932735.447122373
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12716
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          23489.91204510021, 
+          5933207.950752195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12717
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38127.60949885302, 
+          5933308.011736331
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12718
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          23610.453669416565, 
+          5933399.09459592
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12719
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26175.205463367616, 
+          5933719.736969802
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12720
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36655.06119458183, 
+          5934049.199120364
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12721
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33107.81746174758, 
+          5934406.94024139
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12722
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38175.19205123869, 
+          5934573.773140915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12723
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27471.629796386067, 
+          5934612.263285229
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12724
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31912.6563798718, 
+          5934697.708826244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12725
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28643.11467801058, 
+          5934871.365493398
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12726
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25889.238717956036, 
+          5934875.958206119
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12727
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38144.7674275412, 
+          5934997.8116572285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12728
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26504.532465123997, 
+          5935207.423511547
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12729
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39487.60041104946, 
+          5935514.454413648
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12730
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38491.90018459592, 
+          5935437.7070374545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12731
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29908.049536031238, 
+          5935544.651109262
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12732
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26253.39551941109, 
+          5935569.3081244035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12733
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29354.04516794637, 
+          5935897.065378891
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12734
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26499.362717379736, 
+          5936047.53549997
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12735
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30381.973418200276, 
+          5936297.563953747
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12736
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35790.205162834514, 
+          5936581.4102505585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12737
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29289.507405812376, 
+          5936710.775892173
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12738
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31989.198929409526, 
+          5936715.156681643
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12739
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35023.37612757787, 
+          5936870.136850155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12740
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31551.615224743342, 
+          5936966.082872315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12741
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25915.883604620532, 
+          5937138.296234058
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12742
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34916.774106666664, 
+          5937102.573986666
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12743
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34207.23829836451, 
+          5937715.44536661
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12744
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37483.495713234915, 
+          5937416.310911259
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12745
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37546.6755834931, 
+          5937904.14980369
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12746
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39149.9552095734, 
+          5938668.350979034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12747
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32282.17576633987, 
+          5939373.784657016
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12748
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32936.02204226523, 
+          5939691.793345325
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12749
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30111.496738279377, 
+          5939793.942393479
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12750
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34740.18309894551, 
+          5939870.872755876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12751
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30632.081461863367, 
+          5939898.241774165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12752
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40910.3666087407, 
+          5940311.501295099
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12753
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29398.45369988262, 
+          5940390.189009568
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12754
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31054.28434816566, 
+          5940562.981479302
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12755
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37865.97595153836, 
+          5940579.980739603
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12756
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          41083.5654208558, 
+          5941400.305626881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12757
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37629.63989527567, 
+          5941139.122142156
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12758
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35976.302295540605, 
+          5941514.989483354
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12759
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          41378.95937073911, 
+          5942080.180668593
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12760
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37801.63907935185, 
+          5942987.5566539075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12761
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32244.477083390455, 
+          5943006.822276369
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12762
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34996.30364874485, 
+          5943113.855718778
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12763
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39242.112138358185, 
+          5943186.269961438
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12764
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38220.74946454887, 
+          5943356.503840764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12765
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35632.59105483289, 
+          5920909.272327611
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12766
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25416.06266691725, 
+          5921783.311241696
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12767
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31566.513181197755, 
+          5929051.277610699
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12768
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28169.114224055902, 
+          5929003.317268161
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12769
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26171.493533154375, 
+          5929635.937619719
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12770
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          23702.866664227924, 
+          5929610.1335985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12771
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32789.398915410806, 
+          5929745.938209346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12772
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31146.41702220833, 
+          5930869.272162311
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12773
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28223.901759313696, 
+          5930832.102549436
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12774
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30257.939567604844, 
+          5936537.4683182575
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12775
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33295.10706210169, 
+          5937173.842783132
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12776
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30211.153590939273, 
+          5937247.086989395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12777
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34978.47062919875, 
+          5937790.022145729
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12778
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40422.119539508836, 
+          5939047.31448954
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12779
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39109.80220422884, 
+          5939450.913576689
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12780
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35912.524609109045, 
+          5939560.030263189
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12781
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31274.82939165432, 
+          5939732.787470615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12782
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39061.13362746648, 
+          5940312.2754356805
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12783
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40286.219466899456, 
+          5940305.929377776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12784
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33095.85414754221, 
+          5940425.628025582
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12785
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35871.008172763744, 
+          5940471.794729893
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12786
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39075.317733538046, 
+          5923988.661167119
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12787
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40897.76240707364, 
+          5925197.932966738
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12788
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32906.0052385293, 
+          5925787.565112665
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12789
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31286.931786130608, 
+          5925616.781818342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12790
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39297.523488841136, 
+          5926400.001225026
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12791
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          23965.320614510896, 
+          5927003.347550286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12792
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36127.81983341223, 
+          5927206.959183932
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12793
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33021.93998256645, 
+          5929967.466450921
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12794
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35830.42378384732, 
+          5931314.664809574
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12795
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30771.962674994433, 
+          5932568.998348937
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12796
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36392.97590351458, 
+          5933303.708266346
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12797
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24776.592137930442, 
+          5933258.794488348
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12798
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36365.47571583802, 
+          5934566.025274269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12799
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34184.44381703471, 
+          5934476.602909307
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12800
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36320.741589251236, 
+          5934628.038564735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12801
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33809.378207120375, 
+          5934686.0338301845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12802
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27744.398511229163, 
+          5935013.664531527
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12803
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26665.00157074256, 
+          5935881.072519297
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12804
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27782.970729343917, 
+          5935706.060030477
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12805
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38812.82872516055, 
+          5936088.439211191
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12806
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27298.375334533812, 
+          5936110.555180488
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12807
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37389.29779712073, 
+          5940196.347599886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12808
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37540.756164186336, 
+          5940659.802370543
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12809
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36628.78313317028, 
+          5940640.394322851
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12810
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37645.455954115125, 
+          5942026.939218596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12811
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38649.269673028655, 
+          5942423.910049199
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12812
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40687.030840365886, 
+          5942302.462861776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12813
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37494.799738946065, 
+          5942766.661174625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12814
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28052.961858924802, 
+          5923093.874851953
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12815
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37914.48482295403, 
+          5923490.184390596
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12816
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37926.3651664511, 
+          5924185.767889715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12817
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37048.58680545974, 
+          5924231.228501705
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12818
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37818.51276389544, 
+          5924218.038397424
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12819
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27528.77348217017, 
+          5924413.2190248845
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12820
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26711.468508841434, 
+          5924962.792011486
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12821
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          39743.871523075206, 
+          5925084.134837528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12822
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32811.87307562861, 
+          5925089.4421570385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12823
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29319.963861741588, 
+          5925124.129008317
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12824
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31558.03781734979, 
+          5925146.328310084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12825
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38589.74604083995, 
+          5925107.679647823
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12826
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38829.50850435991, 
+          5925479.399572
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12827
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          23526.174449755552, 
+          5927470.1247842945
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12828
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36644.51490183494, 
+          5927478.920604276
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12829
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36432.31733839594, 
+          5927553.266468977
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12830
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27904.648149585217, 
+          5928064.501050511
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12831
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28642.034444703164, 
+          5928156.901421359
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12832
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30233.11147641712, 
+          5928224.145181571
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12833
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32564.915031860095, 
+          5928155.425820917
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12834
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          21776.031592150903, 
+          5930303.399695691
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12835
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          21968.278082838548, 
+          5930112.341063753
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12836
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26113.59461646352, 
+          5931430.264721027
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12837
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27239.383153920593, 
+          5931567.88026128
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12838
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31166.41879705261, 
+          5931461.891420532
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12839
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33481.51184639325, 
+          5932323.831273921
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12840
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34469.563504818114, 
+          5932385.97187984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12841
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26605.876818017427, 
+          5932811.303919263
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12842
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28509.085461433326, 
+          5932656.419048258
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12843
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26724.034965817944, 
+          5932610.11345203
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12844
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30848.62110332078, 
+          5933031.043965886
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12845
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35496.98404447167, 
+          5933410.731066773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12846
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25689.480680908455, 
+          5933945.90656453
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12847
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28131.526078938903, 
+          5933900.197661467
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12848
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36404.36870198852, 
+          5934181.018335463
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12849
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38194.7564658908, 
+          5936111.093290324
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12850
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34194.10068441923, 
+          5936089.539054438
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12851
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38081.934662904, 
+          5936196.096854163
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12852
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32447.355552498477, 
+          5936106.40889143
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12853
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37856.305141053665, 
+          5941482.605981728
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12854
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40333.8077277723, 
+          5941427.4111905005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12855
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31387.242437583962, 
+          5923384.903015583
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12856
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29334.517763908807, 
+          5923495.2688164655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12857
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32747.16676298035, 
+          5923327.7500041
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12858
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36108.33193534205, 
+          5924788.053319078
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12859
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38124.67102942916, 
+          5926316.380325604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12860
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38143.94427533303, 
+          5925588.476416749
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12861
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35913.80110686122, 
+          5925600.956197521
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12862
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37007.15113802913, 
+          5925556.122294962
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12863
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34509.62613574602, 
+          5925371.513853192
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12864
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30466.997505010062, 
+          5926954.438216639
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12865
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27287.121741524024, 
+          5926844.895728713
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12866
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28566.515755634515, 
+          5931631.729613694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12867
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28244.5180913055, 
+          5932397.449818229
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12868
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33766.96542699641, 
+          5933378.698580455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12869
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32427.221647986076, 
+          5933506.148910477
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12870
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33372.23918193624, 
+          5933313.8609260265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12871
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          26813.12003799415, 
+          5933379.989670943
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12872
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28570.612937818943, 
+          5933431.82137578
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12873
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27569.035281459906, 
+          5933520.067986076
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12874
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33638.826741036115, 
+          5933847.310497822
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12875
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27009.54658323206, 
+          5933849.533104663
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12876
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29371.964594794466, 
+          5934992.780614655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12877
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29460.67468548285, 
+          5942264.1108965585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12878
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31270.28211940108, 
+          5942189.354827549
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12879
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37532.392341944076, 
+          5943353.220190127
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12880
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36369.095008897566, 
+          5943337.756561867
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12881
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35894.560620883625, 
+          5923781.939124071
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12882
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36036.733087185625, 
+          5923704.9775740905
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12883
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30391.191221318055, 
+          5923790.975255837
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12884
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30749.882716561646, 
+          5927373.250170014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12885
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28141.436046600535, 
+          5927436.184960584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12886
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27081.252725417304, 
+          5930026.958594278
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12887
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31957.260325498075, 
+          5930083.59706677
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12888
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34406.10300155097, 
+          5931325.373041344
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12889
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32479.50916972134, 
+          5931345.061630741
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12890
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27576.2801220977, 
+          5932124.897064524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12891
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33122.40963032431, 
+          5935937.894208888
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12892
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32351.63646561932, 
+          5940180.863738437
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12893
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34969.17605333978, 
+          5940147.939230988
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12894
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30580.715005651993, 
+          5940243.824143609
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12895
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32754.7752021403, 
+          5940205.842798535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12896
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33146.98984335478, 
+          5942827.1018182095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12897
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32408.377093395327, 
+          5924219.573051711
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12898
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28336.64463673854, 
+          5924082.50137569
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12899
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29247.554286042843, 
+          5923958.956129874
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12900
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28374.327054591875, 
+          5924362.337478089
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12901
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29776.333950858316, 
+          5924153.157637309
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12902
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36364.41407343444, 
+          5926453.781041533
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12903
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24481.920477178825, 
+          5928548.323697039
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12904
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24578.043559388865, 
+          5928509.386262428
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12905
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30030.45402628636, 
+          5932844.446820358
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12906
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27338.157835249494, 
+          5932981.55197767
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12907
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35852.46756124954, 
+          5934581.24364588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12908
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29068.382758737964, 
+          5938132.187172493
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12909
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40358.78061735542, 
+          5938083.317158023
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12910
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29948.04958540984, 
+          5938175.747962056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12911
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30677.886376252598, 
+          5938073.853434791
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12912
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37966.06278733686, 
+          5938221.963279776
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12913
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32880.423252135675, 
+          5938098.638592723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12914
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29919.16942735273, 
+          5938100.671791893
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12915
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          38243.185753116064, 
+          5938152.866723421
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12916
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34253.43598094135, 
+          5934329.65382231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12917
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34214.03660815807, 
+          5934413.873944043
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12918
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35577.928570494376, 
+          5942222.985556689
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12919
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          36352.66286327283, 
+          5942144.525827474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12920
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34319.20173837875, 
+          5942007.626147532
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12921
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34755.6725095625, 
+          5941915.981630885
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12922
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30008.281724774908, 
+          5931502.454549348
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12923
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          29278.274135988187, 
+          5931316.670194452
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12924
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28178.877466222686, 
+          5942061.797887506
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12925
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28607.033214913128, 
+          5942153.783324553
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12926
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30065.53125165735, 
+          5942114.893154401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12927
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28594.82423702158, 
+          5941694.044602138
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7430, 
+        "PERCENT": 100, 
+        "LAND_USE": "Neighbourhood Park", 
+        "ORIG_FID": 12928
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27938.617178386652, 
+          5929917.746314299
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7450, 
+        "PERCENT": 100, 
+        "LAND_USE": "City Park", 
+        "ORIG_FID": 18404
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          31826.26674421266, 
+          5927672.579813177
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7450, 
+        "PERCENT": 100, 
+        "LAND_USE": "City Park", 
+        "ORIG_FID": 18405
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          40741.80378273871, 
+          5936170.131472571
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7450, 
+        "PERCENT": 100, 
+        "LAND_USE": "City Park", 
+        "ORIG_FID": 18406
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33992.0748203789, 
+          5933072.022629313
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7450, 
+        "PERCENT": 100, 
+        "LAND_USE": "City Park", 
+        "ORIG_FID": 18407
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          28760.742414633427, 
+          5924458.049462566
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7440, 
+        "PERCENT": 100, 
+        "LAND_USE": "Community Park", 
+        "ORIG_FID": 39294
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          30928.10840016953, 
+          5921040.4605766
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7440, 
+        "PERCENT": 100, 
+        "LAND_USE": "Community Park", 
+        "ORIG_FID": 39295
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33234.1488453566, 
+          5932647.304693105
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7440, 
+        "PERCENT": 100, 
+        "LAND_USE": "Community Park", 
+        "ORIG_FID": 39296
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32648.47221451205, 
+          5925025.6409180295
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7440, 
+        "PERCENT": 100, 
+        "LAND_USE": "Community Park", 
+        "ORIG_FID": 39297
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          24646.55219909261, 
+          5933045.787873993
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7440, 
+        "PERCENT": 100, 
+        "LAND_USE": "Community Park", 
+        "ORIG_FID": 39298
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          25980.73341851775, 
+          5921953.043071812
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7420, 
+        "PERCENT": 100, 
+        "LAND_USE": "Parkette or Ornamental Park", 
+        "ORIG_FID": 42143
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32624.430535574138, 
+          5933952.813342528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7420, 
+        "PERCENT": 100, 
+        "LAND_USE": "Parkette or Ornamental Park", 
+        "ORIG_FID": 42144
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          32112.349505301798, 
+          5935060.221939788
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7420, 
+        "PERCENT": 100, 
+        "LAND_USE": "Parkette or Ornamental Park", 
+        "ORIG_FID": 42145
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33961.42862447798, 
+          5934446.654071622
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7420, 
+        "PERCENT": 100, 
+        "LAND_USE": "Parkette or Ornamental Park", 
+        "ORIG_FID": 42146
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33107.70142069845, 
+          5935740.27583539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7420, 
+        "PERCENT": 100, 
+        "LAND_USE": "Parkette or Ornamental Park", 
+        "ORIG_FID": 42147
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          35155.03698112322, 
+          5920611.512029311
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7410, 
+        "PERCENT": 100, 
+        "LAND_USE": "Tot Lot, Play Lot, and Playground", 
+        "ORIG_FID": 48737
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          27351.994053632454, 
+          5935147.789209561
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7410, 
+        "PERCENT": 100, 
+        "LAND_USE": "Tot Lot, Play Lot, and Playground", 
+        "ORIG_FID": 48738
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34523.801024006774, 
+          5938389.578853576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7410, 
+        "PERCENT": 100, 
+        "LAND_USE": "Tot Lot, Play Lot, and Playground", 
+        "ORIG_FID": 48739
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34912.44792704176, 
+          5935371.030731633
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "parkcount": 0, 
+        "CODE": 7410, 
+        "PERCENT": 100, 
+        "LAND_USE": "Tot Lot, Play Lot, and Playground", 
+        "ORIG_FID": 48740
+      }
+    }
+  ]
+}

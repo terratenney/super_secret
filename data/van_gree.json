@@ -1,0 +1,3541 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          498014.2075525456, 
+          5453543.470190642
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Aberdeen Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3525 Foster Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          498144.8883015921, 
+          5458163.736492046
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=65", 
+        "PARK_NAME": "Adanac Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1025 Boundary Road"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489661.35546357004, 
+          5459192.7081798
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=199", 
+        "PARK_NAME": "Alexandra Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1755 Beach Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494607.87999441224, 
+          5457362.258596523
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=49", 
+        "PARK_NAME": "Alice Townley Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1775 Woodland Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          486494.0931861203, 
+          5456530.244603965
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=106", 
+        "PARK_NAME": "Almond Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3600 W 12th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492478.57958538405, 
+          5458411.250191907
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=10", 
+        "PARK_NAME": "Andy Livingstone Park", 
+        "parkcount": 0, 
+        "ADDRESS": "89 Expo Boulevard"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489543.32592731394, 
+          5455673.910500708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=169", 
+        "PARK_NAME": "Angus Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3600 Angus Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488734.7204686701, 
+          5456604.01559477
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Arbutus Greenway Park", 
+        "parkcount": 0, 
+        "ADDRESS": "W 11th Av Between Vine St And Arbutus St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488706.488267555, 
+          5451524.386904308
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=90", 
+        "PARK_NAME": "Arbutus Park", 
+        "parkcount": 0, 
+        "ADDRESS": "7601 Arbutus St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488720.2836215184, 
+          5455338.983329608
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=1", 
+        "PARK_NAME": "Arbutus Village Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4202 Valley Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491253.909652277, 
+          5459216.998027529
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Art Phillips Park", 
+        "parkcount": 0, 
+        "ADDRESS": "625 Burrard St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491296.28209993563, 
+          5450837.712855868
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=122", 
+        "PARK_NAME": "Ash Park", 
+        "parkcount": 0, 
+        "ADDRESS": "8288 Ash St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487207.81106288143, 
+          5454706.753303003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=34", 
+        "PARK_NAME": "Balaclava Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4594 Balaclava St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490395.32328334847, 
+          5459392.939888314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=0", 
+        "PARK_NAME": "Barclay Heritage Square", 
+        "parkcount": 0, 
+        "ADDRESS": "1433 Barclay St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          498189.47769811697, 
+          5459885.684047929
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=66", 
+        "PARK_NAME": "Bates Park", 
+        "parkcount": 0, 
+        "ADDRESS": "669 Fellowes St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496305.48117755505, 
+          5455860.115870095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=148", 
+        "PARK_NAME": "Beaconsfield Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3215 Slocan St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495826.7952465185, 
+          5451354.216315245
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=191", 
+        "PARK_NAME": "Bobolink Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2510 Hoylake Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491012.7042194794, 
+          5454982.724877864
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=174", 
+        "PARK_NAME": "Braemar Park", 
+        "parkcount": 0, 
+        "ADDRESS": "895 W 27th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495170.8145487675, 
+          5454944.7113781
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=79", 
+        "PARK_NAME": "Brewers Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4175 Victoria Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496328.0935169208, 
+          5459785.114955136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=67", 
+        "PARK_NAME": "Burrard View Park", 
+        "parkcount": 0, 
+        "ADDRESS": "650 North Penticton St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496717.86270386854, 
+          5459265.1023020195
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=68", 
+        "PARK_NAME": "Callister Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2875 Oxford St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491427.2078021197, 
+          5452061.881778743
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=142", 
+        "PARK_NAME": "Cambie Park", 
+        "parkcount": 0, 
+        "ADDRESS": "500 W 54th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495523.5139426179, 
+          5459274.731545675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=50", 
+        "PARK_NAME": "Cambridge Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2099 Wall St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          485378.9806467786, 
+          5456064.54993454
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Camosun", 
+        "parkcount": 0, 
+        "ADDRESS": "4102 W 16th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497492.81107451976, 
+          5451720.350739
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=99", 
+        "PARK_NAME": "Captain Cook Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3398 E 54th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490697.4738657436, 
+          5459902.552249687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Cardero Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1601 Bayshore Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497878.22598177515, 
+          5454589.863915262
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=149", 
+        "PARK_NAME": "Cariboo Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3450 E 29th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497785.02622951195, 
+          5454356.455999014
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=150", 
+        "PARK_NAME": "Carleton Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3450 Price St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487521.6401921892, 
+          5455993.217150887
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=2", 
+        "PARK_NAME": "Carnarvon Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2995 W 19th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493389.1217854894, 
+          5457066.8598012505
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=238", 
+        "PARK_NAME": "Carolina Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2100 Carolina St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492901.7480552671, 
+          5453874.340043899
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=162", 
+        "PARK_NAME": "Cartier Park", 
+        "parkcount": 0, 
+        "ADDRESS": "390 E 36th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491731.6154776702, 
+          5458865.180468382
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=12", 
+        "PARK_NAME": "Cathedral Square", 
+        "parkcount": 0, 
+        "ADDRESS": "566 Richards St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494426.1279050964, 
+          5456452.192021865
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=80", 
+        "PARK_NAME": "Cedar Cottage Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2650 Clark Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          486012.1622056906, 
+          5455148.83707982
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=37", 
+        "PARK_NAME": "Chaldecott Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4175 Wallace St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497621.51440903445, 
+          5451523.049341998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=100", 
+        "PARK_NAME": "Champlain Heights Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3351 Maquinna Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497897.7082018361, 
+          5457865.050745001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=69", 
+        "PARK_NAME": "Charles Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3400 Charles St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490986.8761823638, 
+          5457124.744894627
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=43", 
+        "PARK_NAME": "Charleson Park", 
+        "parkcount": 0, 
+        "ADDRESS": "999 Charleson"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493973.7996986052, 
+          5456907.992589126
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=133", 
+        "PARK_NAME": "China Creek North Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1001 E 7th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494254.04328261415, 
+          5456555.393565202
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=134", 
+        "PARK_NAME": "China Creek South Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1255 E 10th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490639.0305081296, 
+          5456983.472038429
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=0", 
+        "PARK_NAME": "Choklit Park", 
+        "parkcount": 0, 
+        "ADDRESS": "W 7th Av And Spruce St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494758.6375666676, 
+          5456035.0571069205
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=81", 
+        "PARK_NAME": "Clark Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1500 E 14th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496341.32364127756, 
+          5457515.122805646
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=70", 
+        "PARK_NAME": "Clinton Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2690 Grant St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490901.6520582738, 
+          5459698.602872019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=13", 
+        "PARK_NAME": "Coal Harbour Park", 
+        "parkcount": 0, 
+        "ADDRESS": "500 Broughton St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497327.70368698984, 
+          5453809.141591898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=151", 
+        "PARK_NAME": "Collingwood Park", 
+        "parkcount": 0, 
+        "ADDRESS": "5275 Mckinnon St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491846.9361261884, 
+          5453191.087469217
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=143", 
+        "PARK_NAME": "Columbia Park", 
+        "parkcount": 0, 
+        "ADDRESS": "5908 Alberta St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488378.1148318496, 
+          5456586.457378656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=108", 
+        "PARK_NAME": "Connaught Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2390 W 10th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491774.70444445463, 
+          5457865.547474182
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Coopers' Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1020 Marinaside Crescent"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492637.4883845332, 
+          5459106.019149434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Crab Park at Portside", 
+        "parkcount": 0, 
+        "ADDRESS": "101 E Waterfront Road"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492520.0857276749, 
+          5457911.646973769
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Creekside Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1455 Quebec St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497310.6917111642, 
+          5459510.1883618375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=246", 
+        "PARK_NAME": "Creekway Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2957 Bridgeway Street"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490967.266843099, 
+          5457748.127394683
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=16", 
+        "PARK_NAME": "David Lam Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1300 Pacific Boulevard"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          486505.6783866348, 
+          5451733.83289793
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=38", 
+        "PARK_NAME": "Deering Island Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3530 Deering Island Place"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488895.50575990125, 
+          5457017.055193627
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=109", 
+        "PARK_NAME": "Delamont Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2091 W 7th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490129.0170444346, 
+          5460172.0101562375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=18", 
+        "PARK_NAME": "Devonian Harbour Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1929 W Georgia St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490328.4571190445, 
+          5454679.490074227
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Devonshire Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1250 Devonshire Crescent"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491174.4654527107, 
+          5455579.086603569
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=175", 
+        "PARK_NAME": "Douglas Park", 
+        "parkcount": 0, 
+        "ADDRESS": "801 W 22nd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496457.5398991569, 
+          5459955.265993547
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=71", 
+        "PARK_NAME": "Dusty Greenwell Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2799 Wall St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496528.8538429405, 
+          5453413.735483524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=152", 
+        "PARK_NAME": "Earles Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2801 E 41st Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490388.8114024706, 
+          5450297.5774057
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=236", 
+        "PARK_NAME": "Ebisu Park", 
+        "parkcount": 0, 
+        "ADDRESS": "8810 Olser St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490590.409359283, 
+          5450424.594372816
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=123", 
+        "PARK_NAME": "Eburne Park", 
+        "parkcount": 0, 
+        "ADDRESS": "950 W 71st Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488098.30221035366, 
+          5453453.53049615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=91", 
+        "PARK_NAME": "Elm Park", 
+        "parkcount": 0, 
+        "ADDRESS": "5800 Elm St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490975.4539427212, 
+          5458187.776119253
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Emery Barnes Park", 
+        "parkcount": 0, 
+        "ADDRESS": "Davie St And Richards St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489540.4740144075, 
+          5459284.16059005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=201", 
+        "PARK_NAME": "English Bay Beach Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1700 Beach Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497226.7858256162, 
+          5450925.17726938
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=101", 
+        "PARK_NAME": "Everett Crowley Park", 
+        "parkcount": 0, 
+        "ADDRESS": "8200 Kerr St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497842.4704453888, 
+          5455808.018854844
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Falaise Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3434 Falaise Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497908.1794791793, 
+          5453454.585995121
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=154", 
+        "PARK_NAME": "Foster Park", 
+        "parkcount": 0, 
+        "ADDRESS": "5501 Aberdeen St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488940.38111899875, 
+          5450620.366070173
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=92", 
+        "PARK_NAME": "Fraser River Park", 
+        "parkcount": 0, 
+        "ADDRESS": "8705 Angus Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490102.63208139536, 
+          5449737.789517922
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://vancouver.ca/parks/", 
+        "PARK_NAME": "Fraser River Trail", 
+        "parkcount": 0, 
+        "ADDRESS": "Hudson Street on the Fraser River"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496483.154288523, 
+          5451011.301916613
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Fraserview Golf Course", 
+        "parkcount": 0, 
+        "ADDRESS": "7800 Vivian Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495093.4190758315, 
+          5451399.655961091
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=192", 
+        "PARK_NAME": "Fraserview Park", 
+        "parkcount": 0, 
+        "ADDRESS": "7595 Victoria Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495705.8020486477, 
+          5457268.602286703
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=51", 
+        "PARK_NAME": "Garden Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1851 Garden Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497729.4983643188, 
+          5453717.532265899
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=155", 
+        "PARK_NAME": "Gaston Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3470 Crowley Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495735.58478515304, 
+          5454648.964191478
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "General Brock Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2301 Brock St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493142.39980369114, 
+          5451077.476027109
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=184", 
+        "PARK_NAME": "George Park", 
+        "parkcount": 0, 
+        "ADDRESS": "500 E 63rd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490591.16786468687, 
+          5457755.880172125
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "George Wainborn Park", 
+        "parkcount": 0, 
+        "ADDRESS": "450 Beach Crescent"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495455.43841522606, 
+          5450322.608566417
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=193", 
+        "PARK_NAME": "Gladstone-Riverside Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2500 E Kent Av South"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493968.60923937993, 
+          5455207.8968280135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=83", 
+        "PARK_NAME": "Glen Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3999 Glen Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494869.9132027525, 
+          5452301.757906654
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=194", 
+        "PARK_NAME": "Gordon Park", 
+        "parkcount": 0, 
+        "ADDRESS": "6675 Commercial St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494868.9450075175, 
+          5457864.732122571
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=52", 
+        "PARK_NAME": "Grandview Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1657 Charles St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490178.2670810623, 
+          5457437.377469956
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Granville Island Water Park", 
+        "parkcount": 0, 
+        "ADDRESS": "False Creek Community Centre, Granville Island"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490008.74453756306, 
+          5457189.706825362
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Granville Loop Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1435 W 5th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489690.73154034995, 
+          5456190.991510274
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=44", 
+        "PARK_NAME": "Granville Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3001 Fir St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493809.0952690334, 
+          5454248.48995146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Grays Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4850 St. Catherines St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492577.6569186743, 
+          5455686.950248291
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Grimmett Park", 
+        "parkcount": 0, 
+        "ADDRESS": "169 E 19th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492985.4051949358, 
+          5456820.464103948
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=136", 
+        "PARK_NAME": "Guelph Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2390 Brunswick St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491940.7199555267, 
+          5457722.697026758
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://vancouver.ca/parks/", 
+        "PARK_NAME": "Habitat Island", 
+        "parkcount": 0, 
+        "ADDRESS": "South East False Creek"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489270.03924423014, 
+          5458453.75428146
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=110", 
+        "PARK_NAME": "Hadden Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1905 Ogden Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489369.5569115149, 
+          5458336.171309461
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://vancouver.ca/parks/", 
+        "PARK_NAME": "Hadden/Vanier Park", 
+        "parkcount": 0, 
+        "ADDRESS": "900 Chestnut Street"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491065.1749513548, 
+          5459779.836914718
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=21", 
+        "PARK_NAME": "Harbour Green Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1199 W Cordova St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497044.2591426578, 
+          5458569.812138609
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=73", 
+        "PARK_NAME": "Hastings Community Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3000 E Pender St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          486423.4167789513, 
+          5457796.531237562
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=217", 
+        "PARK_NAME": "Hastings Mill Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1575 Alma St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496890.3058147802, 
+          5459493.264569767
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=72", 
+        "PARK_NAME": "Hastings Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2901 E Hastings St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491184.9402659253, 
+          5455784.9488333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=177", 
+        "PARK_NAME": "Heather Park", 
+        "parkcount": 0, 
+        "ADDRESS": "702 W 18th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491284.88248730806, 
+          5458041.067471595
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=23", 
+        "PARK_NAME": "Helmcken Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1103 Pacific Boulevard"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492125.05127211683, 
+          5454672.288086985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Hillcrest Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4501 Clancy Loranger Way"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495389.7333444568, 
+          5451772.430134929
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=195", 
+        "PARK_NAME": "Humm Park", 
+        "parkcount": 0, 
+        "ADDRESS": "7250 Humm St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          486960.19776068634, 
+          5457699.223129516
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=111", 
+        "PARK_NAME": "Jean Beaty Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3393 Point Grey Road"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          485476.1033484758, 
+          5457466.17262093
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Jericho Beach Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3941 Point Grey Road"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495476.8408700093, 
+          5455874.284933073
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=85", 
+        "PARK_NAME": "John Hendry (Trout Lake) Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3300 Victoria Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492129.0388601152, 
+          5456846.889060874
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=137", 
+        "PARK_NAME": "Jonathan Rogers Park", 
+        "parkcount": 0, 
+        "ADDRESS": "110 W 7th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495113.2417232719, 
+          5453693.287374974
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=86", 
+        "PARK_NAME": "Jones Park", 
+        "parkcount": 0, 
+        "ADDRESS": "5350 Commercial St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496658.91792843206, 
+          5456818.511234334
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=74", 
+        "PARK_NAME": "Kaslo Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2851 E 7th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494505.595341278, 
+          5453969.93559904
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=87", 
+        "PARK_NAME": "Kensington Park", 
+        "parkcount": 0, 
+        "ADDRESS": "5175 Dumfries St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488495.1872337247, 
+          5453384.724160688
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=93", 
+        "PARK_NAME": "Kerrisdale Centennial Park", 
+        "parkcount": 0, 
+        "ADDRESS": "5898 Yew St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488828.4114565204, 
+          5453690.727826745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=171", 
+        "PARK_NAME": "Kerrisdale Park", 
+        "parkcount": 0, 
+        "ADDRESS": "5670 East Boulevard"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496966.5536786324, 
+          5452724.422836208
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=103", 
+        "PARK_NAME": "Killarney Park", 
+        "parkcount": 0, 
+        "ADDRESS": "6205 Kerr St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494557.7566198302, 
+          5454971.064210717
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Kingcrest Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4150 Knight St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497366.34059121105, 
+          5450531.02180217
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=104", 
+        "PARK_NAME": "Kinross Ravine Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3350 Se Marine Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488752.96496419614, 
+          5457902.1634531375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=112", 
+        "PARK_NAME": "Kitsilano Beach Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1499 Arbutus St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491875.84707004274, 
+          5452023.733771801
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Langara Golf Course", 
+        "parkcount": 0, 
+        "ADDRESS": "6706 Alberta St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491930.0892662943, 
+          5452553.183365051
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Langara Park", 
+        "parkcount": 0, 
+        "ADDRESS": "W 49th Av And Columbia St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490957.28357596404, 
+          5457002.394554267
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://vancouver.ca/parks/", 
+        "PARK_NAME": "Laurel Landbridge Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2200 Laurel Street"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          484935.31905140803, 
+          5458044.683126512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Locarno Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4445 Nw Marine Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492833.176867801, 
+          5452987.0699037155
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=185", 
+        "PARK_NAME": "MacDonald Park", 
+        "parkcount": 0, 
+        "ADDRESS": "300 E 44th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493567.0685875546, 
+          5458454.916043159
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "MacLean Park", 
+        "parkcount": 0, 
+        "ADDRESS": "710 Keefer St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492196.1377197549, 
+          5456537.241334564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=138", 
+        "PARK_NAME": "Major Matthews Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2627 Manitoba St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487118.8111665988, 
+          5453253.293238159
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=95", 
+        "PARK_NAME": "Malkin Park", 
+        "parkcount": 0, 
+        "ADDRESS": "6001 Balaclava St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488334.0176643762, 
+          5452339.808542119
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=96", 
+        "PARK_NAME": "Maple Grove Park", 
+        "parkcount": 0, 
+        "ADDRESS": "6875 Yew St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487801.5073339959, 
+          5457711.930541095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=113", 
+        "PARK_NAME": "Margaret Pigott Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2743 Point Grey Road"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490469.2248737404, 
+          5459977.51805726
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Marina Square", 
+        "parkcount": 0, 
+        "ADDRESS": "1675 Bayshore Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488402.9270399585, 
+          5451645.095335333
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "                                                                                                    ", 
+        "PARK_NAME": "Marine Drive Golf Club (Privat", 
+        "parkcount": 0, 
+        "ADDRESS": "7425 Yew Street"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489909.3478227413, 
+          5450302.888382085
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=124", 
+        "PARK_NAME": "Marpole Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1410 W 72nd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490395.54824206606, 
+          5458054.579133916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "May & Lorne Brown Park", 
+        "parkcount": 0, 
+        "ADDRESS": "801 Beach Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487001.8762622297, 
+          5457273.289922837
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=114", 
+        "PARK_NAME": "McBride Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3350 W 4th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487573.46367237077, 
+          5451787.744478224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "McCleery Golf Course", 
+        "parkcount": 0, 
+        "ADDRESS": "7188 Macdonald St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488051.81933210173, 
+          5452681.934088221
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=97", 
+        "PARK_NAME": "McCleery Park", 
+        "parkcount": 0, 
+        "ADDRESS": "6501 Marine Crescent"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495845.5547130209, 
+          5459528.443115693
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=53", 
+        "PARK_NAME": "McGill Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2305 Mcgill St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495152.598844808, 
+          5457059.439733026
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=54", 
+        "PARK_NAME": "McSpadden Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2125 Victoria Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497891.56415755476, 
+          5453737.942399401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=156", 
+        "PARK_NAME": "Melbourne Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3530 Vanness Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493761.3200927174, 
+          5453061.5723431315
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Memorial South Park", 
+        "parkcount": 0, 
+        "ADDRESS": "5950 Prince Albert St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          486297.8377181196, 
+          5454466.041350642
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Memorial West Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4701 Dunbar St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493696.1735072752, 
+          5451425.793414501
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Moberly Park", 
+        "parkcount": 0, 
+        "ADDRESS": "7646 Prince Albert St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490502.15304201347, 
+          5453124.228293
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=146", 
+        "PARK_NAME": "Montgomery Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1040 W 43rd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489675.4850771381, 
+          5459444.4577134
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=202", 
+        "PARK_NAME": "Morton Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1800 Morton Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494607.55538453115, 
+          5457842.181587871
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=55", 
+        "PARK_NAME": "Mosaic Creek Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1475 Charles St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492268.42989900487, 
+          5456045.616437525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Mount Pleasant Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3161 Ontario St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          485777.33820886264, 
+          5453289.493049701
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=40", 
+        "PARK_NAME": "Musqueam Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4000 Sw Marine Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495804.01575892814, 
+          5452772.983818403
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=196", 
+        "PARK_NAME": "Nanaimo Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2390 E 46th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492224.93320730206, 
+          5454467.5717853
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Nat Bailey Stadium", 
+        "parkcount": 0, 
+        "ADDRESS": "4601 Ontario St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490573.16412111645, 
+          5458877.003113576
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=203", 
+        "PARK_NAME": "Nelson Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1030 Bute St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497262.7807954746, 
+          5459655.278881144
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=75", 
+        "PARK_NAME": "New Brighton Park", 
+        "parkcount": 0, 
+        "ADDRESS": "500 N Windermere St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496277.63302910666, 
+          5453831.478892648
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=157", 
+        "PARK_NAME": "Norquay Park", 
+        "parkcount": 0, 
+        "ADDRESS": "5050 Wales St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490842.2116572503, 
+          5453969.666379472
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=228", 
+        "PARK_NAME": "Oak Meadows Park", 
+        "parkcount": 0, 
+        "ADDRESS": "899 W 37th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490627.26115367195, 
+          5451502.309614878
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=126", 
+        "PARK_NAME": "Oak Park", 
+        "parkcount": 0, 
+        "ADDRESS": "900 W 59th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493138.36276533204, 
+          5458880.591314536
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=180", 
+        "PARK_NAME": "Oppenheimer Park", 
+        "parkcount": 0, 
+        "ADDRESS": "400 Powell St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495476.37878303893, 
+          5459195.046120779
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=56", 
+        "PARK_NAME": "Oxford Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2050 Wall St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          485799.9258023135, 
+          5455406.759104035
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://vancouver.ca/parks/", 
+        "PARK_NAME": "Pacific Spirit Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4000 W King Edward Avenue"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495768.6452347032, 
+          5458866.817128446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=57", 
+        "PARK_NAME": "Pandora Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2325 Franklin St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491959.26972428296, 
+          5457573.589944624
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://vancouver.ca/parks/", 
+        "PARK_NAME": "Park Site at Southe East False", 
+        "parkcount": 0, 
+        "ADDRESS": "215 W 1st Avenue"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          486980.70996202674, 
+          5455882.930846007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=35", 
+        "PARK_NAME": "Park Site on Blenheim", 
+        "parkcount": 0, 
+        "ADDRESS": "3500 Quadra St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487758.9411150499, 
+          5455008.257109697
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=4", 
+        "PARK_NAME": "Park Site on Puget Drive", 
+        "parkcount": 0, 
+        "ADDRESS": "4309 Puget Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487631.91930173914, 
+          5454995.215448199
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=5", 
+        "PARK_NAME": "Park Site on Quesnel Drive", 
+        "parkcount": 0, 
+        "ADDRESS": "4301 Quesnel Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490843.98813949584, 
+          5449898.336472976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Park Site on Shaughnessy Stree", 
+        "parkcount": 0, 
+        "ADDRESS": "Shaughnessy St And Fraser River"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487980.11933072127, 
+          5454643.147716117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=9", 
+        "PARK_NAME": "Park Site on Trafalgar Street", 
+        "parkcount": 0, 
+        "ADDRESS": "4600 Trafalgar St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495676.1786919727, 
+          5459647.152859391
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=61", 
+        "PARK_NAME": "Park Site on Trinity Street", 
+        "parkcount": 0, 
+        "ADDRESS": "2303 Wall St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492393.5615350941, 
+          5458776.899441277
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Pioneer Place (Pigeon Park)", 
+        "parkcount": 0, 
+        "ADDRESS": "399 Carrall St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          486884.43211510027, 
+          5453002.88604942
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "                                                                                                    ", 
+        "PARK_NAME": "Point Grey Golf and Country Cl", 
+        "parkcount": 0, 
+        "ADDRESS": "3350 SW Marine Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487904.898951494, 
+          5457746.989755341
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Point Grey Park Site at Stephe", 
+        "parkcount": 0, 
+        "ADDRESS": "2699 Point Grey Road"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488023.0045406582, 
+          5457843.845662631
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Point Grey Park Site at Trafal", 
+        "parkcount": 0, 
+        "ADDRESS": "2601 Point Grey Road"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487185.21572452015, 
+          5457669.688124734
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Point Grey Park Site at Trutch", 
+        "parkcount": 0, 
+        "ADDRESS": "3215 Point Grey Road"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491336.1461169862, 
+          5459483.087022539
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=27", 
+        "PARK_NAME": "Portal Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1099 W Hastings St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          498220.1793369146, 
+          5454150.288943069
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=158", 
+        "PARK_NAME": "Price Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3650 Price St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492893.8172406041, 
+          5455417.525603625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=166", 
+        "PARK_NAME": "Prince Edward Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3773 Prince Edward St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488579.58672613476, 
+          5454596.70883913
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=3", 
+        "PARK_NAME": "Prince of Wales Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4780 Haggart St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          486856.0489093017, 
+          5456054.709061703
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=41", 
+        "PARK_NAME": "Quadra West Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3250 Quadra St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491753.66978943814, 
+          5454252.024144223
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=167", 
+        "PARK_NAME": "Queen Elizabeth Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4600 Cambie St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489161.8143317526, 
+          5454561.439539395
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=6", 
+        "PARK_NAME": "Quilchena Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4590 Magnolia St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488679.5419806505, 
+          5454353.12928059
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=7", 
+        "PARK_NAME": "Ravine Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2159 W 36th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496873.84814597655, 
+          5455518.164606263
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Renfrew Community Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2929 E 22nd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496838.8028025333, 
+          5455150.312122356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=160", 
+        "PARK_NAME": "Renfrew Ravine Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3900 Renfrew St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492408.82626620814, 
+          5454329.361827589
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=168", 
+        "PARK_NAME": "Riley Park", 
+        "parkcount": 0, 
+        "ADDRESS": "50 E 30th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496301.69064260385, 
+          5450326.8043331625
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=197", 
+        "PARK_NAME": "Riverfront Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2750 E Kent Av South"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489275.9994864886, 
+          5451074.635216131
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=127", 
+        "PARK_NAME": "Riverview Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1751 W 66th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493283.6219649127, 
+          5456111.373459034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=140", 
+        "PARK_NAME": "Robson Park", 
+        "parkcount": 0, 
+        "ADDRESS": "599 Kingsway"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488604.5129342475, 
+          5456608.884971952
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Rosemary Brown Park", 
+        "parkcount": 0, 
+        "ADDRESS": "W 11th Av And Yew St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497160.5944039986, 
+          5451441.5405191695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Rosemont Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3101 Rosemont Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493953.5919948765, 
+          5451621.768268651
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=188", 
+        "PARK_NAME": "Ross Park", 
+        "parkcount": 0, 
+        "ADDRESS": "7402 Ross St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491143.9321014448, 
+          5457846.028243717
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=29", 
+        "PARK_NAME": "Roundhouse Turntable Plaza", 
+        "parkcount": 0, 
+        "ADDRESS": "181 Roundhouse Mews"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497584.37726222695, 
+          5457696.649575427
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=76", 
+        "PARK_NAME": "Rupert Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1600 Rupert St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493537.8068024371, 
+          5456802.319630509
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Sahalli Park", 
+        "parkcount": 0, 
+        "ADDRESS": "E 7th Av And Fraser St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495058.863703727, 
+          5458281.562426103
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=58", 
+        "PARK_NAME": "Salsbury Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1806 Adanac St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489375.2444416995, 
+          5457652.086338914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=118", 
+        "PARK_NAME": "Seaforth Peace Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1620 Chestnut St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489619.513391107, 
+          5451416.473338837
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=128", 
+        "PARK_NAME": "Shannon Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1575 W 62nd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          484766.77414826397, 
+          5453469.459654101
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "                                                                                                    ", 
+        "PARK_NAME": "Shaughnessy Golf Course (Priva", 
+        "parkcount": 0, 
+        "ADDRESS": "4300 SW Marine Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490167.21503204486, 
+          5455885.579140256
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=172", 
+        "PARK_NAME": "Shaughnessy Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1300 The Crescent"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496632.1771320682, 
+          5454532.602772783
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=161", 
+        "PARK_NAME": "Slocan Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2750 E 29th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          484056.7143319293, 
+          5458343.462083945
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=220", 
+        "PARK_NAME": "Spanish Banks Beach Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4801 Nw Marine Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497864.76063875883, 
+          5451943.143381462
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=105", 
+        "PARK_NAME": "Sparwood Park", 
+        "parkcount": 0, 
+        "ADDRESS": "6998 Arlington St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490723.9518930207, 
+          5460601.212214713
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=206", 
+        "PARK_NAME": "Stanley Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2000 W Georgia St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493622.3249392024, 
+          5458231.087591657
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Strathcona Linear Park", 
+        "parkcount": 0, 
+        "ADDRESS": "787 Prior St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493934.5310424329, 
+          5457912.000507949
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=181", 
+        "PARK_NAME": "Strathcona Park", 
+        "parkcount": 0, 
+        "ADDRESS": "857 Malkin Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492488.0429720524, 
+          5458537.915713823
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Sun Yat-Sen Gardens", 
+        "parkcount": 0, 
+        "ADDRESS": "578 Carrall St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494123.32114932575, 
+          5455799.108432056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=89", 
+        "PARK_NAME": "Sunnyside Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1100 E 17th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497440.2330113246, 
+          5457103.651012914
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=77", 
+        "PARK_NAME": "Sunrise Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1950 Windermere St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489985.5974663362, 
+          5458470.663873148
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=207", 
+        "PARK_NAME": "Sunset Beach Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1204 Beach Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492961.62753232976, 
+          5452224.090080263
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=189", 
+        "PARK_NAME": "Sunset Park", 
+        "parkcount": 0, 
+        "ADDRESS": "404 E 51st Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490190.47419691185, 
+          5457331.884490602
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=47", 
+        "PARK_NAME": "Sutcliffe Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1318 Cartwright St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487660.8065997136, 
+          5457492.022994586
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=119", 
+        "PARK_NAME": "Tatlow Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2845 W 3rd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492814.24726550234, 
+          5456054.200466168
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Tea Swamp Park", 
+        "parkcount": 0, 
+        "ADDRESS": "266 E 15th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494909.41941734095, 
+          5453000.525616316
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=198", 
+        "PARK_NAME": "Tecumseh Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1751 E 45th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495720.54233700625, 
+          5458421.910875834
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=60", 
+        "PARK_NAME": "Templeton Park", 
+        "parkcount": 0, 
+        "ADDRESS": "700 Templeton Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492779.78335686476, 
+          5457914.555787045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=183", 
+        "PARK_NAME": "Thornton Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1166 Main St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          497884.7849492722, 
+          5457350.905689708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=78", 
+        "PARK_NAME": "Thunderbird Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3485 E 2nd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491313.81517624774, 
+          5452735.305615067
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=147", 
+        "PARK_NAME": "Tisdall Park", 
+        "parkcount": 0, 
+        "ADDRESS": "6210 Tisdall St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          488019.6277151605, 
+          5455416.363091916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=8", 
+        "PARK_NAME": "Trafalgar Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2610 W 23rd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493226.8380057382, 
+          5458032.796569982
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://vancouver.ca/parks/", 
+        "PARK_NAME": "Trillium Park Site", 
+        "parkcount": 0, 
+        "ADDRESS": "National Avenue & Thornton Street"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487157.588983479, 
+          5455532.781660256
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=42", 
+        "PARK_NAME": "Valdez Park", 
+        "parkcount": 0, 
+        "ADDRESS": "3210 W 22nd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490201.9287536614, 
+          5454041.051812792
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=173", 
+        "PARK_NAME": "VanDusen Botanical Gardens", 
+        "parkcount": 0, 
+        "ADDRESS": "5251 Oak St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489590.7671392116, 
+          5458140.884725917
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=120", 
+        "PARK_NAME": "Vanier Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1000 Chestnut St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495145.7697435444, 
+          5457641.794162007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=62", 
+        "PARK_NAME": "Victoria Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1415 Victoria Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491982.11415362894, 
+          5458830.820736187
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=31", 
+        "PARK_NAME": "Victory Square", 
+        "parkcount": 0, 
+        "ADDRESS": "200 W Hastings St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487687.81819024717, 
+          5457665.527496381
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=121", 
+        "PARK_NAME": "Volunteer Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2855 Point Grey Road"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494693.89727970347, 
+          5456698.425604149
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "W.C. Shelley Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1500 E 8th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492758.2252145221, 
+          5459061.056892467
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=32", 
+        "PARK_NAME": "Wendy Poole Park", 
+        "parkcount": 0, 
+        "ADDRESS": "199 Alexander St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          485074.9433834588, 
+          5457131.331366532
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=221", 
+        "PARK_NAME": "West Point Grey Park", 
+        "parkcount": 0, 
+        "ADDRESS": "2250 Trimble St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          484402.18204708013, 
+          5457698.274538312
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=222", 
+        "PARK_NAME": "Westmount Park", 
+        "parkcount": 0, 
+        "ADDRESS": "4651 W 2nd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489622.0160542195, 
+          5450458.592948386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=130", 
+        "PARK_NAME": "William Mackie Park", 
+        "parkcount": 0, 
+        "ADDRESS": "1592 W 71st Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491120.1344051864, 
+          5456903.827906458
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=48", 
+        "PARK_NAME": "Willow Park", 
+        "parkcount": 0, 
+        "ADDRESS": "802 W 7th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491745.5044897272, 
+          5451471.278735759
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Winona Park", 
+        "parkcount": 0, 
+        "ADDRESS": "7575 Columbia St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494656.97649565665, 
+          5458419.43097182
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://cfapp.vancouver.ca/parkfinder_wa/index.cfm?fuseaction=FAC.ParkDetails&park_id=64", 
+        "PARK_NAME": "Woodland Park", 
+        "parkcount": 0, 
+        "ADDRESS": "705 Woodland Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491379.96204655676, 
+          5458350.2280073445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URL": "http://www.city.vancouver.bc.ca/parks/parks/index.htm", 
+        "PARK_NAME": "Yaletown Park", 
+        "parkcount": 0, 
+        "ADDRESS": "901 Mainland St"
+      }
+    }
+  ]
+}

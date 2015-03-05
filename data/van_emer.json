@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493480.244355323, 
+          5458114.844231868
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 1", 
+        "ADDRESS": "900 Heatley Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492725.2377340146, 
+          5458965.486153122
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 2", 
+        "ADDRESS": "199 Main St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          492474.1436782297, 
+          5456361.3973147655
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 3", 
+        "ADDRESS": "2801 Quebec St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          489990.1907889588, 
+          5456687.683807413
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 4", 
+        "ADDRESS": "1475 W 10th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496959.7047253926, 
+          5451900.532877981
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 5", 
+        "ADDRESS": "3090 E 54th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490198.05471927696, 
+          5459312.797206267
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 6", 
+        "ADDRESS": "1001 Nicola St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490841.4993586626, 
+          5458982.305794344
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 7", 
+        "ADDRESS": "1090 Haro St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          491443.55562429933, 
+          5458373.870170709
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 8", 
+        "ADDRESS": "895 Hamilton St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495185.23797334946, 
+          5457263.299736751
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 9", 
+        "ADDRESS": "1805 Victoria Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487368.85337438004, 
+          5456906.713155636
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 12", 
+        "ADDRESS": "2460 Balaclava St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          493590.97255218663, 
+          5455128.107775375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 13", 
+        "ADDRESS": "4013 Prince Albert ST"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496628.37300612446, 
+          5458182.370434959
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 14", 
+        "ADDRESS": "2804 Venables St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          496999.47637672164, 
+          5455346.964324169
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 15", 
+        "ADDRESS": "3003 E 22nd Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          494413.3838076805, 
+          5451893.835027489
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 17", 
+        "ADDRESS": "7070 Knight St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490055.35333106626, 
+          5453841.669301936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 18", 
+        "ADDRESS": "1375 W 38th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          485015.92745692877, 
+          5456566.50992369
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 19", 
+        "ADDRESS": "4396 W 12th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          495264.41313726304, 
+          5453668.804457074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 20", 
+        "ADDRESS": "5402 Victoria Drive"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          487386.0878053077, 
+          5453850.6491802735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 21", 
+        "ADDRESS": "5425 Carnarvon St"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          490549.67391152744, 
+          5451634.489379127
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 22", 
+        "ADDRESS": "1005 W 59th Av"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          482669.8867986459, 
+          5456166.463423528
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "URLLINK": "http://vancouver.ca/home-property-development/vanc", 
+        "NAME": "No 10", 
+        "ADDRESS": "2992 Wesbrook Mall"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1061 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.14988199999999, 
+          49.26346500000005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Greens Organic and Natural Market", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.10096199999998, 
+          49.25365300000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Welk's", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.15845199999995, 
+          49.26872700000007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Safeway", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.07499099999995, 
+          49.24855100000008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "PriceSmart foods", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.057099, 
+          49.28103600000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Donald's Market", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.12035599999996, 
+          49.27369800000008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Urban Fare", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.13265199999995, 
+          49.28119700000008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Kin's Farm Market", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.12487999999996, 
+          49.28214600000007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Marketplace IGA", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.12164399999995, 
+          49.27860000000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Nesters Market", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.11879799999997, 
+          49.28046900000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "H-Mart", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.18382799999995, 
+          49.23490400000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Marketplace IGA", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.10167899999999, 
+          49.224346000000025
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Punjab Food Center Ltd", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.10148599999997, 
+          49.244965000000036
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Nesters Market", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.06526099999996, 
+          49.23645800000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Good Health Nutrition", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.13578799999999, 
+          49.24917900000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Fashion Fruit Kids Clothing", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.16625899999997, 
+          49.263881000000026
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Kitsilano Natural Foods", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.15327199999996, 
+          49.26134900000005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Edible Arrangements", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.00395199999997, 
+          49.26652500000006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Edible Arrangements", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.89547299999998, 
+          49.25118200000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Kin's Farm Market", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.07499099999995, 
+          49.24855100000008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "PriceSmart foods", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.04664199999996, 
+          49.269108000000074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "T & T Supermarket", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.90994699999999, 
+          49.277798000000075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Nesters Market", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.97797399999996, 
+          49.26545200000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Buy Low Foods", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.951124, 
+          49.19189300000005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Walmart New Westminster Supercentre", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.75309199999998, 
+          49.27121600000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Cooper's-Foods", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.04664199999996, 
+          49.269108000000074
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "T & T Supermarket", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.03664199999997, 
+          49.258958000000064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Real Canadian Superstore", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.02694599999995, 
+          49.25923500000005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Walmart - Vancouver", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.11445199999997, 
+          49.264658000000054
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Save-On-Foods", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.11525899999998, 
+          49.264027000000056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Whole Foods Market", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.10812299999998, 
+          49.28001100000006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "T & T", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.12487999999996, 
+          49.28214600000007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Marketplace IGA", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.99950199999995, 
+          49.260624000000064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Costco Wholesale", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.15460999999999, 
+          49.23448200000007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Dollar Max", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.15058799999997, 
+          49.234488000000056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Westwood Organic Produce", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.15534899999994, 
+          49.22735700000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Magee Grocery", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.15340699999996, 
+          49.24410700000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "M&M Meat Shops", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.15499299999999, 
+          49.24852400000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Safeway", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.14988199999999, 
+          49.26346500000005
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Greens Organic and Natural Market", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.18382799999995, 
+          49.23490400000003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Marketplace IGA", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.18488499999995, 
+          49.24574300000006
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Stong's Markets", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.04133499999995, 
+          49.21919100000008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "M&M Meat Shops", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.05424699999998, 
+          49.22489100000007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Killarney Centre", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.00460299999997, 
+          49.23129800000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Marketplace IGA", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.99713599999995, 
+          49.22569800000008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "T & T Supermarket", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.98897099999999, 
+          49.214495000000056
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Buy-Low Foods Ltd", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.95640099999997, 
+          49.21868900000004
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "Save-On-Foods", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -123.07499099999995, 
+          49.24855100000008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "OID_": 0, 
+        "Name": "PriceSmart foods", 
+        "LabelID": 0, 
+        "SymbolID": 0, 
+        "Snippet": "                                                                                                                                                                                                                                                              ", 
+        "Base": "0.00000000000e+000", 
+        "PopupInfo": "                                                                                                                                                                                                                                                              ", 
+        "HasLabel": -1, 
+        "AltMode": -1, 
+        "FolderPath": "grocerystores"
+      }
+    }
+  ]
+}
