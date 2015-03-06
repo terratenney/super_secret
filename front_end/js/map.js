@@ -18,9 +18,7 @@ var house=0;
 //rent
 
 var rent=0;
-
-
-
+var legend = L.control({position: 'bottomright'});
 var map = L.map('map').setView([53.53, -113.50], 11);
 var layer;
 var gray = L.esri.basemapLayer('Gray'),
@@ -129,6 +127,29 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
         }
 });
 
+
+function getColor(d) {
+    return d > 1000 ? '#800026' :
+           d > 500  ? '#BD0026' :
+           d > 200  ? '#E31A1C' :
+           d > 100  ? '#FC4E2A' :
+           d > 50   ? '#FD8D3C' :
+           d > 20   ? '#FEB24C' :
+           d > 10   ? '#FED976' :
+                      '#FFEDA0';
+}
+
+        function style(feature) {
+            return {
+                weight: 2,
+                opacity: 1,
+                color: 'white',
+                dashArray: '3',
+                fillOpacity: 0.7,
+                fillColor: getColor(feature.properties.density)
+            };
+        }
+
 function incColor(d) {
     return d >= 0 & d < 20500 ? '#ffffd4' :
         d >= 20500 & d < 30870 ? '#fed98e' :
@@ -196,7 +217,7 @@ function incStyle(feature) {
         };
     }
 
-    function valueColor(d) {
+    function houseColor(d) {
         return d >= 0 & d < 12 ? '#eff3ff' :
             d >= 12 & d < 40 ? '#bdd7e7' :
             d >= 40 & d < 65 ? '#6baed6' :
@@ -204,9 +225,9 @@ function incStyle(feature) {
             d >= 83 ? '#08519c' : '#aaaaaa';
     }
 
-    function valueStyle(feature) {
+    function houseStyle(feature) {
         return {
-            fillColor: valueColor(feature.properties['%_Owned']),
+            fillColor: houseColor(feature.properties['%_Owned']),
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
@@ -215,10 +236,10 @@ function incStyle(feature) {
 
     function walkColor(d) {
         return d >= 0 & d < 12 ? '#edf8e9' :
-            d >= 12 & d < 40 ? '#bae4b3' :
-            d >= 40 & d < 65 ? '#74c476' :
-            d >= 65 & d < 83 ? '#31a354' :
-            d >= 83 ? '#006d2c' : '#006d2c';
+            d >= 10 & d < 40 ? '#bae4b3' :
+            d >= 20 & d < 65 ? '#74c476' :
+            d >= 55 & d < 83 ? '#31a354' :
+            d >= 90 ? '#006d2c' : '#006d2c';
     }
 
     function walkStyle(feature) {
@@ -229,7 +250,7 @@ function incStyle(feature) {
             weight: 1
         };
     }
-    function houseColor(d) {
+    function valueColor(d) {
         return d >= 0 & d < 396153 ? '#fef0d9' :
             d >= 396153 & d < 748872 ? '#fdcc8a' :
             d >= 748872 & d < 1101844? '#fc8d59' :
@@ -237,9 +258,9 @@ function incStyle(feature) {
             d >= 1456372 ? '#b30000' : '#b30000';
     }
 
-    function houseStyle(feature) {
+    function valueStyle(feature) {
         return {
-            fillColor: houseColor(feature.properties.Avg_Home_V),
+            fillColor: valueColor(feature.properties.Avg_Home_V),
             fillOpacity: 0.4,
             color: 'black',
             weight: 1
@@ -524,6 +545,9 @@ function layerRemove(){
     map.removeLayer(layer);
     };
 
+function removeLegend(){
+    map.removeControl(legend);
+}
 
  layer =  L.geoJson(edmon_data, {
             style: baseStyle,
@@ -537,17 +561,19 @@ function layerAddGre(){
             onEachFeature: onEachFeature
         }).addTo(map);
      currentLayer = "greenStyle";
+     graph = [0,0.2,10,15,20];
     };
 
 
-function layerAddHome(){
+function layerAddHomeVal(){
      document.getElementById("varb_explain").innerHTML = "This map indicates the median home values in your community area.";
 
      layer =  L.geoJson(edmon_data, {
-            style: houseStyle,
+            style: valueStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
-          currentLayer = "houseStyle";
+          currentLayer = "valueStyle";
+          graph = [0,396153,748872,1101844,1456372];
     };
 
 
@@ -558,15 +584,17 @@ function layerAddWalk(){
             onEachFeature: onEachFeature
         }).addTo(map);
           currentLayer = "walkStyle";
+          graph = [0,20,40,50,90];
     };
-function layerAddHomeVal(){
-document.getElementById("varb_explain").innerHTML = "This map indicates the average home values in each of the community areas within your city.";
-     
+
+function layerAddHomeown(){
+document.getElementById("varb_explain").innerHTML = "This map indicates the percent of home ownership in each community within your city.";
      layer =  L.geoJson(edmon_data, {
-            style: valueStyle,
+            style: houseStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
-          currentLayer = "valueStyle";
+          currentLayer = "houseStyle";
+          graph = [0,12,40,65,83];
     };
 
 function layerAddInc(){
@@ -577,6 +605,7 @@ function layerAddInc(){
             onEachFeature: onEachFeature
         }).addTo(map);
           currentLayer = "greenStyle";
+          graph = [0,20500,30870,38683,50862];
     };
 
 
@@ -587,6 +616,7 @@ function layerAddRent(){
             onEachFeature: onEachFeature
         }).addTo(map);
          currentLayer = "greenStyle";
+         graph = [0,626,383,1026,2275];
     };
 
 function layerAddPop(){
@@ -596,6 +626,8 @@ document.getElementById("varb_explain").innerHTML = "This map indicates the popu
             style: popStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
+    graph = [0,700,1300,6000,13000];
+    hideLegend;
     };
 
 var base = L.layerGroup([layer]);
@@ -632,13 +664,11 @@ layerControl.addTo(map);
             collapsed: false
         }));
 
-/*
-var legend = L.control({position: 'bottomright'});
-
+function showLegend(){
 legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+        grades = graph,
         labels = [];
 
     // loop through our density intervals and generate a label with a colored square for each interval
@@ -650,5 +680,5 @@ legend.onAdd = function (map) {
 
     return div;
 };
-
-legend.addTo(map);*/
+legend.addTo(map);
+}
