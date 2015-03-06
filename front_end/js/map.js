@@ -730,14 +730,10 @@ layerControl.addTo(map);
 var currentLegend="baseLegend";
 var previousLegend="";
 var legend = L.control({position: 'bottomright'});
-var legend2 = L.control({position: 'bottomright'});
 
 function hideLegend(){
   map.removeControl(previousLegend);
 }
-
-
-
 
 function showLegend(){
   //previousLegend=legend;
@@ -756,22 +752,4 @@ function showLegend(){
   };
   legend.addTo(map);
   previousLegend=legend;
-}
-
-function showLegend2(){
-  //previousLegend=legend;
-  legend2.onAdd= function (map) {
-      var div = L.DomUtil.create('div', 'info legend'),
-          grade = [0,10,20,30];
-          labels = [];
-          legendColor = lcolor[1]
-      for (var i = 0; i < grades.length; i++) {
-          div.innerHTML +=
-              '<i style="background:' + legendColor(grade[i] + 1) + '"></i> ' +
-              grade[i] + (grade[i + 1] ? '&ndash;' + grade[i + 1] + '<br>' : '+');
-      }
-
-      return div;
-  };
-  legend2.addTo(map);
 }
