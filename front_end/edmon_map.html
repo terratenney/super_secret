@@ -20,7 +20,7 @@
 <script type="text/javascript" src="./lib/jsts/jsts.js"></script>
 <script type="text/javascript" src="./lib/date.format.js"></script>
 <script type="text/javascript" src="./lib/geohash.js"></script>
-
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript" src="/js/leaflet-dvf.js"></script>
 
 
@@ -43,9 +43,13 @@
 
 
 .leaflet-popup-content {
+   width:auto !important;
+ min-width:600;
+  width:auto;
 overflow: auto;
 max-height: 300px;
 }
+
 .myOtherTable { background-color:white;border-collapse:collapse;color:#000;font-size:16px;width: 380; }
 
 .myOtherTable th { background-color:white;color:white;width:50%; }
@@ -89,6 +93,18 @@ max-height: 300px;
     padding-left:36px;
     text-decoration:none;
     line-height:36px;
+
+    .legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
 
 </style>
 </head>
@@ -284,6 +300,12 @@ max-height: 300px;
 
 
 <script type="text/javascript" src="/js/edmon_data_complete.js"></script>
+
+<script>
+google.load('visualization', '1.0', {'packages':['corechart']});
+google.setOnLoadCallback(drawChart)
+</script>
+
 <script type="text/javascript" src="/js/map.js"></script>
 
 </body>
