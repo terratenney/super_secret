@@ -628,6 +628,7 @@ layerControl.addTo(map);
             collapsed: false
         }));
 
+/*
 var legend = L.control({position: 'bottomright'});
 
 legend.onAdd = function (map) {
@@ -646,4 +647,4 @@ legend.onAdd = function (map) {
     return div;
 };
 
-legend.addTo(map);
+legend.addTo(map);*/
