@@ -80,6 +80,7 @@ Interactivity is enabled through the following options
     resetHighlight();
     }
 
+For detailed code comments, please see map.js or edmon_map.html
 
 ###Known Bugs
 Lack of descriptive information in popup balloons comes from unstandardized data formats. Would be very easy to implement properly
