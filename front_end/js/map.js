@@ -1,4 +1,3 @@
-$(document).ready(function() {
 
 var school = L.icon({
     iconUrl: './img/school.svg',
@@ -37,8 +36,7 @@ var police = L.icon({
     popupAnchor:  [0, 0]
 });
 
-
-    function greenSpacecolor(d) {
+    function greenspacecolor(d) {
         return d >= 0 & d < 2 ? '#edf8fb' :
             d >= 2 & d < 6 ? '#b2e2e2' :
             d >= 6 & d < 10 ? '#66c2a4' :
@@ -46,7 +44,7 @@ var police = L.icon({
             d >= 18 ? '#006d2c' : '#aaaaaa';
     }
 
-    function greenSpacestyle(feature) {
+    function greenspacestyle(feature) {
         return {
             fillColor: greenSpacecolor(feature.properties['%_Green_Sp']),
             fillOpacity: 0.6,
@@ -64,7 +62,7 @@ function HomeOwnedColor(d) {
             d >= 83 ? '#08519c' : '#aaaaaa';
     }
 
-    function homeOwnedstyle(feature) {
+    function homeownedstyle(feature) {
         return {
             fillColor: HomeOwnedColor(feature.properties['%_Owned']),
             fillOpacity: 0.6,
@@ -101,7 +99,7 @@ function HomeOwnedColor(d) {
             d >= 568988 ? '#800026' : '#FFEDA0';
     }
 
-    function avgHouseValSty(feature) {
+    function housevalstyle(feature) {
         return {
             fillColor: houseValuescolor(feature.properties.Avg_Home_V),
             fillOpacity: 0.4,
@@ -111,7 +109,23 @@ function HomeOwnedColor(d) {
         };
     }
 
+    function rent(d) {
+        return d >= 0 & d < 200 ? '#ffffcc' :
+            d >= 201 & d < 550 ? '#ffeda0' :
+            d >= 651 & d <850 ? '#fd8d3c' :
+            d >= 851 & d < 1000 ? '#e31a1c' :
+            d >= 1001 ? '#800026' : '#FFEDA0';
+    }
 
+    function rentstyle(feature) {
+        return {
+            fillColor: rent(feature.properties.Avg_Home_V),
+            fillOpacity: 0.4,
+            color: 'black',
+            weight: 1
+
+        };
+    }
     function totPopcolor(d) {
         return d >= 0 & d < 700 ? '#ffffd4' :
             d >= 700 & d < 1300 ? '#fed98e' :
@@ -351,8 +365,4 @@ legend._container.remove();
 document.getElementById('messages')
         .appendChild(legend.onAdd(map));	
 
-
-
-
-});
 
