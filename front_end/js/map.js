@@ -1,5 +1,163 @@
 $(document).ready(function() {
 
+var school = L.icon({
+    iconUrl: './img/school.svg',
+iconSize:     [15, 15], // size of the icon
+    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, 0]
+});
+var gas = L.icon({
+    iconUrl: './img/gas.svg',iconSize:     [15, 15], // size of the icon
+    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, 0]
+});
+var culture = L.icon({
+    iconUrl: './img/cult.svg',iconSize:     [15, 15], // size of the icon
+    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, 0]
+});
+var grocery = L.icon({
+    iconUrl: './img/grocery.svg',iconSize:     [15, 15], // size of the icon
+    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, 0]
+});
+var hosp = L.icon({
+    iconUrl: './img/hosp.svg',iconSize:     [15, 15], // size of the icon
+    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, 0]
+});
+var park = L.icon({
+    iconUrl: './img/park.svg',iconSize:     [15, 15], // size of the icon
+    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, 0]
+});
+var police = L.icon({
+    iconUrl: './img/police.svg',iconSize:     [15, 15], // size of the icon
+    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, 0]
+});
+
+
+    function greenSpacecolor(d) {
+        return d >= 0 & d < 2 ? '#edf8fb' :
+            d >= 2 & d < 6 ? '#b2e2e2' :
+            d >= 6 & d < 10 ? '#66c2a4' :
+            d >= 10 & d < 18 ? '#2ca25f' :
+            d >= 18 ? '#006d2c' : '#aaaaaa';
+    }
+
+    function greenSpacestyle(feature) {
+        return {
+            fillColor: greenSpacecolor(feature.properties['%_Green_Sp']),
+            fillOpacity: 0.6,
+            color: 'black',
+            weight: 1
+
+        };
+    }
+
+function HomeOwnedColor(d) {
+        return d >= 0 & d < 12 ? '#eff3ff' :
+            d >= 12 & d < 40 ? '#bdd7e7' :
+            d >= 40 & d < 65 ? '#6baed6' :
+            d >= 65 & d < 83 ? '#3182bd' :
+            d >= 83 ? '#08519c' : '#aaaaaa';
+    }
+
+    function homeOwnedstyle(feature) {
+        return {
+            fillColor: HomeOwnedColor(feature.properties['%_Owned']),
+            fillOpacity: 0.6,
+            color: 'black',
+            weight: 1
+
+        };
+    }
+
+
+
+    function walkscoreColor(d) {
+        return d >= 0 & d < 12 ? '#feebe2wal' :
+            d >= 12 & d < 40 ? '#fbb4b9' :
+            d >= 40 & d < 65 ? '#f768a1' :
+            d >= 65 & d < 83 ? '#c51b8a' :
+            d >= 83 ? '#7a0177' : '#aaaaaa';
+    }
+
+    function walkscorestyle(feature) {
+        return {
+            fillColor: walkscoreColor(feature.properties.Walkscore),
+            fillOpacity: 0.6,
+            color: 'black',
+            weight: 1
+
+        };
+    }
+    function houseValuescolor(d) {
+        return d >= 0 & d < 131433 ? '#ffffcc' :
+            d >= 131433 & d < 312580 ? '#ffeda0' :
+            d >= 312580 & d < 433296? '#fd8d3c' :
+            d >= 433296 & d < 568988 ? '#e31a1c' :
+            d >= 568988 ? '#800026' : '#FFEDA0';
+    }
+
+    function avgHouseValSty(feature) {
+        return {
+            fillColor: houseValuescolor(feature.properties.Avg_Home_V),
+            fillOpacity: 0.4,
+            color: 'black',
+            weight: 1
+
+        };
+    }
+
+
+    function totPopcolor(d) {
+        return d >= 0 & d < 700 ? '#ffffd4' :
+            d >= 700 & d < 1300 ? '#fed98e' :
+            d >= 1300 & d < 3000? '#fe9929' :
+            d >= 6000 & d < 13000 ? '#d95f0e' :
+            d >= 13000 ? '#993404' : '#FFEDA0';
+    }
+
+    function totPopstyle(feature) {
+        return {
+            fillColor: totPopcolor(feature.properties.Tot_Pop),
+            fillOpacity: 0.6,
+            color: 'black',
+            weight: 1
+
+        };
+    }
+
+    function avgInccolor(d) {
+        return d >= 0 & d < 20500 ? '#fee5d9' :
+            d >= 20500 & d < 30870 ? '#fcae91' :
+            d >= 30870 & d < 38683 ? '#fb6a4a' :
+            d >= 38683 & d < 50862 ? '#de2d26' :
+            d >= 50862 ? '#a50f15' : '#FFEDA0';
+    }
+
+    function avgIncstyle(feature) {
+        return {
+            fillColor: avgInccolor(feature.properties.Avg_Inc),
+            fillOpacity: 0.6,
+            color: 'black',
+            weight: 1
+
+        };
+    }
+
+    function basestyle(feature) {
+        return {
+            fillColor: '#92c5de',
+            fillOpacity: 0.6,
+            color: 'black',
+            weight: 1
+
+        };
+    }
+
 var map = L.map('map').setView([53.53, -113.50], 11);
 var layer;
 var gray = L.esri.basemapLayer('Gray'),
@@ -13,30 +171,6 @@ var gray = L.esri.basemapLayer('Gray'),
 
 gray.addTo(map);
 
-
-
-function getColor(d) {
-        return d > 45000 ? '#800026' :
-            d > 35000 ? '#BD0026' :
-            d > 25000 ? '#E31A1C' :
-            d > 20000 ? '#FC4E2A' :
-            d > 15000 ? '#FD8D3C' :
-            d > 10000 ? '#FEB24C' :
-            d >  0 ? '#FED976' : '#FFEDA0';
-    }
-
-function style(feature) {
-	
-        return {
-            fillColor: getColor(feature.properties.Med_Inc_F),
-            weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.7
-        };
-
-    }
 
 function highlightFeature(e) {
     var layer = e.target;
@@ -72,11 +206,6 @@ function onEachFeature(feature, layer) {
         click: zoomToFeature
     });
 }
-
-var layer = new L.geoJson(edmon_data, {
-            style: style,
-            onEachFeature: onEachFeature
-        }).addTo(map);
 
 
 
@@ -131,9 +260,29 @@ var ed_hosplyr =  new L.geoJson(ed_hosp, {
 }).addTo(map);
 
 
+var layer = new L.geoJson(edmon_data, {
+            style: basestyle,
+            onEachFeature: onEachFeature
+        }).addTo(map);
+
+
+
+
 
 var base = L.layerGroup([layer]);
-var health = L.layerGroup([layer,ed_hosplyr]);
+
+
+var layer = new L.geoJson(edmon_data, {
+            style: avgIncstyle,
+            onEachFeature: onEachFeature
+        }).addTo(map);
+
+var income = L.layerGroup([layer]);
+
+
+
+
+
 
 var baseMaps = {
         "Grayscale": gray,
@@ -142,10 +291,14 @@ var baseMaps = {
     };
 
 
+
 var overlayMaps = {
         "Dissemination Areas": base,
-        "Health": health
+        "Income": income
     };
+
+
+
 
 
 var layerControl = L.control.layers(baseMaps,overlayMaps, {
@@ -165,7 +318,7 @@ layerControl.addTo(map);
 
 var grades = {'grades':[0, 12000, 20000, 25000, 35000, 45000, 50000]};
 var legend = L.control();
-
+/*
 function make_legend(map,grades) {
     console.log(grades.grades);
     var div = L.DomUtil.create('div', 'info legend'),
@@ -175,8 +328,8 @@ function make_legend(map,grades) {
             return div;
     };
 
-legend.onAdd = make_legend(map,grades);
-
+legend.onAdd = make_legend();
+*/
 
 
 legend.addTo(map);

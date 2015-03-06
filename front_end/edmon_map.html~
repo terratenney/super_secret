@@ -3,7 +3,6 @@
   <meta charset=utf-8 />
   <title>Feature Collection Parsing</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-
 <script src="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.js"></script>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -90,7 +89,7 @@ max-height: 300px;
         <!-- Tab panes -->
         <div class="sidebar-content active">
             <div class="sidebar-pane" id="home">
-                <h1>CODE</h1>
+                <h1>sidebar-v2</h1>
 
                <h4 style="text-align: center;"><strong>Welcome to Community Open Data Engage (CODE)!</strong></h4>
 <p style="text-align: justify;">You will be able to interact with several open data-sets that can help give you insights on the conditions of your local community.</p>
@@ -206,6 +205,10 @@ max-height: 300px;
 
 </div>
             <div class="sidebar-pane" id="settings"><h1>Settings</h1>
+              
+            
+              
+            
               
             </div>
         </div>
