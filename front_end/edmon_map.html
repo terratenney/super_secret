@@ -46,7 +46,11 @@
 overflow: auto;
 max-height: 300px;
 }
+.myOtherTable { background-color:white;border-collapse:collapse;color:#000;font-size:16px;width: 380; }
 
+.myOtherTable th { background-color:white;color:white;width:50%; }
+
+.myOtherTable td, .myOtherTable th { padding:0px;border:0; }
 	.lorem {
 		    font-style: bold;
 		    color: #AAA;
@@ -74,6 +78,17 @@ max-height: 300px;
 	    margin-right: 8px;
 	    opacity: 0.7;
 	}
+.leaflet-control-layers-toggle:after{ 
+    content:"your text"; 
+    color:#000 ;
+}
+.leaflet-control-layers-toggle{ 
+    width:auto;
+    background-position:3px 50% ;
+    padding:3px;
+    padding-left:36px;
+    text-decoration:none;
+    line-height:36px;
 
 </style>
 </head>
@@ -206,13 +221,41 @@ max-height: 300px;
 
 </div>
             <div class="sidebar-pane" id="settings"><h1>Settings</h1>
-              <!--here comes the radio buttons-->
-               <input type="radio" name="r1" value="avgHouseValSty" onClick="switchJSON(this)"/>Health
-                <br/>
-                <input type="radio" name="r1" value="totPopstyle" onClick="switchJSON(this)"/>Education
-                <br/>
-                 <br/>
-                 <br/>
+
+
+<table class="myOtherTable"  frame="box" bordercolor="#D8D8D8" style="background: white;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-color: #D8D8D8">
+
+                <tr >
+
+                   <td width="30"> <iinput type="radio"  name="r1" value="greenspacestyle" onClick="layerRemove(),layerAddGre()"/></td><td>Green Space</td>
+
+                </tr>  
+
+                <tr >
+
+                   <td> <input type="radio" name="r1" value="housevalstylee" onClick="layerRemove(),layerAddHome()"/></td><td>Home Own</td>
+
+                </tr>  
+
+                   <tr>
+
+                   <td> <input type="radio" name="r1" value="walkscorestyle" onClick="layerRemove(),layerAddWalk()"/></td><td>Walk Score</td>
+
+                </tr> 
+
+                   <tr>
+
+                   <td> <input type="radio" name="r1" value="housevalstylee" onClick="layerRemove(),layerAddHomeVal()"/></td><td>Home Value</td>
+
+                </tr> 
+
+                   <tr>
+
+                   <td> <input type="radio" name="r1" value="rentstyle" onClick="layerRemove(),layerAddRent()"/></td><td>Rent</td>
+
+                </tr> 
+
+                </table>
             </div>
         </div>
     </div>

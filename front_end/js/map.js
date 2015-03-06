@@ -1,4 +1,19 @@
 
+var map = L.map('map').setView([53.53, -113.50], 11);
+var layer;
+var gray = L.esri.basemapLayer('Gray'),
+    topo = L.esri.basemapLayer('Topographic'),
+    Stamen_Watercolor = L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png', {
+        attribution: '',
+        subdomains: 'abcd',
+        minZoom: 1,
+        maxZoom: 16
+    });
+
+gray.addTo(map);
+
+
+
 var school = L.icon({
     iconUrl: './img/school.svg',
 iconSize:     [15, 15], // size of the icon
@@ -36,6 +51,80 @@ var police = L.icon({
     popupAnchor:  [0, 0]
 });
 
+
+
+var healthIcon = L.icon({
+    iconUrl: '/img/city-hospital-icon.png',
+
+    iconSize:     [15, 15], // size of the icon
+    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+});
+
+
+
+var sorry_message = "<p>Due to time constraints in this challenge we were unable to implement all the planned features of CODE.</p><p> But check back later and use your imagination in the meantime. This box would show you things like this place name, address, website, some basic info.</p>";
+
+
+var ed_hosplyr =  new L.geoJson(ed_hosp, {
+        
+        pointToLayer: function (feature, latlng) {
+             var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            return L.marker(latlng, {icon: hosp}).bindPopup(pop);
+        }
+});
+
+
+var ed_greelyr =  new L.geoJson(ed_gree, {
+        
+        pointToLayer: function (feature, latlng) {
+            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            return L.marker(latlng, {icon: park}).bindPopup(pop);
+        }
+}) ;
+
+var ed_scholyr =  new L.geoJson(ed_scho, {
+        
+        pointToLayer: function (feature, latlng) {
+            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            return L.marker(latlng, {icon: school}).bindPopup(pop);
+        }
+}) ;
+
+var ed_cultlyr =  new L.geoJson(ed_cult, {
+        
+        pointToLayer: function (feature, latlng) {
+            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            return L.marker(latlng, {icon: culture}).bindPopup(pop);
+        }
+}) ;
+
+var ed_groclyr =  new L.geoJson(ed_groc, {
+        
+        pointToLayer: function (feature, latlng) {
+            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            return L.marker(latlng, {icon: grocery}).bindPopup(pop);
+        }
+}) ;
+
+var ed_gaslyr =  new L.geoJson(ed_gas, {
+        
+        pointToLayer: function (feature, latlng) {
+            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            return L.marker(latlng, {icon: gas}).bindPopup(pop);
+        }
+}) ;
+
+var ed_emerlyr =  new L.geoJson(ed_emer, {
+        
+        pointToLayer: function (feature, latlng) {
+            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            return L.marker(latlng, {icon: police}).bindPopup(pop);
+        }
+});
+
+
+
     function greenspacecolor(d) {
         return d >= 0 & d < 2 ? '#edf8fb' :
             d >= 2 & d < 6 ? '#b2e2e2' :
@@ -46,7 +135,7 @@ var police = L.icon({
 
     function greenspacestyle(feature) {
         return {
-            fillColor: greenSpacecolor(feature.properties['%_Green_Sp']),
+            fillColor: greenspacecolor(feature.properties['%_Green_Sp']),
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
@@ -91,7 +180,7 @@ function HomeOwnedColor(d) {
 
         };
     }
-    function houseValuescolor(d) {
+    function housevaluescolor(d) {
         return d >= 0 & d < 131433 ? '#ffffcc' :
             d >= 131433 & d < 312580 ? '#ffeda0' :
             d >= 312580 & d < 433296? '#fd8d3c' :
@@ -101,7 +190,7 @@ function HomeOwnedColor(d) {
 
     function housevalstyle(feature) {
         return {
-            fillColor: houseValuescolor(feature.properties.Avg_Home_V),
+            fillColor: housevaluescolor(feature.properties.Avg_Home_V),
             fillOpacity: 0.4,
             color: 'black',
             weight: 1
@@ -134,7 +223,7 @@ function HomeOwnedColor(d) {
             d >= 13000 ? '#993404' : '#FFEDA0';
     }
 
-    function totPopstyle(feature) {
+    function totpopstyle(feature) {
         return {
             fillColor: totPopcolor(feature.properties.Tot_Pop),
             fillOpacity: 0.6,
@@ -152,7 +241,7 @@ function HomeOwnedColor(d) {
             d >= 50862 ? '#a50f15' : '#FFEDA0';
     }
 
-    function avgIncstyle(feature) {
+    function avgincstyle(feature) {
         return {
             fillColor: avgInccolor(feature.properties.Avg_Inc),
             fillOpacity: 0.6,
@@ -172,18 +261,7 @@ function HomeOwnedColor(d) {
         };
     }
 
-var map = L.map('map').setView([53.53, -113.50], 11);
-var layer;
-var gray = L.esri.basemapLayer('Gray'),
-    topo = L.esri.basemapLayer('Topographic'),
-    Stamen_Watercolor = L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png', {
-        attribution: '',
-        subdomains: 'abcd',
-        minZoom: 1,
-        maxZoom: 16
-    });
 
-gray.addTo(map);
 
 
 function highlightFeature(e) {
@@ -254,43 +332,61 @@ var info = L.control();
     var sidebar = $('#sidebar')
         .sidebar();
 
-var healthIcon = L.icon({
-    iconUrl: '/img/city-hospital-icon.png',
-
-    iconSize:     [15, 15], // size of the icon
-    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
-    popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
-});
 
 
 
 
-var ed_hosplyr =  new L.geoJson(ed_hosp, {
-        
-        pointToLayer: function (feature, latlng) {
-            var pop = ' Kind of Health Facility: '+feature.properties.SV_NAME;
-            return L.marker(latlng, {icon: healthIcon}).bindPopup(pop);
-        }
-}).addTo(map);
+function layerRemove(){
+    map.removeLayer(layer);
+    };
 
-function switchJSON()
-{
-       var rates = document.getElementsByName('r1');
-       var rate_value;
-       for(var i = 0; i < rates.length; i++){
-          if(rates[i].checked){
-              rate_value = rates[i].value;
-          }
-        }
-        var layer = new L.geoJson(edmon_data, {
-            style: rate_value,
+
+ layer =  L.geoJson(edmon_data, {
+            style: totpopstyle,
             onEachFeature: onEachFeature
         }).addTo(map);
-        return layer;
-}
+
+function layerAddGre(){
+
+     layer =  L.geoJson(edmon_data, {
+            style: greenspacestyle,
+            onEachFeature: onEachFeature
+        }).addTo(map);
+    };
 
 
+function layerAddHome(){
 
+     layer =  L.geoJson(edmon_data, {
+            style: homeownedstyle,
+            onEachFeature: onEachFeature
+        }).addTo(map);
+    };
+
+
+function layerAddWalk(){
+
+     layer =  L.geoJson(edmon_data, {
+            style: walkscorestyle,
+            onEachFeature: onEachFeature
+        }).addTo(map);
+    };
+function layerAddHomeVal(){
+
+     layer =  L.geoJson(edmon_data, {
+            style: housevalstyle,
+            onEachFeature: onEachFeature
+        }).addTo(map);
+    };
+
+
+function layerAddRent(){
+
+    layer =  L.geoJson(edmon_data, {
+            style: rentstyle,
+            onEachFeature: onEachFeature
+        }).addTo(map);
+    };
 
 
 
@@ -300,15 +396,21 @@ function switchJSON()
 var base = L.layerGroup([layer]);
 
 
-var layer = new L.geoJson(edmon_data, {
-            style: avgIncstyle,
-            onEachFeature: onEachFeature
-        }).addTo(map);
-
-var income = L.layerGroup([layer]);
 
 
 
+
+
+var hosp = L.layerGroup([ed_hosplyr]);
+
+var park = L.layerGroup([ed_greelyr]);
+
+var school = L.layerGroup([ed_scholyr]);
+var culture = L.layerGroup([ed_cultlyr]);
+
+var grocery = L.layerGroup([ed_groclyr]);
+var gas = L.layerGroup([ed_gaslyr]);
+var police = L.layerGroup([ed_emerlyr]);
 
 
 
@@ -321,8 +423,13 @@ var baseMaps = {
 
 
 var overlayMaps = {
-        "Dissemination Areas": base,
-        "Income": income
+        "Community Areas": base,
+        "Hospitals": hosp,
+        "Schools": school,
+        "Emergency Services": police,
+        "Parks": park,
+        "Cultural Features": culture,
+        "Gas Stations": gas
     };
 
 
@@ -364,5 +471,4 @@ legend.addTo(map);
 legend._container.remove();
 document.getElementById('messages')
         .appendChild(legend.onAdd(map));	
-
 
