@@ -1,6 +1,5 @@
-# Welcom to Community Open-Data Engage (CODE)
+# This file describes Version 1.0 of Community Open-Data Engage (CODE)
 
-----
 ## What is CODE?
 Run Our Live Demo [HERE](http://www.esri.ca/en)
 
@@ -16,17 +15,18 @@ Run Our Live Demo [HERE](http://www.esri.ca/en)
 
 > Behind the scenes of CODE there are three core components: an interactive visualization to explore spatial data or the "front_end"; the anayltical tools and spatial analysis done in python using custom-made and Esri's GIS software; and of course you - the user. 
 
+
 ----
 ## To Engage Usage
 1. Visit our user interface [here] (http://www.code.ca/en).
 2. Alternatively, visit our GitHub repoistory [here](https://github.com/terratenney/super_secret).
 
 ----
-## Sub-modules
+## Components
 
 **Geospatial Data Viewer:**
 
-CODE pulls community oriented spatial information from open-data portals provided by local and national governments.
+CODE pulls community oriented spatial information from the following open-data portals.
 
 >[City of Vancouver Open Data Catalogue] (http://vancouver.ca/your-government/open-data-catalogue.aspx)
 
@@ -34,55 +34,67 @@ CODE pulls community oriented spatial information from open-data portals provide
 
 >[Open Data Government of Canada] (http://open.canada.ca/en/open-data)
 
-CODE then dynamically runs pre-defined spatial and network analysis and pushes the results into the UI. Users can toggle between different layers and explore statistical and text descriptions of neighbourhood features inside a descriptive balloon.
+CODE then dynamically runs pre-defined spatial and network analysis, and pushes the results into the UI. Users toggle between different layers and explore statistical and text descriptions of neighbourhoods.
 
-While there is more description of the analysis we performed in the actual code files - we tried to follow common techniques in what we considered key geodemographic and socio-economic indicators. For example, we parsed massive Statistic Canada Topic Tables to integrate over 25 variables from the 2011 National Household Survey and feed them back to you through choropleth maps, graphs, and tables. There are many others - like green space availability around you, recreation facilities, access to healthcare, food deserts (food availability - not including 'unhealthy' fast-food) and many more.  
+*Included Layers*
+
+* Demographic information (income, age, education levels, house values)
+* Emergency services
+* Hospitals and medical centres
+* Schools
+* Cultural facilities
+* Parks
+* Gas Stations
+* Grocery Stores
 
 **Community Input**
 
-As a part of CODE we wanted to make sure people had a way to connect with each other. So we intended to implement a feature which allows users to contribute ideas, concerns, or just comment in their area. Once a message has been reviewed and accepted by the admin, it will be visible within the interface to all users as a separate “community input” layer to show others what some are interested in at this particular area.
+This component allows users to input their own spatial information or comment on existing features. Once a message has been reviewed and accepted by the admin, it will be visible within the interface to all users as a separate “community input” layer.
 
 **Community Discussion**
 
-The social-media component is a search app that lets you see who is tweeting in your area and easily send them a message to interact with "local tweeters". This tool will hopefully help produce stronger connections and stimulate discussion on important community topics.
+The social-media component is a search app that lets you see who is tweeting in your area and easily send them a message to interact with local citizens. This tool facilitates productive discussion on important community topics.
 
 ##Technical Components (need to finish this section)
-We use the X web-parser to download shapefiles direct from their unique open-data repositories. Next, Y.py is used to run network analysis to closest facilities, count community features within each neighbourhood, and calculate the percent green space of community extents. The resulting json files are used as inputs for the visualization component.
-
-X.py is used to scrape census data to describe neighbourhood demographic data. This data is then graphed using D3 within pop-up balloons that appear when a neighbourhood is clicked.
-
+We wrote several python scripts to automatically download shapefiles direct from open-data repositories. Next, fac_count.py and route_finder are used to run network analysis to closest facilities, count community features within each neighbourhood, and calculate the percent green space of community extents. We then use shapefiletogeojson to output as json or .js files.
 
 ##CODE code
 
-    several snippits of code go here
-    and here
-    and here
+When a user specifies a community indicator, a newly styled layer will appear using the following code:
+
+    layer =  L.geoJson(edmon_data, {
+          style: houseStyle,
+          onEachFeature: onEachFeature
+      }).addTo(map);
+        currentLayer = "houseStyle";
+     };
+
+Interactivity is enabled through the following options 
+    
+    onEachFeature(feature, layer){
+    showGraph();
+    zoomtoFeature();
+    highlightFeature();
+    resetHighlight();
+    }
+
+### Assumptions
+Pop-up balloons can be customized to display whatever attributes are needed
+
+###Known Bugs
+Legends do not appear and/or change in Vancouver map
+Graphs in pop-up balloons are prone to fail
+   
 
 ## Bug Reporting
 
 You can send CODE bug reports to <bug-code@engage.ca>.
 
-You can also search for existing bugs here:
-
-  [List of bugs] (http://url.html)
-
-If you need help using CODE, try these forums:
-
-  * [Forum 1] (http://url.html)
-
-  * [Forum 2] (http://url.html)
-  * [Forum 3] (http://url.html)
-
-
 **Copyright (C) 2015 Matthew Tenney, Jin Xing, and Carl Hughes**
 
 This file is part of our lab.
 
-CODE is a free application; you can redistribute it and/or modify it under the terms of the General Public License as published by the Free Software
-Foundation; either version 3 of the License, or (at your option) any later
-version.
-
-CODE is distributed in the hope that it will be useful, but WITHOUT ANY
+CODE is a free application; you can redistribute it and/or modify it. CODE is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
 A PARTICULAR PURPOSE.
 
