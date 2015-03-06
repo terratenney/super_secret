@@ -78,7 +78,7 @@ var ed_hosplyr =  new L.geoJson(ed_hosp, {
 var ed_greelyr =  new L.geoJson(ed_gree, {
         
         pointToLayer: function (feature, latlng) {
-            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            var pop = '<b>Local Parks and Green Space:</b> '+sorry_message;
             return L.marker(latlng, {icon: park}).bindPopup(pop);
         }
 }) ;
@@ -86,7 +86,7 @@ var ed_greelyr =  new L.geoJson(ed_gree, {
 var ed_scholyr =  new L.geoJson(ed_scho, {
         
         pointToLayer: function (feature, latlng) {
-            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            var pop = '<b>Local Schools and Libraries:</b> '+sorry_message;
             return L.marker(latlng, {icon: school}).bindPopup(pop);
         }
 }) ;
@@ -94,7 +94,7 @@ var ed_scholyr =  new L.geoJson(ed_scho, {
 var ed_cultlyr =  new L.geoJson(ed_cult, {
         
         pointToLayer: function (feature, latlng) {
-            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            var pop = '<b>Local Cultural Facilities:</b> '+sorry_message;
             return L.marker(latlng, {icon: culture}).bindPopup(pop);
         }
 }) ;
@@ -102,7 +102,7 @@ var ed_cultlyr =  new L.geoJson(ed_cult, {
 var ed_groclyr =  new L.geoJson(ed_groc, {
         
         pointToLayer: function (feature, latlng) {
-            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            var pop = '<b>Local Food Banks, Grocery Stores, and Markets:</b> '+sorry_message;
             return L.marker(latlng, {icon: grocery}).bindPopup(pop);
         }
 }) ;
@@ -110,7 +110,7 @@ var ed_groclyr =  new L.geoJson(ed_groc, {
 var ed_gaslyr =  new L.geoJson(ed_gas, {
         
         pointToLayer: function (feature, latlng) {
-            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            var pop = '<b>Local Gas Stations:</b> '+sorry_message;
             return L.marker(latlng, {icon: gas}).bindPopup(pop);
         }
 }) ;
@@ -118,7 +118,7 @@ var ed_gaslyr =  new L.geoJson(ed_gas, {
 var ed_emerlyr =  new L.geoJson(ed_emer, {
         
         pointToLayer: function (feature, latlng) {
-            var pop = '<b>Local Health Facility:</b> '+sorry_message;
+            var pop = '<b>Local Emergency Services:</b> '+sorry_message;
             return L.marker(latlng, {icon: police}).bindPopup(pop);
         }
 });
@@ -320,7 +320,7 @@ var info = L.control();
     };
     // method that we will use to update the control based on feature properties passed
     info.update = function(props) {
-        this._div.innerHTML = '<h4>Community Info</h4>' + (props ? '<b>' + props.CMANAME + '</b><br />' + props.CDNAME + ' ' : 'Select Your Community');
+        this._div.innerHTML = '<h4>Community Info</h4>' + (props ? '<b>' + props.CSDNAME + '</b><br />' + 'Age 0-19: '+ '<b>' +props['Age_19_>']+ '</b><br />' + 'Age 20-35: '+ '<b>' +props['Age_20_34']+'</b><br />' + 'Age 35-54: '+ '<b>' +props['Age_35_54']+'</b><br />'+ 'Age 55 < Above: '+ '<b>'  +props['Age_55_<']+' ': 'Select Your Community');
     };
 
 
@@ -344,7 +344,7 @@ function layerRemove(){
         }).addTo(map);
 
 function layerAddGre(){
-
+     document.getElementById("varb_explain").innerHTML = "This map indicates the total percentage of greenspace available in each of the community areas within your city.";
      layer =  L.geoJson(edmon_data, {
             style: greenspacestyle,
             onEachFeature: onEachFeature
@@ -353,6 +353,7 @@ function layerAddGre(){
 
 
 function layerAddHome(){
+     document.getElementById("varb_explain").innerHTML = "This map indicates the median home values in your community area.";
 
      layer =  L.geoJson(edmon_data, {
             style: homeownedstyle,
