@@ -51,7 +51,6 @@ var police = L.icon({
 
 var sorry_message = "<p>Due to time constraints in this challenge we were unable to implement all the planned features of CODE.</p><p> But check back later and use your imagination in the meantime. This box would show you things like this place name, address, website, some basic info.</p>";
 
-
 var ed_hosplyr =  new L.geoJson(ed_hosp, {
         
         pointToLayer: function (feature, latlng) {
@@ -59,7 +58,6 @@ var ed_hosplyr =  new L.geoJson(ed_hosp, {
             return L.marker(latlng, {icon: hosp}).bindPopup(pop);
         }
 });
-
 
 var ed_greelyr =  new L.geoJson(ed_gree, {
         
@@ -109,24 +107,22 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
         }
 });
 
+function incColor(d) {
+    return d >= 0 & d < 20500 ? '#ffffd4' :
+        d >= 20500 & d < 30870 ? '#fed98e' :
+        d >= 30870 & d < 38683 ? '#fe9929' :
+        d >= 38683 & d < 50862 ? '#d95f0e' :
+        d >= 50862 ? '#993404' : '#993404';    
+}    
 
-    function incColor(d) {
-        return d >= 0 & d < 20500 ? '#ffffd4' :
-            d >= 20500 & d < 30870 ? '#fed98e' :
-            d >= 30870 & d < 38683 ? '#fe9929' :
-            d >= 38683 & d < 50862 ? '#d95f0e' :
-            d >= 50862 ? '#993404' : '#993404';
-    }
-
-    function incStyle(feature) {
-        return {
-            fillColor: incColor(feature.properties.Avg_Inc),
-            fillOpacity: 0.6,
-            color: 'black',
-            weight: 1
-
-        };
-    }
+function incStyle(feature) {
+    return {
+        fillColor: incColor(feature.properties.Avg_Inc),
+        fillOpacity: 0.6,
+        color: 'black',
+        weight: 1
+    };
+}
 
     function rentColor (d) {
         return d >= 0 & d < 626 ? '#fef0d9' :
@@ -142,7 +138,6 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
             fillOpacity: 0.4,
             color: 'black',
             weight: 1
-
         };
     }
     function popColor(d) {
@@ -159,7 +154,6 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
-
         };
     }
 
@@ -177,7 +171,6 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
-
         };
     }
 
@@ -195,7 +188,6 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
-
         };
     }
 
@@ -213,7 +205,6 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
-
         };
     }
     function houseColor(d) {
@@ -230,7 +221,6 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
             fillOpacity: 0.4,
             color: 'black',
             weight: 1
-
         };
     }
 
@@ -248,7 +238,6 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
-
         };
     }
 
@@ -258,7 +247,6 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
-
         };
     }
 
@@ -296,9 +284,6 @@ function onEachFeature(feature, layer) {
         click: zoomToFeature
     });
 }
-
-
-
 
 var searchControl = new L.esri.Geocoding.Controls.Geosearch()
     .addTo(map);
@@ -374,6 +359,13 @@ function layerAddHomeVal(){
         }).addTo(map);
     };
 
+function layerAddInc(){
+     layer =  L.geoJson(edmon_data, {
+            style: incStyle,
+            onEachFeature: onEachFeature
+        }).addTo(map);
+    };
+
 
 function layerAddRent(){
 
@@ -391,39 +383,19 @@ function layerAddPop(){
         }).addTo(map);
     };
 
-
-
-
-
-
 var base = L.layerGroup([layer]);
-
-
-
-
-
-
-
 var hosp = L.layerGroup([ed_hosplyr]);
-
 var park = L.layerGroup([ed_greelyr]);
-
 var school = L.layerGroup([ed_scholyr]);
 var culture = L.layerGroup([ed_cultlyr]);
-
 var grocery = L.layerGroup([ed_groclyr]);
 var gas = L.layerGroup([ed_gaslyr]);
 var police = L.layerGroup([ed_emerlyr]);
-
-
-
 var baseMaps = {
         "Grayscale": gray,
         "Streets": topo,
         "Colorful": Stamen_Watercolor
     };
-
-
 
 var overlayMaps = {
 
@@ -434,11 +406,6 @@ var overlayMaps = {
         "Cultural Features": culture,
         "Gas Stations": gas
     };
-
-
-
-
-
 var layerControl = L.control.layers(baseMaps,overlayMaps, {
         collapsed: false
     });
@@ -449,29 +416,4 @@ layerControl.addTo(map);
         .appendChild(layerControl.onAdd(map, {
             collapsed: false
         }));
-
-
-
-
-
-var grades = {'grades':[0, 12000, 20000, 25000, 35000, 45000, 50000]};
-var legend = L.control();
-/*
-function make_legend(map,grades) {
-    console.log(grades.grades);
-    var div = L.DomUtil.create('div', 'info legend'),
-    grades = grades.grades,
-    labels = [];
-        for (var i = 0; i < grades.length; i++) {div.innerHTML +='<i            style="background:' + getColor(grades[i] + 1) + '"></i> ' + grades[i]           + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');}
-            return div;
-    };
-
-legend.onAdd = make_legend();
-*/
-
-
-legend.addTo(map);
-legend._container.remove();
-document.getElementById('messages')
-        .appendChild(legend.onAdd(map));    
 
