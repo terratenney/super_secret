@@ -1,4 +1,4 @@
-# This file describes Version 1.0 of Community Open-Data Engage (CODE)
+# Welcome to Community Open-Data Engage (CODE)
 
 ## What is CODE?
 Run Our Live Demo [HERE](http://www.esri.ca/en)
