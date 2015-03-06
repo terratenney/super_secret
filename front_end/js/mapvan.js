@@ -666,7 +666,7 @@ function layerAddInc(){
           style: incStyle,
           onEachFeature: onEachFeature
       }).addTo(map);
-        currentLayer = "greenStyle";
+        currentLayer = "incStyle";
         graph = [0,20500,30870,38683,50862];
         lcolor = incColor;
 };
@@ -677,7 +677,7 @@ function layerAddRent(){
           style: rentStyle,
           onEachFeature: onEachFeature
       }).addTo(map);
-       currentLayer = "greenStyle";
+       currentLayer = "rentStyle";
        graph = [0,626,883,1026,2275];
        lcolor = rentColor;
 };
@@ -688,7 +688,9 @@ function layerAddPop(){
             style: popStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
+            currentLayer = "popStyle";
     graph = [0,700,1300,6000,13000];
+           lcolor = popColor;
 };
 
 var base = L.layerGroup([layer]);

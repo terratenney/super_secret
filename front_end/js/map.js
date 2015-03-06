@@ -15,11 +15,11 @@ var house=0;
 var rent=0;
 var population=0;
 var income=0;
-//defines the map
+//defines and creates the map instance
 var map = L.map('map').setView([53.53, -113.50], 11);
 var layer;
 
-//defines base layers
+//defines the base layers for the map
 var gray = L.esri.basemapLayer('Gray'),
     topo = L.esri.basemapLayer('Topographic'),
     Stamen_Watercolor = L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png', {
@@ -666,7 +666,7 @@ function layerAddInc(){
           style: incStyle,
           onEachFeature: onEachFeature
       }).addTo(map);
-        currentLayer = "greenStyle";
+        currentLayer = "incStyle";
         graph = [0,20500,30870,38683,50862];
         lcolor = incColor;
 };
@@ -677,7 +677,7 @@ function layerAddRent(){
           style: rentStyle,
           onEachFeature: onEachFeature
       }).addTo(map);
-       currentLayer = "greenStyle";
+       currentLayer = "rentStyle";
        graph = [0,626,883,1026,2275];
        lcolor = rentColor;
 };
@@ -688,6 +688,7 @@ function layerAddPop(){
             style: popStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
+            currentLayer = "popStyle";
     graph = [0,700,1300,6000,13000];
     lcolor = popColor;
 };
@@ -731,12 +732,13 @@ var currentLegend="baseLegend";
 var previousLegend="";
 var legend = L.control({position: 'bottomright'});
 
+//hide the previous legend
 function hideLegend(){
   map.removeControl(previousLegend);
 }
 
+//add a legend
 function showLegend(){
-  //previousLegend=legend;
   legend.onAdd= function (map) {
       var div = L.DomUtil.create('div', 'info legend'),
           grades = graph,
