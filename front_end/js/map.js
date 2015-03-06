@@ -1,4 +1,4 @@
-var currentLayer="greenStyle";
+var currentLayer="baseStyle";
 
 // the green space variable
 var green=0;
@@ -263,7 +263,7 @@ function incStyle(feature) {
         };
     }
 
-    function basestyle(feature) {
+    function baseStyle(feature) {
         return {
             fillColor: '#92c5de',
             fillOpacity: 0.6,
@@ -327,8 +327,8 @@ function onEachFeature(feature, layer) {
      temptext=rent;
    }
     layer.bindPopup(
-   'This community has '+temptext+'<br>'
-   +'<div id="chart_div" width="400" height="400"/>'
+  // 'This community has '+temptext+'<br>'
+   '<div id="chart_div" width="400" height="400"/>'
  
   );
     layer.on({
@@ -404,7 +404,7 @@ function showGraph2(){
         ]);
 
         // Set chart options
-        var options = {'title':'Community Green Space',
+        var options = {'title':'Community Home Ownership Percentage',
                        'width':400,
                        'height':300};
  var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
@@ -430,7 +430,7 @@ function showGraph3(){
         ]);
 
         // Set chart options
-        var options = {'title':'Community Green Space',
+        var options = {'title':'Community Walkability',
                        'width':400,
                        'height':300};
  var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
@@ -455,7 +455,7 @@ function showGraph4(){
         ]);
 
         // Set chart options
-        var options = {'title':'Community Green Space',
+        var options = {'title':'Community Home Values',
                        'width':400,
                        'height':300};
  var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
@@ -479,7 +479,7 @@ function showGraph4(){
         ]);
 
         // Set chart options
-        var options = {'title':'Community Green Space',
+        var options = {'title':'Community Rental Rates',
                        'width':400,
                        'height':300};
  var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
@@ -526,12 +526,12 @@ function layerRemove(){
 
 
  layer =  L.geoJson(edmon_data, {
-            style: basestyle,
+            style: baseStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
 
 function layerAddGre(){
-     document.getElementById("varb_explain").innerHTML = "This map indicates the total percentage of greenspace available in each of the community areas within your city.";
+     document.getElementById("varb_explain").innerHTML = "This map indicates the total percentage of greenspace available in each of community areas within your city.";
      layer =  L.geoJson(edmon_data, {
             style: greenStyle,
             onEachFeature: onEachFeature
@@ -552,7 +552,7 @@ function layerAddHome(){
 
 
 function layerAddWalk(){
-
+    document.getElementById("varb_explain").innerHTML = "This map indicates the walkability of community areas within your city.";
      layer =  L.geoJson(edmon_data, {
             style: walkStyle,
             onEachFeature: onEachFeature
@@ -560,7 +560,8 @@ function layerAddWalk(){
           currentLayer = "walkStyle";
     };
 function layerAddHomeVal(){
-
+document.getElementById("varb_explain").innerHTML = "This map indicates the average home values in each of the community areas within your city.";
+     
      layer =  L.geoJson(edmon_data, {
             style: valueStyle,
             onEachFeature: onEachFeature
@@ -569,6 +570,8 @@ function layerAddHomeVal(){
     };
 
 function layerAddInc(){
+    document.getElementById("varb_explain").innerHTML = "This map indicates the average household income in each of the community areas within your city.";
+     
      layer =  L.geoJson(edmon_data, {
             style: incStyle,
             onEachFeature: onEachFeature
@@ -578,7 +581,7 @@ function layerAddInc(){
 
 
 function layerAddRent(){
-
+    document.getElementById("varb_explain").innerHTML = "This map indicates the average rent values in each of the community areas within your city.";
     layer =  L.geoJson(edmon_data, {
             style: rentStyle,
             onEachFeature: onEachFeature
@@ -587,7 +590,8 @@ function layerAddRent(){
     };
 
 function layerAddPop(){
-
+document.getElementById("varb_explain").innerHTML = "This map indicates the population in each of the community areas within your city.";
+     
     layer =  L.geoJson(edmon_data, {
             style: popStyle,
             onEachFeature: onEachFeature
