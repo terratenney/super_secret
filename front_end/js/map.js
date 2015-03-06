@@ -261,9 +261,6 @@ function HomeOwnedColor(d) {
         };
     }
 
-
-
-
 function highlightFeature(e) {
     var layer = e.target;
 
@@ -423,7 +420,7 @@ var baseMaps = {
 
 
 var overlayMaps = {
-        "Community Areas": base,
+
         "Hospitals": hosp,
         "Schools": school,
         "Emergency Services": police,
