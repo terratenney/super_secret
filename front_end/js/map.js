@@ -12,8 +12,6 @@ var gray = L.esri.basemapLayer('Gray'),
 
 gray.addTo(map);
 
-
-
 var school = L.icon({
     iconUrl: './img/school.svg',
 iconSize:     [15, 15], // size of the icon
@@ -50,18 +48,6 @@ var police = L.icon({
     iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
     popupAnchor:  [0, 0]
 });
-
-
-
-var healthIcon = L.icon({
-    iconUrl: '/img/city-hospital-icon.png',
-
-    iconSize:     [15, 15], // size of the icon
-    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
-    popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
-});
-
-
 
 var sorry_message = "<p>Due to time constraints in this challenge we were unable to implement all the planned features of CODE.</p><p> But check back later and use your imagination in the meantime. This box would show you things like this place name, address, website, some basic info.</p>";
 
@@ -124,18 +110,17 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
 });
 
 
-
-    function greenspacecolor(d) {
-        return d >= 0 & d < 2 ? '#edf8fb' :
-            d >= 2 & d < 6 ? '#b2e2e2' :
-            d >= 6 & d < 10 ? '#66c2a4' :
-            d >= 10 & d < 18 ? '#2ca25f' :
-            d >= 18 ? '#006d2c' : '#aaaaaa';
+    function incColor(d) {
+        return d >= 0 & d < 20500 ? '#ffffd4' :
+            d >= 20500 & d < 30870 ? '#fed98e' :
+            d >= 30870 & d < 38683 ? '#fe9929' :
+            d >= 38683 & d < 50862 ? '#d95f0e' :
+            d >= 50862 ? '#993404' : '#993404';
     }
 
-    function greenspacestyle(feature) {
+    function incStyle(feature) {
         return {
-            fillColor: greenspacecolor(feature.properties['%_Green_Sp']),
+            fillColor: incColor(feature.properties.Avg_Inc),
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
@@ -143,7 +128,60 @@ var ed_emerlyr =  new L.geoJson(ed_emer, {
         };
     }
 
-function HomeOwnedColor(d) {
+    function rentColor (d) {
+        return d >= 0 & d < 626 ? '#fef0d9' :
+            d >= 626 & d < 833 ? '#fdcc8a' :
+            d >= 833 & d <1026 ? '#fc8d59' :
+            d >= 1026 & d < 1354 ? '#e34a33' :
+            d >= 2275 ? '#b30000' : '#b30000';
+    }
+
+    function rentStyle(feature) {
+        return {
+            fillColor: rentColor(feature.properties.Med_Rent),
+            fillOpacity: 0.4,
+            color: 'black',
+            weight: 1
+
+        };
+    }
+    function popColor(d) {
+        return d >= 0 & d < 700 ? '#edf8fb' :
+            d >= 700 & d < 1300 ? '#b3cde3' :
+            d >= 1300 & d < 3000? '#8c96c6' :
+            d >= 6000 & d < 13000 ? '#8856a7' :
+            d >= 13000 ? '#810f7c' : '#edf8fb';
+    }
+
+    function popStyle(feature) {
+        return {
+            fillColor: popColor(feature.properties.Tot_Pop),
+            fillOpacity: 0.6,
+            color: 'black',
+            weight: 1
+
+        };
+    }
+
+    function greenColor(d) {
+        return d >= 0 & d < 0.2 ? '#ffffcc' :
+            d >= 0.2 & d < 0.6 ? '#c2e699' :
+            d >= 0.6 & d < 5 ? '#78c679' :
+            d >= 5 & d < 18 ? '#31a354' :
+            d >= 18 ? '#006837' : '#006837';
+    }
+
+    function greenStyle(feature) {
+        return {
+            fillColor: greenColor(feature.properties['%_Green_Sp']),
+            fillOpacity: 0.6,
+            color: 'black',
+            weight: 1
+
+        };
+    }
+
+    function valueColor(d) {
         return d >= 0 & d < 12 ? '#eff3ff' :
             d >= 12 & d < 40 ? '#bdd7e7' :
             d >= 40 & d < 65 ? '#6baed6' :
@@ -151,9 +189,9 @@ function HomeOwnedColor(d) {
             d >= 83 ? '#08519c' : '#aaaaaa';
     }
 
-    function homeownedstyle(feature) {
+    function valueStyle(feature) {
         return {
-            fillColor: HomeOwnedColor(feature.properties['%_Owned']),
+            fillColor: valueColor(feature.properties['%_Owned']),
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
@@ -161,36 +199,34 @@ function HomeOwnedColor(d) {
         };
     }
 
-
-
-    function walkscoreColor(d) {
-        return d >= 0 & d < 12 ? '#feebe2wal' :
-            d >= 12 & d < 40 ? '#fbb4b9' :
-            d >= 40 & d < 65 ? '#f768a1' :
-            d >= 65 & d < 83 ? '#c51b8a' :
-            d >= 83 ? '#7a0177' : '#aaaaaa';
+    function walkColor(d) {
+        return d >= 0 & d < 12 ? '#edf8e9' :
+            d >= 12 & d < 40 ? '#bae4b3' :
+            d >= 40 & d < 65 ? '#74c476' :
+            d >= 65 & d < 83 ? '#31a354' :
+            d >= 83 ? '#006d2c' : '#006d2c';
     }
 
-    function walkscorestyle(feature) {
+    function walkStyle(feature) {
         return {
-            fillColor: walkscoreColor(feature.properties.Walkscore),
+            fillColor: walkColor(feature.properties.Walkscore),
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
 
         };
     }
-    function housevaluescolor(d) {
-        return d >= 0 & d < 131433 ? '#ffffcc' :
-            d >= 131433 & d < 312580 ? '#ffeda0' :
-            d >= 312580 & d < 433296? '#fd8d3c' :
-            d >= 433296 & d < 568988 ? '#e31a1c' :
-            d >= 568988 ? '#800026' : '#FFEDA0';
+    function houseColor(d) {
+        return d >= 0 & d < 396153 ? '#fef0d9' :
+            d >= 396153 & d < 748872 ? '#fdcc8a' :
+            d >= 748872 & d < 1101844? '#fc8d59' :
+            d >= 1101844 & d < 1456372 ? '#e34a33' :
+            d >= 1456372 ? '#b30000' : '#b30000';
     }
 
-    function housevalstyle(feature) {
+    function houseStyle(feature) {
         return {
-            fillColor: housevaluescolor(feature.properties.Avg_Home_V),
+            fillColor: houseColor(feature.properties.Avg_Home_V),
             fillOpacity: 0.4,
             color: 'black',
             weight: 1
@@ -198,23 +234,6 @@ function HomeOwnedColor(d) {
         };
     }
 
-    function rent(d) {
-        return d >= 0 & d < 200 ? '#ffffcc' :
-            d >= 201 & d < 550 ? '#ffeda0' :
-            d >= 651 & d <850 ? '#fd8d3c' :
-            d >= 851 & d < 1000 ? '#e31a1c' :
-            d >= 1001 ? '#800026' : '#FFEDA0';
-    }
-
-    function rentstyle(feature) {
-        return {
-            fillColor: rent(feature.properties.Avg_Home_V),
-            fillOpacity: 0.4,
-            color: 'black',
-            weight: 1
-
-        };
-    }
     function totPopcolor(d) {
         return d >= 0 & d < 700 ? '#ffffd4' :
             d >= 700 & d < 1300 ? '#fed98e' :
@@ -226,24 +245,6 @@ function HomeOwnedColor(d) {
     function totpopstyle(feature) {
         return {
             fillColor: totPopcolor(feature.properties.Tot_Pop),
-            fillOpacity: 0.6,
-            color: 'black',
-            weight: 1
-
-        };
-    }
-
-    function avgInccolor(d) {
-        return d >= 0 & d < 20500 ? '#fee5d9' :
-            d >= 20500 & d < 30870 ? '#fcae91' :
-            d >= 30870 & d < 38683 ? '#fb6a4a' :
-            d >= 38683 & d < 50862 ? '#de2d26' :
-            d >= 50862 ? '#a50f15' : '#FFEDA0';
-    }
-
-    function avgincstyle(feature) {
-        return {
-            fillColor: avgInccolor(feature.properties.Avg_Inc),
             fillOpacity: 0.6,
             color: 'black',
             weight: 1
@@ -329,24 +330,20 @@ var info = L.control();
     var sidebar = $('#sidebar')
         .sidebar();
 
-
-
-
-
 function layerRemove(){
     map.removeLayer(layer);
     };
 
 
  layer =  L.geoJson(edmon_data, {
-            style: totpopstyle,
+            style: basestyle,
             onEachFeature: onEachFeature
         }).addTo(map);
 
 function layerAddGre(){
      document.getElementById("varb_explain").innerHTML = "This map indicates the total percentage of greenspace available in each of the community areas within your city.";
      layer =  L.geoJson(edmon_data, {
-            style: greenspacestyle,
+            style: greenStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
     };
@@ -356,7 +353,7 @@ function layerAddHome(){
      document.getElementById("varb_explain").innerHTML = "This map indicates the median home values in your community area.";
 
      layer =  L.geoJson(edmon_data, {
-            style: homeownedstyle,
+            style: houseStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
     };
@@ -365,14 +362,14 @@ function layerAddHome(){
 function layerAddWalk(){
 
      layer =  L.geoJson(edmon_data, {
-            style: walkscorestyle,
+            style: walkStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
     };
 function layerAddHomeVal(){
 
      layer =  L.geoJson(edmon_data, {
-            style: housevalstyle,
+            style: valueStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
     };
@@ -381,7 +378,15 @@ function layerAddHomeVal(){
 function layerAddRent(){
 
     layer =  L.geoJson(edmon_data, {
-            style: rentstyle,
+            style: rentStyle,
+            onEachFeature: onEachFeature
+        }).addTo(map);
+    };
+
+function layerAddPop(){
+
+    layer =  L.geoJson(edmon_data, {
+            style: popStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
     };
@@ -468,5 +473,5 @@ legend.onAdd = make_legend();
 legend.addTo(map);
 legend._container.remove();
 document.getElementById('messages')
-        .appendChild(legend.onAdd(map));	
+        .appendChild(legend.onAdd(map));    
 
