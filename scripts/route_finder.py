@@ -16,7 +16,7 @@ arcpy.CheckOutExtension("Network")
 # Local variables:
 van_roadsND = "van_roadsND"
 van_grocery = "van_grocery"
-da_cent_van = "da_cent_van"
+dauid = "dauid"
 van_grocery_routes = "van_grocery_routes"
 van_grocery_routes__2_ = "van_grocery_routes"
 van_grocery_routes__3_ = "van_grocery_routes"
@@ -28,7 +28,7 @@ arcpy.MakeClosestFacilityLayer_na(van_roadsND, "van_grocery_routes", "Length", "
 arcpy.AddLocations_na(van_grocery_routes, "Facilities", van_grocery, "Name Name #", "5000 Meters", "", "public_streets SHAPE;van_roadsND_Junctions NONE", "MATCH_TO_CLOSEST", "APPEND", "NO_SNAP", "5 Meters", "INCLUDE", "public_streets #;van_roadsND_Junctions #")
 
 # Process: Add Locations (2)
-arcpy.AddLocations_na(van_grocery_routes__2_, "Incidents", da_cent_van, "", "5000 Meters", "", "public_streets SHAPE;van_roadsND_Junctions NONE", "MATCH_TO_CLOSEST", "APPEND", "NO_SNAP", "5 Meters", "INCLUDE", "public_streets #;van_roadsND_Junctions #")
+arcpy.AddLocations_na(van_grocery_routes__2_, "Incidents", dauid, "", "5000 Meters", "", "public_streets SHAPE;van_roadsND_Junctions NONE", "MATCH_TO_CLOSEST", "APPEND", "NO_SNAP", "5 Meters", "INCLUDE", "public_streets #;van_roadsND_Junctions #")
 
 # Process: Solve
 arcpy.Solve_na(van_grocery_routes__3_, "SKIP", "TERMINATE", "")

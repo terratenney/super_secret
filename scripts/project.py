@@ -15,9 +15,8 @@ import arcpy
 
 
 # Local variables:
-sample_shape = "sample_shape"
-da_centre_shp = "C:\\Users\\carl\\Desktop\\webapp\\vancouver_features\\da_centre.shp"
+census_tracts = "census_tracts"
+dauid = "C:\\Users\\carl\\Desktop\\webapp\\vancouver_features\\dauid.shp"
 
 # Process: Feature To Point
-arcpy.FeatureToPoint_management(sample_shape, da_centre_shp, "CENTROID")
-
+arcpy.FeatureToPoint_management(census_tracts, dauid, "CENTROID")
