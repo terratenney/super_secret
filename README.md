@@ -55,8 +55,10 @@ This component allows users to input their own spatial information or comment on
 
 The social-media component is a search app that lets you see who is tweeting in your area and easily send them a message to interact with local citizens. This tool facilitates productive discussion on important community topics.
 
-##Technical Components (need to finish this section)
+##Technical Components
 We wrote several python scripts to automatically download shapefiles direct from open-data repositories. Next, fac_count.py and route_finder are used to run network analysis to closest facilities, count community features within each neighbourhood, and calculate the percent green space of community extents. We then use shapefiletogeojson to output as json or .js files.
+
+We access the spatial information through leaflets layer functionality in a series of JavaScript files in an HTML page.
 
 ##CODE code
 
@@ -78,12 +80,9 @@ Interactivity is enabled through the following options
     resetHighlight();
     }
 
-### Assumptions
-Pop-up balloons can be customized to display whatever attributes are needed
 
 ###Known Bugs
-Legends do not appear and/or change in Vancouver map
-Graphs in pop-up balloons are prone to fail
+Lack of descriptive information in popup balloons comes from unstandardized data formats. Would be very easy to implement properly
    
 
 ## Bug Reporting
