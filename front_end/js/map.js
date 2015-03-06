@@ -15,10 +15,6 @@ var house=0;
 var rent=0;
 var population=0;
 var income=0;
-var currentLegend="baseLegend";
-var previousLegend="";
-var legend = L.control({position: 'bottomright'});
-
 //defines the map
 var map = L.map('map').setView([53.53, -113.50], 11);
 var layer;
@@ -180,8 +176,8 @@ function incStyle(feature) {
 
 function rentColor (d) {
   return d >= 0 & d < 626 ? '#fef0d9' :
-    d >= 626 & d < 833 ? '#fc8d59' :
-    d >= 833 & d <1026 ? '#fdcc8a' :
+    d >= 626 & d < 833 ? '#fdcc8a' :
+    d >= 833 & d <1026 ? '#fc8d59' :
     d >= 1026 & d < 1354 ? '#e34a33' :
     d >= 2275 ? '#b30000' : '#b30000';
 }
@@ -279,27 +275,10 @@ function valueStyle(feature) {
   };
 }
 
-function totPopcolor(d) {
-  return d >= 0 & d < 700 ? '#ffffd4' :
-    d >= 700 & d < 1300 ? '#fed98e' :
-    d >= 1300 & d < 3000? '#fe9929' :
-    d >= 6000 & d < 13000 ? '#d95f0e' :
-    d >= 13000 ? '#993404' : '#FFEDA0';
-}
-
-function totpopstyle(feature) {
-  return {
-    fillColor: totPopcolor(feature.properties.Tot_Pop),
-    fillOpacity: 0.6,
-    color: 'black',
-    weight: 1
-  };
-}
-
 function baseStyle(feature) {
   return {
-    fillColor: '#92c5de',
-    fillOpacity: 0.6,
+    fillColor: '#FFFF66',
+    fillOpacity: 0.2,
     color: 'black',
     weight: 1
   };
@@ -710,6 +689,7 @@ function layerAddPop(){
             onEachFeature: onEachFeature
         }).addTo(map);
     graph = [0,700,1300,6000,13000];
+    lcolor = popColor;
 };
 
 var base = L.layerGroup([layer]);
@@ -747,13 +727,24 @@ layerControl.addTo(map);
       collapsed: false
 }));
 
-function removeLegend(){
-  previousLegend.removeFrom(map);
+  if (document.getElementById("pop").checked){
+    alert('pop');
+  }
+
+var currentLegend="baseLegend";
+var previousLegend="";
+var legend = L.control({position: 'bottomright'});
+var legend2 = L.control({position: 'bottomright'});
+
+function hideLegend(){
+  map.removeControl(previousLegend);
 }
 
-function showLegend(){
-  previousLegend=currentLegend;
 
+
+
+function showLegend(){
+  //previousLegend=legend;
   legend.onAdd= function (map) {
       var div = L.DomUtil.create('div', 'info legend'),
           grades = graph,
@@ -767,6 +758,24 @@ function showLegend(){
 
       return div;
   };
-  currentLegend=legend;
-  currentLegend.addTo(map);
+  legend.addTo(map);
+  previousLegend=legend;
+}
+
+function showLegend2(){
+  //previousLegend=legend;
+  legend2.onAdd= function (map) {
+      var div = L.DomUtil.create('div', 'info legend'),
+          grade = [0,10,20,30];
+          labels = [];
+          legendColor = lcolor[1]
+      for (var i = 0; i < grades.length; i++) {
+          div.innerHTML +=
+              '<i style="background:' + legendColor(grade[i] + 1) + '"></i> ' +
+              grade[i] + (grade[i + 1] ? '&ndash;' + grade[i + 1] + '<br>' : '+');
+      }
+
+      return div;
+  };
+  legend2.addTo(map);
 }

@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset=utf-8 />
-    <title>Edmonton CODE Map</title>
+    <title>Vancouver CODE Map</title>
 
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
@@ -279,31 +279,31 @@
                 <table class="myOtherTable"  frame="box" bordercolor="#D8D8D8" style="background: white;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-color: #D8D8D8" font face="helvetica, sans-serif">
 
                     <tr>
-                        <td> <input type="radio" name="r1" value="popStyle" onClick="layerRemove(),layerAddPop(),showLegend()"/></td><td>Population</td>
+                        <td> <input type="radio" id="pop" name="r1" value="popStyle" onClick="layerRemove(),layerAddPop(),hideLegend(), showLegend()"/></td><td>Population</td>
                     </tr> 
 
                     <tr>
-                        <td> <input type="radio" name="r1" value="incStyle" onClick="layerRemove(),layerAddInc(),showLegend()"/></td><td>Income</td>
+                        <td> <input type="radio" id="inc" name="r1" value="incStyle" onClick="layerRemove(),layerAddInc(),hideLegend(), showLegend()"/></td><td>Income</td>
                     </tr> 
 
                     <tr>
-                        <td> <input type="radio" name="r1" value="valueStyle" onClick="layerRemove(),layerAddHomeVal(),showLegend()"/></td><td>Home Value</td>
+                        <td> <input type="radio" id="value" name="r1" value="valueStyle" onClick="layerRemove(),layerAddHomeVal(),hideLegend(), showLegend()"/></td><td>Home Value</td>
                     </tr> 
                         
                     <tr >
-                        <td> <input type="radio" name="r1" value="houseStyle" onClick="layerRemove(),layerAddHomeown(),showLegend()"/></td><td>Home Ownership</td>
+                        <td> <input type="radio" id="house" name="r1" value="houseStyle" onClick="layerRemove(),layerAddHomeown(),hideLegend(), showLegend()"/></td><td>Home Ownership</td>
                     </tr>  
 
                     <tr>
-                        <td> <input type="radio" name="r1" value="rentStyle" onClick="layerRemove(),layerAddRent(),showLegend()"/></td><td>Rent Value</td>
+                        <td> <input type="radio"  id="rent" name="r1" value="rentStyle" onClick="layerRemove(),layerAddRent(),hideLegend(), showLegend()"/></td><td>Rental Costs</td>
                     </tr> 
 
                     <tr >
-                        <td width="30"> <input type="radio"  name="r1" value="greenStyle" onClick="layerRemove(),layerAddGre(),showLegend()"/></td><td>Green Space</td>
+                        <td width="30"> <input type="radio" id="green" name="r1" value="greenStyle" onClick="layerRemove(),layerAddGre(),hideLegend(), showLegend()"/></td><td>Green Space</td>
                     </tr>  
 
                     <tr>
-                        <td> <input type="radio" name="r1" value="walkStyle" onClick="layerRemove(),layerAddWalk(),showLegend()"/></td><td>Walkability</td>
+                        <td> <input type="radio" id="walk" name="r1" value="walkStyle" onClick="layerRemove(),layerAddWalk(),showLegend()"/></td><td>Walkability</td>
                     </tr> 
 
                 </table>

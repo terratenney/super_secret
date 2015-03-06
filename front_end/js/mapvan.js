@@ -15,12 +15,10 @@ var house=0;
 var rent=0;
 var population=0;
 var income=0;
-var currentLegend="baseLegend";
-var previousLegend="";
-var legend = L.control({position: 'bottomright'});
+
 
 //defines the map
-var map = L.map('map').setView([53.53, -113.50], 11);
+var map = L.map('map').setView([49.25, -123.10], 11);
 var layer;
 
 //defines base layers
@@ -172,7 +170,7 @@ function incColor(d) {
 function incStyle(feature) {
   return {
     fillColor: incColor(feature.properties.Avg_Inc),
-    fillOpacity: 0.6,
+    fillOpacity: 0.4,
     color: 'black',
     weight: 1
   };
@@ -196,17 +194,17 @@ function rentStyle(feature) {
 }
 
 function popColor(d) {
-  return d >= 0 & d < 700 ? '#edf8fb' :
-    d >= 700 & d < 1300 ? '#b3cde3' :
-    d >= 1300 & d < 3000? '#8c96c6' :
-    d >= 6000 & d < 13000 ? '#8856a7' :
-    d >= 13000 ? '#810f7c' : '#edf8fb';
+  return d >= 0 & d < 200 ? '#edf8fb' :
+    d >= 200 & d < 500 ? '#b3cde3' :
+    d >= 500 & d < 900? '#8c96c6' :
+    d >= 900 & d < 1500 ? '#8856a7' :
+    d >= 1500 ? '#810f7c' : '#edf8fb';
 }
 
 function popStyle(feature) {
   return {
     fillColor: popColor(feature.properties.Tot_Pop),
-    fillOpacity: 0.6,
+    fillOpacity: 0.4,
     color: 'black',
     weight: 1
   };
@@ -223,7 +221,7 @@ function greenColor(d) {
 function greenStyle(feature) {
   return {
     fillColor: greenColor(feature.properties['%_Green_Sp']),
-    fillOpacity: 0.6,
+    fillOpacity: 0.4,
     color: 'black',
     weight: 1
   };
@@ -240,7 +238,7 @@ function houseColor(d) {
 function houseStyle(feature) {
   return {
     fillColor: houseColor(feature.properties['%_Owned']),
-    fillOpacity: 0.6,
+    fillOpacity: 0.4,
     color: 'black',
     weight: 1
   };
@@ -257,7 +255,7 @@ function walkColor(d) {
 function walkStyle(feature) {
   return {
     fillColor: walkColor(feature.properties.Walkscore),
-    fillOpacity: 0.6,
+    fillOpacity: 0.4,
     color: 'black',
     weight: 1
   };
@@ -279,27 +277,10 @@ function valueStyle(feature) {
   };
 }
 
-function totPopcolor(d) {
-  return d >= 0 & d < 700 ? '#ffffd4' :
-    d >= 700 & d < 1300 ? '#fed98e' :
-    d >= 1300 & d < 3000? '#fe9929' :
-    d >= 6000 & d < 13000 ? '#d95f0e' :
-    d >= 13000 ? '#993404' : '#FFEDA0';
-}
-
-function totpopstyle(feature) {
-  return {
-    fillColor: totPopcolor(feature.properties.Tot_Pop),
-    fillOpacity: 0.6,
-    color: 'black',
-    weight: 1
-  };
-}
-
 function baseStyle(feature) {
   return {
-    fillColor: '#92c5de',
-    fillOpacity: 0.6,
+    fillColor: '#FFFF66',
+    fillOpacity: 0.2,
     color: 'black',
     weight: 1
   };
@@ -619,7 +600,7 @@ var info = L.control();
   };
   // method that we will use to update the control based on feature properties passed
   info.update = function(props) {
-      this._div.innerHTML = '<h4>Community Info</h4>' + (props ? '<b>' + props.CSDNAME + '</b><br />' + 'Age 0-19: '+ '<b>' +props['Age_19_>']+ '</b><br />' + 'Age 20-35: '+ '<b>' +props['Age_20_34']+'</b><br />' + 'Age 35-54: '+ '<b>' +props['Age_35_54']+'</b><br />'+ 'Age 55 < Above: '+ '<b>'  +props['Age_55_<']+' ': 'Select Your Community');
+      this._div.innerHTML = '<h4>Community Info</h4>' + (props ? '<b>' + props.CSDNAME + '</b><br />' + 'Age 0-19: '+ '<b>' +props['Age_19_>']+ '</b><br />' + 'Age 20-35: '+ '<b>' +props['Age_20_34']+'</b><br />' + 'Age 35-54: '+ '<b>' +props['Age_35_54']+'</b><br />'+ 'Age 55 < Above: '+ '<b>'  +props['Age_55_<']+' ' : 'Select Your Community');
   };
 
   info.addTo(map);
@@ -629,8 +610,6 @@ var info = L.control();
 function layerRemove(){
     map.removeLayer(layer);
 };
-
-var legend = L.control({position: 'bottomright'});
 
 layer =  L.geoJson(van_data, {
             style: baseStyle,
@@ -693,7 +672,7 @@ function layerAddInc(){
 };
 
 function layerAddRent(){
-  document.getElementById("varb_explain").innerHTML = "This map indicates the average rent values in each of the community areas within your city.";
+  document.getElementById("varb_explain").innerHTML = "This map indicates the average rental costs in each of the community areas within your city.";
   layer =  L.geoJson(van_data, {
           style: rentStyle,
           onEachFeature: onEachFeature
@@ -747,13 +726,19 @@ layerControl.addTo(map);
       collapsed: false
 }));
 
-function removeLegend(){
-  previousLegend.removeFrom(map);
+var currentLegend="baseLegend";
+var previousLegend="";
+var legend = L.control({position: 'bottomright'});
+
+function hideLegend(){
+  map.removeControl(previousLegend);
 }
 
-function showLegend(){
-  previousLegend=currentLegend;
 
+
+
+function showLegend(){
+  //previousLegend=legend;
   legend.onAdd= function (map) {
       var div = L.DomUtil.create('div', 'info legend'),
           grades = graph,
@@ -767,6 +752,6 @@ function showLegend(){
 
       return div;
   };
-  currentLegend=legend;
-  currentLegend.addTo(map);
+  legend.addTo(map);
+  previousLegend=legend;
 }

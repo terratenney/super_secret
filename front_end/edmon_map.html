@@ -142,7 +142,7 @@
 
 	</style>
 </head>
-<body>
+<body onLoad='showLegend2()'>
 
 	<div id="sidebar" class="sidebar collapsed">
 		
@@ -279,31 +279,31 @@
 				<table class="myOtherTable"  frame="box" bordercolor="#D8D8D8" style="background: white;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-color: #D8D8D8" font face="helvetica, sans-serif">
 
 					<tr>
-						<td> <input type="radio" name="r1" value="popStyle" onClick="layerRemove(),layerAddPop(),showLegend()"/></td><td>Population</td>
+						<td> <input type="radio" name="r1" id="pop" value="popStyle" onClick="layerRemove(),layerAddPop(),hideLegend(),showLegend()"/></td><td>Population</td>
 					</tr> 
 
 					<tr>
-						<td> <input type="radio" name="r1" value="incStyle" onClick="layerRemove(),layerAddInc(),showLegend()"/></td><td>Income</td>
+						<td> <input type="radio" name="r1"id="inc" value="incStyle" onClick="layerRemove(),layerAddInc(),hideLegend(), showLegend()"/></td><td>Income</td>
 					</tr> 
 
 					<tr>
-						<td> <input type="radio" name="r1" value="valueStyle" onClick="layerRemove(),layerAddHomeVal(),showLegend()"/></td><td>Home Value</td>
+						<td> <input type="radio" name="r1"id="value" value="valueStyle" onClick="layerRemove(),layerAddHomeVal(),hideLegend(), showLegend()"/></td><td>Home Value</td>
 					</tr> 
 			            
 					<tr >
-						<td> <input type="radio" name="r1" value="houseStyle" onClick="layerRemove(),layerAddHomeown(),showLegend()"/></td><td>Home Ownership</td>
+						<td> <input type="radio" name="r1" id="house"value="houseStyle" onClick="layerRemove(),layerAddHomeown(),hideLegend(), showLegend()"/></td><td>Home Ownership</td>
 					</tr>  
 
 					<tr>
-						<td> <input type="radio" name="r1" value="rentStyle" onClick="layerRemove(),layerAddRent(),showLegend()"/></td><td>Rent Value</td>
+						<td> <input type="radio" name="r1" id="rent"value="rentStyle" onClick="layerRemove(),layerAddRent(),hideLegend(), showLegend()"/></td><td>Rent Value</td>
 					</tr> 
 
 					<tr >
-						<td width="30"> <input type="radio"  name="r1" value="greenStyle" onClick="layerRemove(),layerAddGre(),showLegend()"/></td><td>Green Space</td>
+						<td width="30"> <input type="radio" id="green" name="r1" value="greenStyle" onClick="layerRemove(),layerAddGre(),hideLegend(), showLegend()"/></td><td>Green Space</td>
 					</tr>  
 
 					<tr>
-						<td> <input type="radio" name="r1" value="walkStyle" onClick="layerRemove(),layerAddWalk(),showLegend()"/></td><td>Walkability</td>
+						<td> <input type="radio" name="r1"id="walk" value="walkStyle" onClick="layerRemove(),layerAddWalk(), showLegend()"/></td><td>Walkability</td>
 					</tr> 
 
 				</table>
