@@ -142,7 +142,7 @@
 
     </style>
 </head>
-<body>
+<body onLoad="layerAddPop(),showLegend()">
 
     <div id="sidebar" class="sidebar collapsed">
         
@@ -303,7 +303,7 @@
                     </tr>  
 
                     <tr>
-                        <td> <input type="radio" id="walk" name="r1" value="walkStyle" onClick="layerRemove(),layerAddWalk(),showLegend()"/></td><td>Walkability</td>
+                        <td> <input type="radio" id="walk" name="r1" value="walkStyle" onClick="layerRemove(),layerAddWalk(),hideLegend(), showLegend()"/></td><td>Walkability</td>
                     </tr> 
 
                 </table>

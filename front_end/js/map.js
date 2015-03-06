@@ -727,10 +727,6 @@ layerControl.addTo(map);
       collapsed: false
 }));
 
-  if (document.getElementById("pop").checked){
-    alert('pop');
-  }
-
 var currentLegend="baseLegend";
 var previousLegend="";
 var legend = L.control({position: 'bottomright'});

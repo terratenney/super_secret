@@ -142,7 +142,7 @@
 
 	</style>
 </head>
-<body onLoad='showLegend2()'>
+<body onLoad="showLegend()">
 
 	<div id="sidebar" class="sidebar collapsed">
 		
@@ -279,7 +279,7 @@
 				<table class="myOtherTable"  frame="box" bordercolor="#D8D8D8" style="background: white;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-color: #D8D8D8" font face="helvetica, sans-serif">
 
 					<tr>
-						<td> <input type="radio" name="r1" id="pop" value="popStyle" onClick="layerRemove(),layerAddPop(),hideLegend(),showLegend()"/></td><td>Population</td>
+						<td> <input type="radio" checked="true" name="r1" id="pop" value="popStyle" onClick="layerRemove(),layerAddPop(),hideLegend(),showLegend()"/></td><td>Population</td>
 					</tr> 
 
 					<tr>
@@ -303,7 +303,7 @@
 					</tr>  
 
 					<tr>
-						<td> <input type="radio" name="r1"id="walk" value="walkStyle" onClick="layerRemove(),layerAddWalk(), showLegend()"/></td><td>Walkability</td>
+						<td> <input type="radio" name="r1"id="walk" value="walkStyle" onClick="layerRemove(),layerAddWalk(),hideLegend(), showLegend()"/></td><td>Walkability</td>
 					</tr> 
 
 				</table>
