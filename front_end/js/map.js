@@ -18,7 +18,10 @@ var house=0;
 //rent
 
 var rent=0;
+var currentLegend="baseLegend";
+var previousLegend="";
 var legend = L.control({position: 'bottomright'});
+
 var map = L.map('map').setView([53.53, -113.50], 11);
 var layer;
 var gray = L.esri.basemapLayer('Gray'),
@@ -549,11 +552,6 @@ function layerRemove(){
     };
 var legend = L.control({position: 'bottomright'});
 
-function hideLegend() {
-    map.removeControl(legend);
-}
-
-
  layer =  L.geoJson(edmon_data, {
             style: baseStyle,
             onEachFeature: onEachFeature
@@ -638,7 +636,6 @@ document.getElementById("varb_explain").innerHTML = "This map indicates the popu
             onEachFeature: onEachFeature
         }).addTo(map);
     graph = [0,700,1300,6000,13000];
-    hideLegend;
     };
 
 var base = L.layerGroup([layer]);
@@ -675,9 +672,15 @@ layerControl.addTo(map);
             collapsed: false
         }));
 
-function showLegend(){
-legend.onAdd = function (map) {
+function removeLegend(){
+    previousLegend.removeFrom(map);
+}
 
+function showLegend(){
+//legend.removeFrom=function
+previousLegend=currentLegend;
+//map.removeControl(previousLegend);
+legend.onAdd= function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = graph,
         labels = [];
@@ -692,5 +695,7 @@ legend.onAdd = function (map) {
 
     return div;
 };
-legend.addTo(map);
+//legend.addTo(map);
+currentLegend=legend;
+currentLegend.addTo(map);
 }
