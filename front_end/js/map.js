@@ -169,8 +169,8 @@ function incStyle(feature) {
 
     function rentColor (d) {
         return d >= 0 & d < 626 ? '#fef0d9' :
-            d >= 626 & d < 833 ? '#fdcc8a' :
-            d >= 833 & d <1026 ? '#fc8d59' :
+            d >= 626 & d < 833 ? '#fc8d59' :
+            d >= 833 & d <1026 ? '#fdcc8a' :
             d >= 1026 & d < 1354 ? '#e34a33' :
             d >= 2275 ? '#b30000' : '#b30000';
     }
@@ -388,20 +388,22 @@ function showGraph()
 function showGraph1(){
   map.on('popupopen', function() {
      // Create the data table.
+
+
      
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Topping');
-        data.addColumn('number', 'Acres');
-        data.addRows([
-          ['Average', 10],
-          ['Community', green],
-          ['Max', 120]
+var data = google.visualization.arrayToDataTable([
+          ['Product', 'Score', { role: 'style' }],
+          ['Avg',  28, 'green'],
+          ['Community',  green, 'blue'],
+          ['Max',  120, 'red']
         ]);
+
 
         // Set chart options
         var options = {'title':'Community Green Space',
                        'width':400,
-                       'height':300};
+                       'height':300,
+                       'legend': 'none'};
  var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
         chart.draw(data, options);
       
@@ -543,11 +545,14 @@ var info = L.control();
 
 function layerRemove(){
     map.removeLayer(layer);
+    //map.removeControl(legend);
     };
+var legend = L.control({position: 'bottomright'});
 
-function removeLegend(){
+function hideLegend() {
     map.removeControl(legend);
 }
+
 
  layer =  L.geoJson(edmon_data, {
             style: baseStyle,
@@ -562,6 +567,7 @@ function layerAddGre(){
         }).addTo(map);
      currentLayer = "greenStyle";
      graph = [0,0.2,10,15,20];
+     lcolor=greenColor;
     };
 
 
@@ -574,6 +580,7 @@ function layerAddHomeVal(){
         }).addTo(map);
           currentLayer = "valueStyle";
           graph = [0,396153,748872,1101844,1456372];
+          lcolor=valueColor;
     };
 
 
@@ -585,6 +592,7 @@ function layerAddWalk(){
         }).addTo(map);
           currentLayer = "walkStyle";
           graph = [0,20,40,50,90];
+          lcolor = walkColor;
     };
 
 function layerAddHomeown(){
@@ -595,6 +603,7 @@ document.getElementById("varb_explain").innerHTML = "This map indicates the perc
         }).addTo(map);
           currentLayer = "houseStyle";
           graph = [0,12,40,65,83];
+          lcolor = houseColor;
     };
 
 function layerAddInc(){
@@ -606,6 +615,7 @@ function layerAddInc(){
         }).addTo(map);
           currentLayer = "greenStyle";
           graph = [0,20500,30870,38683,50862];
+          lcolor = incColor;
     };
 
 
@@ -616,7 +626,8 @@ function layerAddRent(){
             onEachFeature: onEachFeature
         }).addTo(map);
          currentLayer = "greenStyle";
-         graph = [0,626,383,1026,2275];
+         graph = [0,626,883,1026,2275];
+         lcolor = rentColor;
     };
 
 function layerAddPop(){
@@ -670,11 +681,12 @@ legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = graph,
         labels = [];
+        legendColor = lcolor
 
     // loop through our density intervals and generate a label with a colored square for each interval
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
-            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            '<i style="background:' + legendColor(grades[i] + 1) + '"></i> ' +
             grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
     }
 
