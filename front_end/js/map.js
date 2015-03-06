@@ -259,11 +259,25 @@ var ed_hosplyr =  new L.geoJson(ed_hosp, {
         }
 }).addTo(map);
 
-
-var layer = new L.geoJson(edmon_data, {
-            style: basestyle,
+function switchJSON()
+{
+       var rates = document.getElementsByName('r1');
+       var rate_value;
+       for(var i = 0; i < rates.length; i++){
+          if(rates[i].checked){
+              rate_value = rates[i].value;
+          }
+        }
+        var layer = new L.geoJson(edmon_data, {
+            style: rate_value,
             onEachFeature: onEachFeature
         }).addTo(map);
+        return layer;
+}
+
+
+
+
 
 
 
