@@ -18,8 +18,11 @@ Run Our Live Demo [HERE](http://www.esri.ca/en)
 
 ----
 ## To Engage Usage
-1. Visit our user interface [here] (http://www.code.ca/en).
+1a. Visit our user interface [here] (http://www.code.ca/en).
 2. Alternatively, visit our GitHub repoistory [here](https://github.com/terratenney/super_secret).
+3. Clone repository
+4. Rune pyhton -m SimpleHTTPServer from the front_end directory OR run from the scripts folder: test_server.py (require library dependenices fiona and cherrypy) 
+5. Open up your browse and navigate to http://localhost:8000/home.html in a browser 
 
 ----
 ## Components
@@ -58,7 +61,7 @@ The social-media component is a search app that lets you see who is tweeting in 
 ##Technical Components
 We wrote several python scripts to automatically download shapefiles direct from open-data repositories. Next, fac_count.py and route_finder are used to run network analysis to closest facilities, count community features within each neighbourhood, and calculate the percent green space of community extents. We then use shapefiletogeojson to output as json or .js files.
 
-We access the spatial information through leaflets layer functionality in a series of JavaScript files in an HTML page.
+We access the spatial information through Leaflets layer functionality using JavaScript functions.
 
 ##CODE code
 
