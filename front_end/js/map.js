@@ -1,3 +1,25 @@
+var currentLayer="greenStyle";
+
+// the green space variable
+var green=0;
+
+//walkscore
+
+var walkscore=0;
+
+//home
+
+var home=0;
+
+//house
+
+var house=0;
+
+//rent
+
+var rent=0;
+
+
 
 var map = L.map('map').setView([53.53, -113.50], 11);
 var layer;
@@ -274,16 +296,199 @@ function resetHighlight(e) {
 function zoomToFeature(e) {
     map.fitBounds(e.target.getBounds());
 }
-
-function onEachFeature(feature, layer) {
    
-    layer.bindPopup("I am a test " + feature.properties.Med_Inc);
+function onEachFeature(feature, layer) {
+   green=feature.properties['%_Green_Sp'];
+   walkscore=feature.properties.Walkscore;
+   home=feature.properties['%_Owned'];
+   house=feature.properties.Avg_Home_V;
+   rent=feature.properties.Med_Rent;
+   
+   var temptext="";
+   
+   if (currentLayer=="greenStyle")
+   {
+     temptext=green;
+   }
+   if (currentLayer=="houseStyle")
+   {
+     temptext=home;
+   }
+   if (currentLayer=="walkStyle")
+   {
+     temptext=walkscore;
+   }
+   if (currentLayer=="valueStyle")
+   {
+     temptext=house;
+   }
+   if (currentLayer=="rentStyle")
+   {
+     temptext=rent;
+   }
+    layer.bindPopup(
+   'This community has '+temptext+'<br>'
+   +'<div id="chart_div" width="400" height="400"/>'
+ 
+  );
     layer.on({
         mouseover: highlightFeature,
         mouseout: resetHighlight,
-        click: zoomToFeature
+        click: zoomToFeature,
+        click: showGraph
     });
 }
+
+function showGraph()
+{
+  if (currentLayer=="greenStyle")
+   {
+     showGraph1();
+   }
+   if (currentLayer=="houseStyle")
+   {
+     showGraph2();
+   }
+   if (currentLayer=="walkStyle")
+   {
+     showGraph3();
+   }
+   if (currentLayer=="valueStyle")
+   {
+     showGraph4();
+   }
+   if (currentLayer=="rentStyle")
+   {
+     showGraph5();
+   }
+}
+
+// draw green space
+function showGraph1(){
+  map.on('popupopen', function() {
+     // Create the data table.
+     
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Acres');
+        data.addRows([
+          ['Average', 10],
+          ['Community', green],
+          ['Max', 120]
+        ]);
+
+        // Set chart options
+        var options = {'title':'Community Green Space',
+                       'width':400,
+                       'height':300};
+ var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      
+    
+    });
+  }
+
+//homeowned
+
+function showGraph2(){
+  map.on('popupopen', function() {
+     // Create the data table.
+     
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Percentage');
+        data.addRows([
+          ['Average', 55],
+          ['Community', home],
+          ['Max', 100]
+        ]);
+
+        // Set chart options
+        var options = {'title':'Community Green Space',
+                       'width':400,
+                       'height':300};
+ var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      
+    
+    });
+  }
+
+//walkscore
+
+function showGraph3(){
+  map.on('popupopen', function() {
+     // Create the data table.
+     
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Score');
+        data.addRows([
+          ['Average', 6],
+          ['Community', walkscore],
+          ['Max', 100]
+        ]);
+
+        // Set chart options
+        var options = {'title':'Community Green Space',
+                       'width':400,
+                       'height':300};
+ var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      
+    
+    });
+  }
+//house value
+
+function showGraph4(){
+  map.on('popupopen', function() {
+     // Create the data table.
+     
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Thousand Dollars');
+        data.addRows([
+          ['Average', 304],
+          ['Community', house],
+          ['Max', 824]
+        ]);
+
+        // Set chart options
+        var options = {'title':'Community Green Space',
+                       'width':400,
+                       'height':300};
+ var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      
+    
+    });
+  }
+  // average rent
+  function showGraph5(){
+  map.on('popupopen', function() {
+     // Create the data table.
+     
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Dollars');
+        data.addRows([
+          ['Average', 1176],
+          ['Community', rent],
+          ['Max', 2374]
+        ]);
+
+        // Set chart options
+        var options = {'title':'Community Green Space',
+                       'width':400,
+                       'height':300};
+ var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      
+    
+    });
+  }
+
 
 var searchControl = new L.esri.Geocoding.Controls.Geosearch()
     .addTo(map);
@@ -331,6 +536,7 @@ function layerAddGre(){
             style: greenStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
+     currentLayer = "greenStyle";
     };
 
 
@@ -341,6 +547,7 @@ function layerAddHome(){
             style: houseStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
+          currentLayer = "houseStyle";
     };
 
 
@@ -350,6 +557,7 @@ function layerAddWalk(){
             style: walkStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
+          currentLayer = "walkStyle";
     };
 function layerAddHomeVal(){
 
@@ -357,6 +565,7 @@ function layerAddHomeVal(){
             style: valueStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
+          currentLayer = "valueStyle";
     };
 
 function layerAddInc(){
@@ -364,6 +573,7 @@ function layerAddInc(){
             style: incStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
+          currentLayer = "greenStyle";
     };
 
 
@@ -373,6 +583,7 @@ function layerAddRent(){
             style: rentStyle,
             onEachFeature: onEachFeature
         }).addTo(map);
+         currentLayer = "greenStyle";
     };
 
 function layerAddPop(){
@@ -417,3 +628,22 @@ layerControl.addTo(map);
             collapsed: false
         }));
 
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+        labels = [];
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map);
