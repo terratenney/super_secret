@@ -2,8 +2,10 @@
 
 ## What is CODE?
 Run Our Live Demo [HERE](http://www.esri.ca/en)
+Check out the Video [HERE](https://www.youtube.com/watch?v=bWuAien2Ld0&feature=youtu.be)
 
-> CODE is an application designed to help citizens better understand the neighbourhoods we live in through open-data. For this app challenge - we tried to cut across all of the themes and connect the techniques often left to geographers (i.e, spatial analysis) with the ideas of neogeography (Turner 2006).   
+
+> CODE is an application designed to help citizens better understand the neighbourhoods we live in through open-data. For this app challenge - we tried to cut across all of the themes and connect the techniques often left to geographers (i.e, spatial analysis) with the ideas of neogeography (Turner 2006).
 
 
 #Theory Behind CODE
